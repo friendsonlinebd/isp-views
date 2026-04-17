@@ -3,7 +3,7 @@ require '../../includes/header.php';
 ?>
           <nav class="mb-2" aria-label="breadcrumb">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="/ispViews/index.php">Home</a></li>
+              <li class="breadcrumb-item"><a href="/isp-views/index.php">Home</a></li>
               <li class="breadcrumb-item active">Inventory Locations</li>
             </ol>
           </nav>

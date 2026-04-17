@@ -1,5 +1,5 @@
 <?php
-$basePath = '/ispViews';
+$basePath = '/isp-views';
 ?>
         <div class="content">
           <script>
