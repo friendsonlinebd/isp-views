@@ -1,7 +1,6 @@
 <?php
 require '../../includes/header.php';
 ?>
-        <div class="content">
           <nav class="mb-2" aria-label="breadcrumb">
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="/ispViews/index.php">Home</a></li>
@@ -34,8 +33,6 @@ require '../../includes/header.php';
                 <button class="btn btn-primary" type="submit">Add Partner</button>
               </form>
             </div>
-          </div>
-        </div>
 <?php
 require '../../includes/footer.php';
 ?>

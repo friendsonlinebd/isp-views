@@ -59,3 +59,7 @@
             container.classList.add('container-fluid');
           }
         </script>
+<?php if (empty($skipSharedChrome)): ?>
+        <?php require __DIR__ . '/sidenav.php'; ?>
+        <?php require __DIR__ . '/topnav.php'; ?>
+<?php endif; ?>
