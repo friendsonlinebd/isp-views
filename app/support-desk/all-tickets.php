@@ -30,7 +30,7 @@ require '../../includes/header.php';
                       <div class="d-flex align-items-center" id="table-ticket-replace-element">
                         <div class="dropdown"><button class="btn btn-sm btn-falcon-default dropdown-toggle dropdown-caret-none" type="button" id="ticket-layout" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="d-none d-sm-inline-block d-xl-none d-xxl-inline-block me-1">Table View</span><span class="fas fa-chevron-down" data-fa-transform="shrink-3 down-1"></span></button>
                           <div class="dropdown-menu dropdown-toggle-item dropdown-menu-end border py-2" aria-labelledby="ticket-layout"><a class="dropdown-item active" href="table-view.html">Table View</a><a class="dropdown-item" href="card-view.html">Card View</a></div>
-                        </div><button class="btn btn-falcon-default btn-sm mx-2" type="button"><span class="fas fa-plus" data-fa-transform="shrink-3"></span><span class="d-none d-sm-inline-block d-xl-none d-xxl-inline-block ms-1">New</span></button>
+                        </div><a class="btn btn-falcon-default btn-sm mx-2" href="/isp-views/app/support-desk/add-ticket.php"><span class="fas fa-plus" data-fa-transform="shrink-3"></span><span class="d-none d-sm-inline-block d-xl-none d-xxl-inline-block ms-1">New</span></a>
                         <button class="btn btn-falcon-default btn-sm" type="button"><span class="fas fa-external-link-alt" data-fa-transform="shrink-3"></span><span class="d-none d-sm-inline-block d-xl-none d-xxl-inline-block ms-1">Export</span></button>
                         <div class="dropdown font-sans-serif ms-2"><button class="btn btn-falcon-default text-600 btn-sm dropdown-toggle dropdown-caret-none" type="button" id="preview-dropdown" data-bs-toggle="dropdown" data-boundary="viewport" aria-haspopup="true" aria-expanded="false"><span class="fas fa-ellipsis-h fs-11"></span></button>
                           <div class="dropdown-menu dropdown-menu-end border py-2" aria-labelledby="preview-dropdown"><a class="dropdown-item" href="#!">View</a><a class="dropdown-item" href="#!">Export</a>
@@ -46,9 +46,7 @@ require '../../includes/header.php';
                     <table class="table table-sm mb-0 fs-10 table-view-tickets">
                       <thead class="bg-body-tertiary">
                         <tr>
-                          <th class="py-2 fs-9 pe-2" style="width: 28px;">
-                            <div class="form-check d-flex align-items-center"><input class="form-check-input" id="checkbox-bulk-table-tickets-select" type="checkbox" data-bulk-select='{"body":"table-ticket-body","actions":"table-ticket-actions","replacedElement":"table-ticket-replace-element"}' /></div>
-                          </th>
+                          <th class="text-800 sort align-middle ps-2" data-sort="ticketid">TicketID</th>
                           <th class="text-800 sort align-middle ps-2" data-sort="client">Client</th>
                           <th class="text-800 sort align-middle" data-sort="subject" style="min-width:15.625rem">Subject</th>
                           <th class="text-800 sort align-middle" data-sort="status">Status</th>
@@ -67,6 +65,7 @@ require '../../includes/header.php';
                                 <div class="avatar-name rounded-circle"><span>EW</span></div>
                               </div>
                               <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Emma Watson</a></h6>
+                              
                             </div>
                           </td>
                           <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">Synapse Design #1125</a></td>

@@ -28,6 +28,8 @@
                   </a>
                   <ul class="nav collapse" id="support-desk">
                     <li class="nav-item"><a class="nav-link" href="/isp-views/app/support-desk/all-tickets.php"><div class="d-flex align-items-center"><span class="nav-link-text ps-1">All Tickets</span></div></a></li>
+                    <li class="nav-item"><a class="nav-link" href="/isp-views/app/support-desk/add-ticket.php"><div class="d-flex align-items-center"><span class="nav-link-text ps-1">Add Ticket</span></div></a></li>
+                    <li class="nav-item"><a class="nav-link" href="/isp-views/app/support-desk/ticket-mgmt.php"><div class="d-flex align-items-center"><span class="nav-link-text ps-1">Ticket Mgmt</span></div></a></li>
                     <li class="nav-item"><a class="nav-link" href="/isp-views/app/support-desk/card-view.html"><div class="d-flex align-items-center"><span class="nav-link-text ps-1">Card view</span></div></a></li>
                     <li class="nav-item"><a class="nav-link" href="/isp-views/app/support-desk/customers.php"><div class="d-flex align-items-center"><span class="nav-link-text ps-1">Customers</span></div></a></li>
                     <li class="nav-item"><a class="nav-link" href="/isp-views/app/support-desk/customer-details.php"><div class="d-flex align-items-center"><span class="nav-link-text ps-1">Customer details</span></div></a></li>
