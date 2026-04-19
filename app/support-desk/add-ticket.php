@@ -71,7 +71,7 @@ $loggedInEmployee = !empty($_SESSION['employee_name']) ? $_SESSION['employee_nam
           </div>
 
           <div class="col-12 d-flex gap-2 justify-content-end">
-            <a class="btn btn-falcon-default" href="/isp-views/app/support-desk/all-tickets.php">Cancel</a>
+            <a class="btn btn-falcon-default" href="<?= $appBasePath ?>/app/support-desk/all-tickets.php">Cancel</a>
             <button class="btn btn-primary" type="submit">Create Ticket</button>
           </div>
         </form>
@@ -82,3 +82,4 @@ $loggedInEmployee = !empty($_SESSION['employee_name']) ? $_SESSION['employee_nam
 <?php
 require '../../includes/footer.php';
 ?>
+

@@ -2,7 +2,7 @@
 <html data-bs-theme="light" lang="en-US" dir="ltr">
 
   
-<!-- Mirrored from prium.github.io/falcon/v3.26.0/app/support-desk/reports.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 14 Apr 2026 15:07:15 GMT -->
+<!-- Mirrored from prium.github.io/falcon/v3.26.0/app/support-desk/customer-details.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 14 Apr 2026 15:05:28 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
     <meta charset="utf-8">
@@ -24,7 +24,6 @@
     <script src="../../vendors/simplebar/simplebar.min.js"></script>
 
     <!-- ===============================================--><!--    Stylesheets--><!-- ===============================================-->
-    <link href="../../vendors/flatpickr/flatpickr.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com/">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700%7cPoppins:300,400,500,600,700,800,900&amp;display=swap" rel="stylesheet">
     <link href="../../vendors/simplebar/simplebar.min.css" rel="stylesheet">
@@ -391,7 +390,7 @@
                           <div class="col-6 col-md-4">
                             <div class="nav flex-column"><a class="nav-link py-1 link-600 fw-medium" href="../calendar.html">Calendar</a><a class="nav-link py-1 link-600 fw-medium" href="../chat.html">Chat</a><a class="nav-link py-1 link-600 fw-medium" href="../kanban.html">Kanban</a>
                               <p class="nav-link text-700 mb-0 fw-bold">Social</p><a class="nav-link py-1 link-600 fw-medium" href="../social/feed.html">Feed</a><a class="nav-link py-1 link-600 fw-medium" href="../social/activity-log.html">Activity log</a><a class="nav-link py-1 link-600 fw-medium" href="../social/notifications.html">Notifications</a><a class="nav-link py-1 link-600 fw-medium" href="../social/followers.html">Followers</a>
-                              <p class="nav-link text-700 mb-0 fw-bold">Support Desk</p><a class="nav-link py-1 link-600 fw-medium" href="table-view.html">Table view</a><a class="nav-link py-1 link-600 fw-medium" href="card-view.html">Card view</a><a class="nav-link py-1 link-600 fw-medium" href="customers.php">Customers</a><a class="nav-link py-1 link-600 fw-medium" href="customer-details.php">Customer details</a><a class="nav-link py-1 link-600 fw-medium" href="tickets-preview.html">Tickets preview</a><a class="nav-link py-1 link-600 fw-medium" href="quick-links.html">Quick links</a>
+                              <p class="nav-link text-700 mb-0 fw-bold">Support Desk</p><a class="nav-link py-1 link-600 fw-medium" href="table-view.php">Table view</a><a class="nav-link py-1 link-600 fw-medium" href="card-view.php">Card view</a><a class="nav-link py-1 link-600 fw-medium" href="customers.php">Customers</a><a class="nav-link py-1 link-600 fw-medium" href="customer-details.php">Customer details</a><a class="nav-link py-1 link-600 fw-medium" href="tickets-preview.php">Tickets preview</a><a class="nav-link py-1 link-600 fw-medium" href="quick-links.php">Quick links</a>
                             </div>
                           </div>
                           <div class="col-6 col-md-4">
@@ -719,25 +718,25 @@
                     <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-ticket-alt"></span></span><span class="nav-link-text ps-1">Support desk</span></div>
                   </a>
                   <ul class="nav collapse show" id="support-desk">
-                    <li class="nav-item"><a class="nav-link" href="table-view.html">
+                    <li class="nav-item"><a class="nav-link" href="table-view.php">
                         <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Table view</span></div>
                       </a><!-- more inner pages--></li>
-                    <li class="nav-item"><a class="nav-link" href="card-view.html">
+                    <li class="nav-item"><a class="nav-link" href="card-view.php">
                         <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Card view</span></div>
                       </a><!-- more inner pages--></li>
                     <li class="nav-item"><a class="nav-link" href="customers.php">
                         <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Customers</span></div>
                       </a><!-- more inner pages--></li>
-                    <li class="nav-item"><a class="nav-link" href="customer-details.php">
+                    <li class="nav-item"><a class="nav-link active" href="customer-details.php">
                         <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Customer details</span></div>
                       </a><!-- more inner pages--></li>
-                    <li class="nav-item"><a class="nav-link" href="tickets-preview.html">
+                    <li class="nav-item"><a class="nav-link" href="tickets-preview.php">
                         <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Tickets preview</span></div>
                       </a><!-- more inner pages--></li>
-                    <li class="nav-item"><a class="nav-link" href="quick-links.html">
+                    <li class="nav-item"><a class="nav-link" href="quick-links.php">
                         <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Quick links</span></div>
                       </a><!-- more inner pages--></li>
-                    <li class="nav-item"><a class="nav-link active" href="reports.html">
+                    <li class="nav-item"><a class="nav-link" href="reports.php">
                         <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Reports</span></div>
                       </a><!-- more inner pages--></li>
                   </ul>
@@ -1460,7 +1459,7 @@
                         <div class="col-6 col-md-4">
                           <div class="nav flex-column"><a class="nav-link py-1 link-600 fw-medium" href="../calendar.html">Calendar</a><a class="nav-link py-1 link-600 fw-medium" href="../chat.html">Chat</a><a class="nav-link py-1 link-600 fw-medium" href="../kanban.html">Kanban</a>
                             <p class="nav-link text-700 mb-0 fw-bold">Social</p><a class="nav-link py-1 link-600 fw-medium" href="../social/feed.html">Feed</a><a class="nav-link py-1 link-600 fw-medium" href="../social/activity-log.html">Activity log</a><a class="nav-link py-1 link-600 fw-medium" href="../social/notifications.html">Notifications</a><a class="nav-link py-1 link-600 fw-medium" href="../social/followers.html">Followers</a>
-                            <p class="nav-link text-700 mb-0 fw-bold">Support Desk</p><a class="nav-link py-1 link-600 fw-medium" href="table-view.html">Table view</a><a class="nav-link py-1 link-600 fw-medium" href="card-view.html">Card view</a><a class="nav-link py-1 link-600 fw-medium" href="customers.php">Customers</a><a class="nav-link py-1 link-600 fw-medium" href="customer-details.php">Customer details</a><a class="nav-link py-1 link-600 fw-medium" href="tickets-preview.html">Tickets preview</a><a class="nav-link py-1 link-600 fw-medium" href="quick-links.html">Quick links</a>
+                            <p class="nav-link text-700 mb-0 fw-bold">Support Desk</p><a class="nav-link py-1 link-600 fw-medium" href="table-view.php">Table view</a><a class="nav-link py-1 link-600 fw-medium" href="card-view.php">Card view</a><a class="nav-link py-1 link-600 fw-medium" href="customers.php">Customers</a><a class="nav-link py-1 link-600 fw-medium" href="customer-details.php">Customer details</a><a class="nav-link py-1 link-600 fw-medium" href="tickets-preview.php">Tickets preview</a><a class="nav-link py-1 link-600 fw-medium" href="quick-links.php">Quick links</a>
                           </div>
                         </div>
                         <div class="col-6 col-md-4">
@@ -2143,7 +2142,7 @@
                           <div class="col-6 col-md-4">
                             <div class="nav flex-column"><a class="nav-link py-1 link-600 fw-medium" href="../calendar.html">Calendar</a><a class="nav-link py-1 link-600 fw-medium" href="../chat.html">Chat</a><a class="nav-link py-1 link-600 fw-medium" href="../kanban.html">Kanban</a>
                               <p class="nav-link text-700 mb-0 fw-bold">Social</p><a class="nav-link py-1 link-600 fw-medium" href="../social/feed.html">Feed</a><a class="nav-link py-1 link-600 fw-medium" href="../social/activity-log.html">Activity log</a><a class="nav-link py-1 link-600 fw-medium" href="../social/notifications.html">Notifications</a><a class="nav-link py-1 link-600 fw-medium" href="../social/followers.html">Followers</a>
-                              <p class="nav-link text-700 mb-0 fw-bold">Support Desk</p><a class="nav-link py-1 link-600 fw-medium" href="table-view.html">Table view</a><a class="nav-link py-1 link-600 fw-medium" href="card-view.html">Card view</a><a class="nav-link py-1 link-600 fw-medium" href="customers.php">Customers</a><a class="nav-link py-1 link-600 fw-medium" href="customer-details.php">Customer details</a><a class="nav-link py-1 link-600 fw-medium" href="tickets-preview.html">Tickets preview</a><a class="nav-link py-1 link-600 fw-medium" href="quick-links.html">Quick links</a>
+                              <p class="nav-link text-700 mb-0 fw-bold">Support Desk</p><a class="nav-link py-1 link-600 fw-medium" href="table-view.php">Table view</a><a class="nav-link py-1 link-600 fw-medium" href="card-view.php">Card view</a><a class="nav-link py-1 link-600 fw-medium" href="customers.php">Customers</a><a class="nav-link py-1 link-600 fw-medium" href="customer-details.php">Customer details</a><a class="nav-link py-1 link-600 fw-medium" href="tickets-preview.php">Tickets preview</a><a class="nav-link py-1 link-600 fw-medium" href="quick-links.php">Quick links</a>
                             </div>
                           </div>
                           <div class="col-6 col-md-4">
@@ -2531,1334 +2530,611 @@
               navbarTopCombo.remove(navbarTopCombo);
             }
           </script>
-          <div class="card shadow-none border">
-            <div class="bg-holder bg-card d-none d-md-block" style="background-image:url(../../assets/img/illustrations/reports-bg.png);"></div><!--/.bg-holder-->
-            <div class="card-header z-1">
-              <div class="row flex-between-center gx-0">
-                <div class="col-lg-auto d-flex align-items-center"><img class="img-fluid" src="../../assets/img/illustrations/reports-greeting.png" alt="" />
-                  <div class="ms-x1">
-                    <h6 class="mb-1 text-primary">Welcome to</h6>
-                    <h4 class="mb-0 text-primary fw-bold">Falcon <span class="text-info fw-medium">Support - Reports</span></h4>
+          <div class="card mb-3">
+            <div class="card-header d-flex align-items-center justify-content-between"><button class="btn btn-falcon-default btn-sm" type="button"><span class="fas fa-arrow-left"></span></button>
+              <div class="d-flex"><button class="btn btn-sm btn-falcon-default d-xl-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#contactDetailsOffcanvas" aria-controls="contactDetailsOffcanvas"><span class="fas fa-tasks" data-fa-transform="shrink-2"></span><span class="ms-1">To-do</span></button>
+                <div class="bg-300 mx-3 d-xl-none" style="width:1px; height:29px"></div><button class="btn btn-falcon-default btn-sm me-2" type="button"><span class="fas fa-edit"></span><span class="d-none d-xl-inline-block ms-1">Edit</span></button>
+                <button class="btn btn-falcon-default btn-sm d-none d-sm-block" type="button"><span class="fas fa-sync-alt"></span><span class="d-none d-xl-inline-block ms-1">Convert to Agent</span></button>
+                <button class="btn btn-falcon-default btn-sm btn-sm d-none d-sm-block mx-2" type="button"><span class="fas fa-lock"></span><span class="d-none d-xl-inline-block ms-1">Send Activation Email</span></button>
+                <button class="btn btn-falcon-default btn-sm d-none d-sm-block me-2" type="button"><span class="fas fa-trash-alt"></span><span class="d-none d-xl-inline-block ms-1">Delete</span></button>
+                <button class="btn btn-falcon-default btn-sm d-none d-sm-block me-2" type="button"><span class="fas fa-key"></span><span class="d-none d-xl-inline-block ms-1">Change Password</span></button>
+                <div class="dropdown font-sans-serif"><button class="btn btn-falcon-default text-600 btn-sm dropdown-toggle dropdown-caret-none" type="button" id="preview-dropdown" data-bs-toggle="dropdown" data-boundary="viewport" aria-haspopup="true" aria-expanded="false"><span class="fas fa-ellipsis-v fs-11"></span></button>
+                  <div class="dropdown-menu dropdown-menu-end border py-2" aria-labelledby="preview-dropdown"><a class="dropdown-item" href="#!">View</a><a class="dropdown-item" href="#!">Export</a><a class="dropdown-item d-sm-none" href="#!">Convert to Agent</a><a class="dropdown-item d-sm-none" href="#!">Send Activation Email</a><a class="dropdown-item d-sm-none" href="#!">Delete</a><a class="dropdown-item d-sm-none" href="#!">Change Password</a>
+                    <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="#!">Remove</a>
                   </div>
-                </div>
-                <div class="col-lg-auto pt-3 pt-lg-0">
-                  <form class="row flex-lg-column flex-xxl-row gx-3 gy-2 align-items-center align-items-lg-start align-items-xxl-center">
-                    <div class="col-auto">
-                      <h6 class="text-700 mb-0">Showing Data For: </h6>
-                    </div>
-                    <div class="col-md-auto position-relative"><input class="form-control form-control-sm datetimepicker ps-4" id="reportsDateRange" type="text" data-options="{&quot;mode&quot;:&quot;range&quot;,&quot;dateFormat&quot;:&quot;M d&quot;,&quot;disableMobile&quot;:true , &quot;defaultDate&quot;: [&quot;Nov 03&quot;, &quot;Nov 10&quot;] }" /><span class="fas fa-calendar-alt text-primary position-absolute top-50 translate-middle-y ms-2"> </span></div>
-                  </form>
                 </div>
               </div>
             </div>
           </div>
-          <div class="card overflow-hidden mt-3">
-            <div class="card-header p-0 bg-body-tertiary scrollbar-overlay">
-              <ul class="nav nav-tabs border-0 tab-tickets-status flex-nowrap" id="in-depth-chart-tab" role="tablist">
-                <li class="nav-item text-nowrap" role="presentation"><a class="nav-link mb-0 d-flex align-items-center gap-2 py-3 px-x1 active" id="tickets-created-tab" data-bs-toggle="tab" href="#tickets-created" role="tab" aria-controls="tickets-created" aria-selected="true"><span class="fas fa-ticket-alt icon text-600"></span>
-                    <h6 class="mb-0 text-600">Tickets Created<span> (25)</span></h6>
-                  </a></li>
-                <li class="nav-item text-nowrap" role="presentation"><a class="nav-link mb-0 d-flex align-items-center gap-2 py-3 px-x1" id="tickets-resolved-tab" data-bs-toggle="tab" href="#tickets-resolved" role="tab" aria-controls="tickets-resolved" aria-selected="false"><span class="fas fa-check icon text-600"></span>
-                    <h6 class="mb-0 text-600">Tickets Resolved</h6>
-                  </a></li>
-                <li class="nav-item text-nowrap" role="presentation"><a class="nav-link mb-0 d-flex align-items-center gap-2 py-3 px-x1" id="tickets-reopened-tab" data-bs-toggle="tab" href="#tickets-reopened" role="tab" aria-controls="tickets-reopened" aria-selected="false"><span class="fas fa-envelope-open-text icon text-600"></span>
-                    <h6 class="mb-0 text-600">Tickets Reopened</h6>
-                  </a></li>
-                <li class="nav-item text-nowrap" role="presentation"><a class="nav-link mb-0 d-flex align-items-center gap-2 py-3 px-x1" id="tickets-unsolved-tab" data-bs-toggle="tab" href="#tickets-unsolved" role="tab" aria-controls="tickets-unsolved" aria-selected="false"><span class="fas fa-exclamation-triangle icon text-600"></span>
-                    <h6 class="mb-0 text-600">Tickets Unsolved</h6>
-                  </a></li>
-              </ul>
+          <div class="row g-3">
+            <div class="col-xxl-3 col-xl-4 order-xl-1">
+              <div class="position-xl-sticky top-0">
+                <div class="card">
+                  <div class="card-header d-flex align-items-center justify-content-between py-2">
+                    <h6 class="mb-0">Contact Information</h6>
+                    <div class="dropdown font-sans-serif btn-reveal-trigger"><button class="btn btn-link text-600 btn-sm dropdown-toggle dropdown-caret-none btn-reveal" type="button" id="dropdown-contact-information" data-bs-toggle="dropdown" data-boundary="viewport" aria-haspopup="true" aria-expanded="false"><span class="fas fa-ellipsis-h fs-11"></span></button>
+                      <div class="dropdown-menu dropdown-menu-end border py-2" aria-labelledby="dropdown-contact-information"><a class="dropdown-item" href="#!">View</a><a class="dropdown-item" href="#!">Export</a>
+                        <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="#!">Remove</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body bg-body-tertiary">
+                    <div class="card border rounded-3 bg-white dark__bg-1000 shadow-none">
+                      <div class="bg-holder bg-card d-none d-sm-block d-xl-none" style="background-image:url(../../assets/img/icons/spot-illustrations/corner-2.png);"></div><!--/.bg-holder-->
+                      <div class="card-body row g-0 flex-column flex-sm-row flex-xl-column z-1 align-items-center">
+                        <div class="col-auto text-center me-sm-x1 me-xl-0"><img class="ticket-preview-avatar" src="../../assets/img/team/5-thumb.png" alt="" /></div>
+                        <div class="col-sm-8 col-md-6 col-lg-4 col-xl-12 ps-sm-1 ps-xl-0">
+                          <p class="fw-semi-bold mb-0 text-800 text-center text-sm-start text-xl-center mb-3 mt-3 mt-sm-0 mt-xl-3">Matt Rogers</p>
+                          <div class="d-flex gap-2 justify-content-center"><button class="btn btn-primary btn-sm px-2 text-nowrap w-50"><span class="fas fa-plus me-1" data-fa-transform="shrink-3 down-1"></span><span class="fs-11">New Ticket</span></button>
+                            <button class="btn btn-sm btn-falcon-default w-50"><span class="fas fa-phone-alt me-1" data-fa-transform="shrink-4"></span><span class="fs-11">Call</span></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="border rounded-3 p-x1 mt-3 bg-white dark__bg-1000 row mx-0 g-0">
+                      <div class="col-md-6 col-xl-12 pe-md-4 pe-xl-0">
+                        <div class="mb-4">
+                          <h6 class="mb-1 false">Email</h6><a class="fs-10" href="mailto:mattrogers@gmail.com">mattrogers@gmail.com</a>
+                        </div>
+                        <div class="mb-4">
+                          <h6 class="false mb-1">Phone Number</h6><a class="fs-10" href="tel:+6(855)747677">+6(855) 747 677</a>
+                        </div>
+                        <div class="mb-4">
+                          <h6 class="false false">Location</h6>
+                          <p class="mb-0 text-700 fs-10">936 N. Fairground Rd.Farnham, QC J2N 5E9</p>
+                        </div>
+                        <div class="mb-4">
+                          <h6 class="false false">Language</h6>
+                          <p class="mb-0 text-700 fs-10">English</p>
+                        </div>
+                        <div class="mb-4 mb-md-0 mb-xl-4">
+                          <h6 class="false false">Account Verified by Twitter</h6>
+                          <p class="mb-0 text-700 fs-10">No</p>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-xl-12 ps-md-4 ps-xl-0">
+                        <div class="mb-4">
+                          <h6 class="false false">Subscription</h6>
+                          <p class="mb-0 text-700 fs-10">Active</p>
+                        </div>
+                        <div class="mb-4">
+                          <h6 class="false false">OS</h6>
+                          <p class="mb-0 text-700 fs-10">macOS Monterey</p>
+                        </div>
+                        <div class="mb-4">
+                          <h6 class="false false">Browser</h6>
+                          <p class="mb-0 text-700 fs-10">Google Chrome 98.0.2563</p>
+                        </div>
+                        <div class="mb-4">
+                          <h6 class="false false">IP</h6>
+                          <p class="mb-0 text-700 fs-10">52.119.132.297</p>
+                        </div>
+                        <h6>Tag</h6><a class="badge border link-secondary me-1 text-decoration-none fs-11" href="#!">New</a><a class="badge border link-secondary me-1 text-decoration-none fs-11" href="#!">Payment</a><a class="badge border link-secondary text-decoration-none fs-11" href="#!">Subscribe</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="offcanvas offcanvas-end offcanvas-contact-info" tabindex="-1" id="contactDetailsOffcanvas" aria-labelledby="contactDetailsOffcanvasLabelCard">
+                  <div class="offcanvas-header d-xl-none d-flex flex-between-center d-xl-none bg-body-tertiary">
+                    <h6 class="fs-9 mb-0 fw-semi-bold">To-do List</h6><button class="btn-close text-reset d-xl-none shadow-none" id="contactDetailsOffcanvasLabelCard" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body scrollbar scrollbar-none-xl p-0"><button class="btn btn-falcon-default btn-sm d-flex align-items-center mb-x1 d-xl-none ms-x1 mt-x1" type="button"><span class="fas fa-plus" data-fa-transform="shrink-3"></span><span class="ms-1">Add</span></button>
+                    <div class="border-bottom border-xl-0 border-200"></div>
+                    <div class="card shadow-none shadow-show-xl mt-xl-3">
+                      <div class="card-header d-flex flex-between-center bg-body-tertiary d-none d-xl-flex">
+                        <h6 class="mb-0">To-do List</h6><button class="btn btn-falcon-default btn-sm d-flex align-items-center" type="button"><span class="fas fa-plus" data-fa-transform="shrink-3"></span><span class="ms-1">Add</span></button>
+                      </div>
+                      <div class="card-body ticket-todo-list scrollbar-overlay h-auto">
+                        <div class="d-flex hover-actions-trigger btn-reveal-trigger gap-3 border-200 border-bottom mb-3">
+                          <div class="form-check mb-0"><input class="form-check-input form-check-line-through" type="checkbox" id="ticket-checkbox-todo-0" /><label class="form-check-label w-100 pe-3" for="ticket-checkbox-todo-0"><span class="mb-1 text-700 d-block">Sidenav text cutoff rendering issue</span><span class="fs-11 text-600 lh-base font-base fw-normal d-block mb-2">Problem with Falcon theme</span></label></div>
+                          <div class="hover-actions end-0"><button class="btn fs-11 icon-item-sm btn-link px-0 text-600"><span class="fas fa-trash text-danger"></span></button></div>
+                        </div>
+                        <div class="d-flex hover-actions-trigger btn-reveal-trigger gap-3 border-200 border-bottom mb-3">
+                          <div class="form-check mb-0"><input class="form-check-input form-check-line-through" type="checkbox" id="ticket-checkbox-todo-1" /><label class="form-check-label w-100 pe-3" for="ticket-checkbox-todo-1"><span class="mb-1 text-700 d-block">Notify when the WebPack release is ready</span><span class="fs-11 text-600 lh-base font-base fw-normal d-block mb-2">Falcon Bootstarp 5</span></label></div>
+                          <div class="hover-actions end-0"><button class="btn fs-11 icon-item-sm btn-link px-0 text-600"><span class="fas fa-trash text-danger"></span></button></div>
+                        </div>
+                        <div class="d-flex hover-actions-trigger btn-reveal-trigger gap-3 border-200 mb-0">
+                          <div class="form-check mb-0"><input class="form-check-input form-check-line-through" type="checkbox" id="ticket-checkbox-todo-2" /><label class="form-check-label w-100 pe-3 mb-0" for="ticket-checkbox-todo-2"><span class="mb-1 text-700 d-block">File Attachments</span><span class="fs-11 text-600 lh-base font-base fw-normal d-block mb-0">Sending attachments automatically attaches them to the notification email that the client receives as well as making them accessible through.</span></label></div>
+                          <div class="hover-actions end-0"><button class="btn fs-11 icon-item-sm btn-link px-0 text-600"><span class="fas fa-trash text-danger"></span></button></div>
+                        </div>
+                      </div>
+                      <div class="card-footer border-top border-200 text-xl-center p-0"><a class="btn btn-link btn-sm fw-medium py-x1 py-xl-2 px-x1" href="#!">View all<span class="fas fa-chevron-right ms-1 fs-11"></span></a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="card-body p-0">
-              <div class="tab-content">
-                <div class="tab-pane active" id="tickets-created" role="tabpanel" aria-labelledby="tickets-created-tab">
-                  <div class="row mx-0 border-bottom border-dashed">
-                    <div class="col-md-6 p-x1 border-end-md border-bottom border-bottom-md-0 border-dashed">
-                      <h6 class="fs-10 mb-3">Tickets created Split by Source</h6>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">Email</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:33%"></div>
-                          </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">33</p>
-                        </div>
-                      </div>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">Phone</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:60%"></div>
-                          </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">60</p>
-                        </div>
-                      </div>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">Website</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:70%"></div>
-                          </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">70</p>
-                        </div>
-                      </div>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">Chat</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:87%"></div>
-                          </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">87</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6 p-x1">
-                      <h6 class="fs-10 mb-3">Tickets created Split by Priority</h6>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">Urgent</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:87%"></div>
-                          </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">87</p>
-                        </div>
-                      </div>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">Medium</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:70%"></div>
-                          </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">70</p>
-                        </div>
-                      </div>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">High</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:60%"></div>
-                          </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">60</p>
-                        </div>
-                      </div>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">Low</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:33%"></div>
-                          </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">33</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row mx-0">
-                    <div class="col-md-6 p-x1 border-end-md border-bottom border-bottom-md-0 border-dashed">
-                      <h6 class="fs-10 mb-3">Tickets created Split by Status</h6>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">Open</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:20%"></div>
-                          </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">20</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6 p-x1">
-                      <h6 class="fs-10 mb-3">Tickets created Split by Category</h6>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">Question</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="18" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:18%"></div>
-                          </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">18</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+            <div class="col-xxl-9 col-xl-8">
+              <div class="card overflow-hidden">
+                <div class="card-header p-0 scrollbar-overlay border-bottom">
+                  <ul class="nav nav-tabs border-0 tab-contact-details flex-nowrap" id="contact-details-tab" role="tablist">
+                    <li class="nav-item text-nowrap" role="presentation"><a class="nav-link mb-0 d-flex align-items-center gap-2 py-3 px-x1 active" id="contact-timeline-tab" data-bs-toggle="tab" href="#timeline" role="tab" aria-controls="timeline" aria-selected="true"><span class="fas fa-stream icon"></span>
+                        <h6 class="mb-0 text-600">Timeline</h6>
+                      </a></li>
+                    <li class="nav-item text-nowrap" role="presentation"><a class="nav-link mb-0 d-flex align-items-center gap-2 py-3 px-x1" id="contact-tickets-tab" data-bs-toggle="tab" href="#tickets" role="tab" aria-controls="tickets" aria-selected="false"><span class="fas fa-ticket-alt"></span>
+                        <h6 class="mb-0 text-600">Tickets</h6>
+                      </a></li>
+                    <li class="nav-item text-nowrap" role="presentation"><a class="nav-link mb-0 d-flex align-items-center gap-2 py-3 px-x1" id="contact-notes-tab" data-bs-toggle="tab" href="#notes" role="tab" aria-controls="notes" aria-selected="false"><span class="fas fa-file-alt icon"></span>
+                        <h6 class="mb-0 text-600">Notes</h6>
+                      </a></li>
+                  </ul>
                 </div>
-                <div class="tab-pane" id="tickets-resolved" role="tabpanel" aria-labelledby="tickets-resolved-tab">
-                  <div class="row mx-0 border-bottom border-dashed">
-                    <div class="col-md-6 p-x1 border-end-md border-bottom border-bottom-md-0 border-dashed">
-                      <h6 class="fs-10 mb-3">Tickets resolved Split by Source</h6>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">Email</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:70%"></div>
+                <div class="tab-content">
+                  <div class="card-body bg-body-tertiary tab-pane active" id="timeline" role="tabpanel" aria-labelledby="contact-timeline-tab">
+                    <div class="timeline-vertical py-0">
+                      <div class="timeline-item timeline-item-start mb-3">
+                        <div class="timeline-icon icon-item icon-item-lg text-primary border-300"><span class="fs-8 fas fa-envelope"></span></div>
+                        <div class="row">
+                          <div class="col-lg-6 timeline-item-time">
+                            <div>
+                              <h6 class="mb-0 text-700">2022</h6>
+                              <p class="fs-11 text-500 font-sans-serif">25 September</p>
+                            </div>
                           </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">70</p>
+                          <div class="col-lg-6">
+                            <div class="timeline-item-content arrow-bg-white">
+                              <div class="timeline-item-card bg-white dark__bg-1100"><a href="tickets-preview.php">
+                                  <h5 class="mb-2 hover-primary">Got a new television #377</h5>
+                                </a>
+                                <p class="fs-10 border-bottom mb-3 pb-4 text-600">Thank you for replacing my broken television with a new one.</p>
+                                <div class="d-flex flex-wrap pt-2">
+                                  <h6 class="mb-0 text-600 lh-base"><span class="far fa-clock me-1"></span>10:28 AM</h6>
+                                  <div class="d-flex align-items-center ms-auto me-2 me-sm-x1 me-xl-2 me-xxl-x1">
+                                    <div class="dot me-0 me-sm-2 me-xl-0 me-xxl-2 bg-danger" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Urgent"></div>
+                                    <h6 class="mb-0 text-700 d-none d-sm-block d-xl-none d-xxl-block">Urgent</h6>
+                                  </div><small class="badge rounded badge-subtle-success false">Recent</small>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">Phone</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:50%"></div>
+                      <div class="timeline-item timeline-item-end mb-3">
+                        <div class="timeline-icon icon-item icon-item-lg text-primary border-300"><span class="fs-8 fas fa-envelope"></span></div>
+                        <div class="row">
+                          <div class="col-lg-6 timeline-item-time">
+                            <div>
+                              <h6 class="mb-0 text-700">2022</h6>
+                              <p class="fs-11 text-500 font-sans-serif">23 September</p>
+                            </div>
                           </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">50</p>
+                          <div class="col-lg-6">
+                            <div class="timeline-item-content arrow-bg-white">
+                              <div class="timeline-item-card bg-white dark__bg-1100"><a href="tickets-preview.php">
+                                  <h5 class="mb-2 hover-primary">Subscription Issue #362</h5>
+                                </a>
+                                <p class="fs-10 border-bottom mb-3 pb-4 text-600">On November 2, 2022, your membership at Falcon is going to expire. We really hope that you have benefited from your membership.</p>
+                                <div class="d-flex flex-wrap pt-2">
+                                  <h6 class="mb-0 text-600 lh-base"><span class="far fa-clock me-1"></span>09:26 PM</h6>
+                                  <div class="d-flex align-items-center ms-auto me-2 me-sm-x1 me-xl-2 me-xxl-x1">
+                                    <div class="dot me-0 me-sm-2 me-xl-0 me-xxl-2 bg-info" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Low"></div>
+                                    <h6 class="mb-0 text-700 d-none d-sm-block d-xl-none d-xxl-block">Low</h6>
+                                  </div><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">Website</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:30%"></div>
+                      <div class="timeline-item timeline-item-start mb-3">
+                        <div class="timeline-icon icon-item icon-item-lg text-primary border-300"><span class="fs-8 fas fa-envelope"></span></div>
+                        <div class="row">
+                          <div class="col-lg-6 timeline-item-time">
+                            <div>
+                              <h6 class="mb-0 text-700">2022</h6>
+                              <p class="fs-11 text-500 font-sans-serif">20 September</p>
+                            </div>
                           </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">30</p>
+                          <div class="col-lg-6">
+                            <div class="timeline-item-content arrow-bg-white">
+                              <div class="timeline-item-card bg-white dark__bg-1100"><a href="tickets-preview.php">
+                                  <h5 class="mb-2 hover-primary">Received a broken TV #345</h5>
+                                </a>
+                                <p class="fs-10 border-bottom mb-3 pb-4 text-600">My television from your website was delivered with a cracked screen. I need assistance getting a refund or a replacement.</p>
+                                <div class="d-flex flex-wrap pt-2">
+                                  <h6 class="mb-0 text-600 lh-base"><span class="far fa-clock me-1"></span>01:06 PM</h6>
+                                  <div class="d-flex align-items-center ms-auto me-2 me-sm-x1 me-xl-2 me-xxl-x1">
+                                    <div class="dot me-0 me-sm-2 me-xl-0 me-xxl-2 bg-danger" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Urgent"></div>
+                                    <h6 class="mb-0 text-700 d-none d-sm-block d-xl-none d-xxl-block">Urgent</h6>
+                                  </div><small class="badge rounded badge-subtle-success false">Recent</small>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">Chat</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:95%"></div>
+                      <div class="timeline-item timeline-item-end mb-3">
+                        <div class="timeline-icon icon-item icon-item-lg text-primary border-300"><span class="fs-8 fas fa-envelope"></span></div>
+                        <div class="row">
+                          <div class="col-lg-6 timeline-item-time">
+                            <div>
+                              <h6 class="mb-0 text-700">2022</h6>
+                              <p class="fs-11 text-500 font-sans-serif">03 September</p>
+                            </div>
                           </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">95</p>
+                          <div class="col-lg-6">
+                            <div class="timeline-item-content arrow-bg-white">
+                              <div class="timeline-item-card bg-white dark__bg-1100"><a href="tickets-preview.php">
+                                  <h5 class="mb-2 hover-primary">Payment failed #324</h5>
+                                </a>
+                                <p class="fs-10 border-bottom mb-3 pb-4 text-600">Your payment failed while I tried to make a payment on your website, I was told. My card was, however, billed.</p>
+                                <div class="d-flex flex-wrap pt-2">
+                                  <h6 class="mb-0 text-600 lh-base"><span class="far fa-clock me-1"></span>11:06 PM</h6>
+                                  <div class="d-flex align-items-center ms-auto me-2 me-sm-x1 me-xl-2 me-xxl-x1">
+                                    <div class="dot me-0 me-sm-2 me-xl-0 me-xxl-2 bg-primary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Medium"></div>
+                                    <h6 class="mb-0 text-700 d-none d-sm-block d-xl-none d-xxl-block">Medium</h6>
+                                  </div><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                    <div class="col-md-6 p-x1">
-                      <h6 class="fs-10 mb-3">Tickets resolved Split by Priority</h6>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">Urgent</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:70%"></div>
+                      <div class="timeline-item timeline-item-start mb-3">
+                        <div class="timeline-icon icon-item icon-item-lg text-primary border-300"><span class="fs-8 fas fa-envelope"></span></div>
+                        <div class="row">
+                          <div class="col-lg-6 timeline-item-time">
+                            <div>
+                              <h6 class="mb-0 text-700">2022</h6>
+                              <p class="fs-11 text-500 font-sans-serif">24 August</p>
+                            </div>
                           </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">70</p>
+                          <div class="col-lg-6">
+                            <div class="timeline-item-content arrow-bg-white">
+                              <div class="timeline-item-card bg-white dark__bg-1100"><a href="tickets-preview.php">
+                                  <h5 class="mb-2 hover-primary">Password change #234</h5>
+                                </a>
+                                <p class="fs-10 border-bottom mb-3 pb-4 text-600">I must modify my password. If I make a modification, will I lose access to my account? I have a lot of items in my cart and don't want to go looking for them again.</p>
+                                <div class="d-flex flex-wrap pt-2">
+                                  <h6 class="mb-0 text-600 lh-base"><span class="far fa-clock me-1"></span>10:08 AM</h6>
+                                  <div class="d-flex align-items-center ms-auto me-2 me-sm-x1 me-xl-2 me-xxl-x1">
+                                    <div class="dot me-0 me-sm-2 me-xl-0 me-xxl-2 bg-danger" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Urgent"></div>
+                                    <h6 class="mb-0 text-700 d-none d-sm-block d-xl-none d-xxl-block">Urgent</h6>
+                                  </div><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">Medium</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:60%"></div>
+                      <div class="timeline-item timeline-item-end mb-0">
+                        <div class="timeline-icon icon-item icon-item-lg text-primary border-300"><span class="fs-8 fas fa-envelope"></span></div>
+                        <div class="row">
+                          <div class="col-lg-6 timeline-item-time">
+                            <div>
+                              <h6 class="mb-0 text-700">2022</h6>
+                              <p class="fs-11 text-500 font-sans-serif">20 August</p>
+                            </div>
                           </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">60</p>
-                        </div>
-                      </div>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">High</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:70%"></div>
+                          <div class="col-lg-6">
+                            <div class="timeline-item-content arrow-bg-white">
+                              <div class="timeline-item-card bg-white dark__bg-1100"><a href="tickets-preview.php">
+                                  <h5 class="mb-2 hover-primary">Email Address change #202</h5>
+                                </a>
+                                <p class="fs-10 border-bottom mb-3 pb-4 text-600">My email address needs to be updated. I'm curious if changing it will result in me losing access to my account. I've put a lot of items in my shopping basket and don't want to search for them again.</p>
+                                <div class="d-flex flex-wrap pt-2">
+                                  <h6 class="mb-0 text-600 lh-base"><span class="far fa-clock me-1"></span>12:26 PM</h6>
+                                  <div class="d-flex align-items-center ms-auto me-2 me-sm-x1 me-xl-2 me-xxl-x1">
+                                    <div class="dot me-0 me-sm-2 me-xl-0 me-xxl-2 bg-info" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Low"></div>
+                                    <h6 class="mb-0 text-700 d-none d-sm-block d-xl-none d-xxl-block">Low</h6>
+                                  </div><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small>
+                                </div>
+                              </div>
+                            </div>
                           </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">70</p>
-                        </div>
-                      </div>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">Low</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:25%"></div>
-                          </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">25</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row mx-0">
-                    <div class="col-md-6 p-x1 border-end-md border-bottom border-bottom-md-0 border-dashed">
-                      <h6 class="fs-10 mb-3">Tickets resolved Split by Status</h6>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">Open</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:30%"></div>
-                          </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">30</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6 p-x1">
-                      <h6 class="fs-10 mb-3">Tickets resolved Split by Category</h6>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">Question</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:30%"></div>
-                          </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">30</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="tab-pane" id="tickets-reopened" role="tabpanel" aria-labelledby="tickets-reopened-tab">
-                  <div class="row mx-0 border-bottom border-dashed">
-                    <div class="col-md-6 p-x1 border-end-md border-bottom border-bottom-md-0 border-dashed">
-                      <h6 class="fs-10 mb-3">Tickets reopened Split by Source</h6>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">Email</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:40%"></div>
-                          </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">40</p>
-                        </div>
-                      </div>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">Phone</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:40%"></div>
-                          </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">40</p>
-                        </div>
-                      </div>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">Website</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:50%"></div>
-                          </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">50</p>
-                        </div>
-                      </div>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">Chat</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:20%"></div>
-                          </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">20</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6 p-x1">
-                      <h6 class="fs-10 mb-3">Tickets reopened Split by Priority</h6>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">Urgent</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:90%"></div>
-                          </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">90</p>
-                        </div>
-                      </div>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">Medium</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:50%"></div>
-                          </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">50</p>
-                        </div>
-                      </div>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">High</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:80%"></div>
-                          </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">80</p>
-                        </div>
-                      </div>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">Low</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:30%"></div>
-                          </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">30</p>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="row mx-0">
-                    <div class="col-md-6 p-x1 border-end-md border-bottom border-bottom-md-0 border-dashed">
-                      <h6 class="fs-10 mb-3">Tickets reopened Split by Status</h6>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">Open</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:40%"></div>
+                  <div class="card-body tab-pane p-0" id="tickets" role="tabpanel" aria-labelledby="contact-tickets-tab">
+                    <div class="bg-body-tertiary d-flex flex-column gap-3 p-x1">
+                      <div class="bg-white dark__bg-1100 p-x1 rounded-3 shadow-sm d-md-flex d-xl-inline-block d-xxl-flex align-items-center">
+                        <div>
+                          <p class="fw-semi-bold"><a href="tickets-preview.php">Got a new television | Order #377</a></p>
+                          <div class="d-flex align-items-center">
+                            <h6 class="mb-0 me-3 text-800">25 September, 2022</h6><small class="badge rounded badge-subtle-success false">Recent</small>
                           </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">40</p>
+                        </div>
+                        <div class="border-bottom mt-4 mb-x1"></div>
+                        <div class="d-flex justify-content-between ms-auto">
+                          <div class="d-flex align-items-center gap-2 ms-md-4 ms-xl-0 ms-xxl-4" style="width:7.5rem;">
+                            <div style="--falcon-circle-progress-bar:100"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
+                                <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-width="12"></circle>
+                                <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#e63757" stroke-width="12"></circle>
+                              </svg></div>
+                            <h6 class="mb-0 text-700">Urgent</h6>
+                          </div><select class="form-select form-select-sm" aria-label="agents actions" style="width:9.375rem;">
+                            <option>Select Agent</option>
+                            <option selected="selected">Anindya</option>
+                            <option>Nowrin</option>
+                            <option>Khalid</option>
+                            <option>Shajeeb</option>
+                          </select>
                         </div>
                       </div>
-                    </div>
-                    <div class="col-md-6 p-x1">
-                      <h6 class="fs-10 mb-3">Tickets reopened Split by Category</h6>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">Question</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:25%"></div>
+                      <div class="bg-white dark__bg-1100 p-x1 rounded-3 shadow-sm d-md-flex d-xl-inline-block d-xxl-flex align-items-center">
+                        <div>
+                          <p class="fw-semi-bold"><a href="tickets-preview.php">Subscription Issue | Order #362</a></p>
+                          <div class="d-flex align-items-center">
+                            <h6 class="mb-0 me-3 text-800">23 September, 2022</h6><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small>
                           </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">25</p>
+                        </div>
+                        <div class="border-bottom mt-4 mb-x1"></div>
+                        <div class="d-flex justify-content-between ms-auto">
+                          <div class="d-flex align-items-center gap-2 ms-md-4 ms-xl-0 ms-xxl-4" style="width:7.5rem;">
+                            <div style="--falcon-circle-progress-bar:25"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
+                                <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-width="12"></circle>
+                                <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#00D27B" stroke-width="12"></circle>
+                              </svg></div>
+                            <h6 class="mb-0 text-700">Low</h6>
+                          </div><select class="form-select form-select-sm" aria-label="agents actions" style="width:9.375rem;">
+                            <option>Select Agent</option>
+                            <option>Anindya</option>
+                            <option>Nowrin</option>
+                            <option selected="selected">Khalid</option>
+                            <option>Shajeeb</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="bg-white dark__bg-1100 p-x1 rounded-3 shadow-sm d-md-flex d-xl-inline-block d-xxl-flex align-items-center">
+                        <div>
+                          <p class="fw-semi-bold"><a href="tickets-preview.php">Received a broken TV | Order #345</a></p>
+                          <div class="d-flex align-items-center">
+                            <h6 class="mb-0 me-3 text-800">20 September, 2022</h6><small class="badge rounded badge-subtle-success false">Recent</small>
+                          </div>
+                        </div>
+                        <div class="border-bottom mt-4 mb-x1"></div>
+                        <div class="d-flex justify-content-between ms-auto">
+                          <div class="d-flex align-items-center gap-2 ms-md-4 ms-xl-0 ms-xxl-4" style="width:7.5rem;">
+                            <div style="--falcon-circle-progress-bar:100"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
+                                <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-width="12"></circle>
+                                <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#e63757" stroke-width="12"></circle>
+                              </svg></div>
+                            <h6 class="mb-0 text-700">Urgent</h6>
+                          </div><select class="form-select form-select-sm" aria-label="agents actions" style="width:9.375rem;">
+                            <option>Select Agent</option>
+                            <option>Anindya</option>
+                            <option selected="selected">Nowrin</option>
+                            <option>Khalid</option>
+                            <option>Shajeeb</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="bg-white dark__bg-1100 p-x1 rounded-3 shadow-sm d-md-flex d-xl-inline-block d-xxl-flex align-items-center">
+                        <div>
+                          <p class="fw-semi-bold"><a href="tickets-preview.php">Payment failed | Order #324</a></p>
+                          <div class="d-flex align-items-center">
+                            <h6 class="mb-0 me-3 text-800">03 September, 2022</h6><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small>
+                          </div>
+                        </div>
+                        <div class="border-bottom mt-4 mb-x1"></div>
+                        <div class="d-flex justify-content-between ms-auto">
+                          <div class="d-flex align-items-center gap-2 ms-md-4 ms-xl-0 ms-xxl-4" style="width:7.5rem;">
+                            <div style="--falcon-circle-progress-bar:50"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
+                                <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-width="12"></circle>
+                                <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#2A7BE4" stroke-width="12"></circle>
+                              </svg></div>
+                            <h6 class="mb-0 text-700">Medium</h6>
+                          </div><select class="form-select form-select-sm" aria-label="agents actions" style="width:9.375rem;">
+                            <option>Select Agent</option>
+                            <option selected="selected">Anindya</option>
+                            <option>Nowrin</option>
+                            <option>Khalid</option>
+                            <option>Shajeeb</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="bg-white dark__bg-1100 p-x1 rounded-3 shadow-sm d-md-flex d-xl-inline-block d-xxl-flex align-items-center">
+                        <div>
+                          <p class="fw-semi-bold"><a href="tickets-preview.php">Password change | Order #234</a></p>
+                          <div class="d-flex align-items-center">
+                            <h6 class="mb-0 me-3 text-800">24 August, 2022</h6><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small>
+                          </div>
+                        </div>
+                        <div class="border-bottom mt-4 mb-x1"></div>
+                        <div class="d-flex justify-content-between ms-auto">
+                          <div class="d-flex align-items-center gap-2 ms-md-4 ms-xl-0 ms-xxl-4" style="width:7.5rem;">
+                            <div style="--falcon-circle-progress-bar:100"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
+                                <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-width="12"></circle>
+                                <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#e63757" stroke-width="12"></circle>
+                              </svg></div>
+                            <h6 class="mb-0 text-700">Urgent</h6>
+                          </div><select class="form-select form-select-sm" aria-label="agents actions" style="width:9.375rem;">
+                            <option>Select Agent</option>
+                            <option>Anindya</option>
+                            <option selected="selected">Nowrin</option>
+                            <option>Khalid</option>
+                            <option>Shajeeb</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="bg-white dark__bg-1100 p-x1 rounded-3 shadow-sm d-md-flex d-xl-inline-block d-xxl-flex align-items-center">
+                        <div>
+                          <p class="fw-semi-bold"><a href="tickets-preview.php">Email Address change | Order #202</a></p>
+                          <div class="d-flex align-items-center">
+                            <h6 class="mb-0 me-3 text-800">20 August, 2022</h6><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small>
+                          </div>
+                        </div>
+                        <div class="border-bottom mt-4 mb-x1"></div>
+                        <div class="d-flex justify-content-between ms-auto">
+                          <div class="d-flex align-items-center gap-2 ms-md-4 ms-xl-0 ms-xxl-4" style="width:7.5rem;">
+                            <div style="--falcon-circle-progress-bar:25"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
+                                <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-width="12"></circle>
+                                <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#00D27B" stroke-width="12"></circle>
+                              </svg></div>
+                            <h6 class="mb-0 text-700">Low</h6>
+                          </div><select class="form-select form-select-sm" aria-label="agents actions" style="width:9.375rem;">
+                            <option>Select Agent</option>
+                            <option>Anindya</option>
+                            <option>Nowrin</option>
+                            <option>Khalid</option>
+                            <option selected="selected">Shajeeb</option>
+                          </select>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="tab-pane" id="tickets-unsolved" role="tabpanel" aria-labelledby="tickets-unsolved-tab">
-                  <div class="row mx-0 border-bottom border-dashed">
-                    <div class="col-md-6 p-x1 border-end-md border-bottom border-bottom-md-0 border-dashed">
-                      <h6 class="fs-10 mb-3">Tickets unsolved Split by Source</h6>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">Email</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:50%"></div>
+                  <div class="card-body tab-pane p-0" id="notes" role="tabpanel" aria-labelledby="contact-notes-tab">
+                    <div class="bg-body-tertiary d-flex flex-column gap-3 p-x1">
+                      <div class="bg-white dark__bg-1100 p-x1 rounded-3 shadow-sm">
+                        <div class="row flex-between-center">
+                          <div class="col-12 col-md-7 col-xl-12 col-xxl-8 order-1 order-md-0 order-xl-1 order-xxl-0">
+                            <h5 class="mb-0 border-top border-top-md-0 border-top-xl border-top-xxl-0 mt-x1 mt-md-0 mt-xl-x1 mt-xxl-0 pt-x1 pt-md-0 pt-xl-x1 pt-xxl-0 border-200 border-xl-200">Not able to access the system</h5>
                           </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">50</p>
+                          <div class="col-12 col-md-auto col-xl-12 col-xxl-auto d-flex flex-between-center"><select class="form-select form-select-sm me-2 w-auto" aria-label="agents actions">
+                              <option>Select Agent</option>
+                              <option selected="selected">Anindya</option>
+                              <option>Nowrin</option>
+                              <option>Khalid</option>
+                              <option>Shajeeb</option>
+                            </select>
+                            <div class="dropdown font-sans-serif"><button class="btn btn-falcon-default text-600 btn-sm dropdown-toggle dropdown-caret-none" type="button" id="notes-dropdown-0" data-bs-toggle="dropdown" data-boundary="viewport" aria-haspopup="true" aria-expanded="false"><span class="fas fa-ellipsis-h fs-11"></span></button>
+                              <div class="dropdown-menu dropdown-menu-end border py-2" aria-labelledby="notes-dropdown-0"><a class="dropdown-item" href="#!">View</a><a class="dropdown-item" href="#!">Export</a>
+                                <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="#!">Remove</a>
+                              </div>
+                            </div>
+                          </div>
                         </div>
+                        <h6 class="mb-0 mt-2"><span class="fas fa-clock text-primary me-2"></span><span class="text-600">28 Sep, 2020</span><span class="text-500"> at </span><span class="text-600">12:06 AM</span></h6>
+                        <p class="w-lg-75 w-xl-100 w-xxl-75 mb-0 border-top border-top-md-0 border-top-xl border-top-xxl-0 mt-x1 mt-md-4 mt-xl-x1 mt-xxl-4 pt-x1 pt-md-0 pt-xl-x1 pt-xxl-0 border-200 border-xl-200">The PS4's hard drive is most likely the source of this CE-34335-8 safe mode error notice. Try these techniques to fix the hard drive issue if your PS4 won't start and won't let you access system storage because of error number CE-34335-8.</p>
                       </div>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">Phone</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:20%"></div>
+                      <div class="bg-white dark__bg-1100 p-x1 rounded-3 shadow-sm">
+                        <div class="row flex-between-center">
+                          <div class="col-12 col-md-7 col-xl-12 col-xxl-8 order-1 order-md-0 order-xl-1 order-xxl-0">
+                            <h5 class="mb-0 border-top border-top-md-0 border-top-xl border-top-xxl-0 mt-x1 mt-md-0 mt-xl-x1 mt-xxl-0 pt-x1 pt-md-0 pt-xl-x1 pt-xxl-0 border-200 border-xl-200">No refund was requested</h5>
                           </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">20</p>
+                          <div class="col-12 col-md-auto col-xl-12 col-xxl-auto d-flex flex-between-center"><select class="form-select form-select-sm me-2 w-auto" aria-label="agents actions">
+                              <option>Select Agent</option>
+                              <option>Anindya</option>
+                              <option>Nowrin</option>
+                              <option selected="selected">Khalid</option>
+                              <option>Shajeeb</option>
+                            </select>
+                            <div class="dropdown font-sans-serif"><button class="btn btn-falcon-default text-600 btn-sm dropdown-toggle dropdown-caret-none" type="button" id="notes-dropdown-1" data-bs-toggle="dropdown" data-boundary="viewport" aria-haspopup="true" aria-expanded="false"><span class="fas fa-ellipsis-h fs-11"></span></button>
+                              <div class="dropdown-menu dropdown-menu-end border py-2" aria-labelledby="notes-dropdown-1"><a class="dropdown-item" href="#!">View</a><a class="dropdown-item" href="#!">Export</a>
+                                <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="#!">Remove</a>
+                              </div>
+                            </div>
+                          </div>
                         </div>
+                        <h6 class="mb-0 mt-2"><span class="fas fa-clock text-primary me-2"></span><span class="text-600">25 Sep, 2020</span><span class="text-500"> at </span><span class="text-600">03:18 PM</span></h6>
+                        <p class="w-lg-75 w-xl-100 w-xxl-75 mb-0 border-top border-top-md-0 border-top-xl border-top-xxl-0 mt-x1 mt-md-4 mt-xl-x1 mt-xxl-4 pt-x1 pt-md-0 pt-xl-x1 pt-xxl-0 border-200 border-xl-200">It only takes a little while for a consumer to arrive on your door asking for a refund if you sell things online or in a physical store. And instead of closing that door all the way, think of a different approach.</p>
                       </div>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">Website</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:75%"></div>
+                      <div class="bg-white dark__bg-1100 p-x1 rounded-3 shadow-sm">
+                        <div class="row flex-between-center">
+                          <div class="col-12 col-md-7 col-xl-12 col-xxl-8 order-1 order-md-0 order-xl-1 order-xxl-0">
+                            <h5 class="mb-0 border-top border-top-md-0 border-top-xl border-top-xxl-0 mt-x1 mt-md-0 mt-xl-x1 mt-xxl-0 pt-x1 pt-md-0 pt-xl-x1 pt-xxl-0 border-200 border-xl-200">Use case for online ticket notes</h5>
                           </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">75</p>
+                          <div class="col-12 col-md-auto col-xl-12 col-xxl-auto d-flex flex-between-center"><select class="form-select form-select-sm me-2 w-auto" aria-label="agents actions">
+                              <option>Select Agent</option>
+                              <option>Anindya</option>
+                              <option selected="selected">Nowrin</option>
+                              <option>Khalid</option>
+                              <option>Shajeeb</option>
+                            </select>
+                            <div class="dropdown font-sans-serif"><button class="btn btn-falcon-default text-600 btn-sm dropdown-toggle dropdown-caret-none" type="button" id="notes-dropdown-2" data-bs-toggle="dropdown" data-boundary="viewport" aria-haspopup="true" aria-expanded="false"><span class="fas fa-ellipsis-h fs-11"></span></button>
+                              <div class="dropdown-menu dropdown-menu-end border py-2" aria-labelledby="notes-dropdown-2"><a class="dropdown-item" href="#!">View</a><a class="dropdown-item" href="#!">Export</a>
+                                <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="#!">Remove</a>
+                              </div>
+                            </div>
+                          </div>
                         </div>
+                        <h6 class="mb-0 mt-2"><span class="fas fa-clock text-primary me-2"></span><span class="text-600">22 Sep, 2020</span><span class="text-500"> at </span><span class="text-600">10:21 AM</span></h6>
+                        <p class="w-lg-75 w-xl-100 w-xxl-75 mb-0 border-top border-top-md-0 border-top-xl border-top-xxl-0 mt-x1 mt-md-4 mt-xl-x1 mt-xxl-4 pt-x1 pt-md-0 pt-xl-x1 pt-xxl-0 border-200 border-xl-200">Using the inline ticket notes allows you to take notes while interacting with consumers. You may jot down notes while assisting a customer over live chat or over the phone, for instance. Aside from that.</p>
                       </div>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">Chat</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:30%"></div>
+                      <div class="bg-white dark__bg-1100 p-x1 rounded-3 shadow-sm">
+                        <div class="row flex-between-center">
+                          <div class="col-12 col-md-7 col-xl-12 col-xxl-8 order-1 order-md-0 order-xl-1 order-xxl-0">
+                            <h5 class="mb-0 border-top border-top-md-0 border-top-xl border-top-xxl-0 mt-x1 mt-md-0 mt-xl-x1 mt-xxl-0 pt-x1 pt-md-0 pt-xl-x1 pt-xxl-0 border-200 border-xl-200">Github Uploaded of the Conscious Administrator</h5>
                           </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">30</p>
+                          <div class="col-12 col-md-auto col-xl-12 col-xxl-auto d-flex flex-between-center"><select class="form-select form-select-sm me-2 w-auto" aria-label="agents actions">
+                              <option>Select Agent</option>
+                              <option>Anindya</option>
+                              <option>Nowrin</option>
+                              <option>Khalid</option>
+                              <option selected="selected">Shajeeb</option>
+                            </select>
+                            <div class="dropdown font-sans-serif"><button class="btn btn-falcon-default text-600 btn-sm dropdown-toggle dropdown-caret-none" type="button" id="notes-dropdown-3" data-bs-toggle="dropdown" data-boundary="viewport" aria-haspopup="true" aria-expanded="false"><span class="fas fa-ellipsis-h fs-11"></span></button>
+                              <div class="dropdown-menu dropdown-menu-end border py-2" aria-labelledby="notes-dropdown-3"><a class="dropdown-item" href="#!">View</a><a class="dropdown-item" href="#!">Export</a>
+                                <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="#!">Remove</a>
+                              </div>
+                            </div>
+                          </div>
                         </div>
+                        <h6 class="mb-0 mt-2"><span class="fas fa-clock text-primary me-2"></span><span class="text-600">15 Sep, 2020</span><span class="text-500"> at </span><span class="text-600">12:21 PM</span></h6>
+                        <p class="w-lg-75 w-xl-100 w-xxl-75 mb-0 border-top border-top-md-0 border-top-xl border-top-xxl-0 mt-x1 mt-md-4 mt-xl-x1 mt-xxl-4 pt-x1 pt-md-0 pt-xl-x1 pt-xxl-0 border-200 border-xl-200">Are they really that dissimilar, even though those are mock-ups and this is politics? She may simply have my card, I believe.</p>
                       </div>
-                    </div>
-                    <div class="col-md-6 p-x1">
-                      <h6 class="fs-10 mb-3">Tickets unsolved Split by Priority</h6>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">Urgent</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:85%"></div>
+                      <div class="bg-white dark__bg-1100 p-x1 rounded-3 shadow-sm">
+                        <div class="row flex-between-center">
+                          <div class="col-12 col-md-7 col-xl-12 col-xxl-8 order-1 order-md-0 order-xl-1 order-xxl-0">
+                            <h5 class="mb-0 border-top border-top-md-0 border-top-xl border-top-xxl-0 mt-x1 mt-md-0 mt-xl-x1 mt-xxl-0 pt-x1 pt-md-0 pt-xl-x1 pt-xxl-0 border-200 border-xl-200">Selection of a design team</h5>
                           </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">85</p>
+                          <div class="col-12 col-md-auto col-xl-12 col-xxl-auto d-flex flex-between-center"><select class="form-select form-select-sm me-2 w-auto" aria-label="agents actions">
+                              <option>Select Agent</option>
+                              <option selected="selected">Anindya</option>
+                              <option>Nowrin</option>
+                              <option>Khalid</option>
+                              <option>Shajeeb</option>
+                            </select>
+                            <div class="dropdown font-sans-serif"><button class="btn btn-falcon-default text-600 btn-sm dropdown-toggle dropdown-caret-none" type="button" id="notes-dropdown-4" data-bs-toggle="dropdown" data-boundary="viewport" aria-haspopup="true" aria-expanded="false"><span class="fas fa-ellipsis-h fs-11"></span></button>
+                              <div class="dropdown-menu dropdown-menu-end border py-2" aria-labelledby="notes-dropdown-4"><a class="dropdown-item" href="#!">View</a><a class="dropdown-item" href="#!">Export</a>
+                                <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="#!">Remove</a>
+                              </div>
+                            </div>
+                          </div>
                         </div>
+                        <h6 class="mb-0 mt-2"><span class="fas fa-clock text-primary me-2"></span><span class="text-600">11 Sep, 2020</span><span class="text-500"> at </span><span class="text-600">10:11 PM</span></h6>
+                        <p class="w-lg-75 w-xl-100 w-xxl-75 mb-0 border-top border-top-md-0 border-top-xl border-top-xxl-0 mt-x1 mt-md-4 mt-xl-x1 mt-xxl-4 pt-x1 pt-md-0 pt-xl-x1 pt-xxl-0 border-200 border-xl-200">One designer can make up a design team, as can a group of designers who take on various tasks and employ various techniques and tools to reach a single objective. The shared objective can be achieved by creating a website, a mobile application, or any other design project.</p>
                       </div>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">Medium</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:40%"></div>
+                      <div class="bg-white dark__bg-1100 p-x1 rounded-3 shadow-sm">
+                        <div class="row flex-between-center">
+                          <div class="col-12 col-md-7 col-xl-12 col-xxl-8 order-1 order-md-0 order-xl-1 order-xxl-0">
+                            <h5 class="mb-0 border-top border-top-md-0 border-top-xl border-top-xxl-0 mt-x1 mt-md-0 mt-xl-x1 mt-xxl-0 pt-x1 pt-md-0 pt-xl-x1 pt-xxl-0 border-200 border-xl-200">Quickness of Reaction</h5>
                           </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">40</p>
+                          <div class="col-12 col-md-auto col-xl-12 col-xxl-auto d-flex flex-between-center"><select class="form-select form-select-sm me-2 w-auto" aria-label="agents actions">
+                              <option>Select Agent</option>
+                              <option>Anindya</option>
+                              <option>Nowrin</option>
+                              <option>Khalid</option>
+                              <option selected="selected">Shajeeb</option>
+                            </select>
+                            <div class="dropdown font-sans-serif"><button class="btn btn-falcon-default text-600 btn-sm dropdown-toggle dropdown-caret-none" type="button" id="notes-dropdown-5" data-bs-toggle="dropdown" data-boundary="viewport" aria-haspopup="true" aria-expanded="false"><span class="fas fa-ellipsis-h fs-11"></span></button>
+                              <div class="dropdown-menu dropdown-menu-end border py-2" aria-labelledby="notes-dropdown-5"><a class="dropdown-item" href="#!">View</a><a class="dropdown-item" href="#!">Export</a>
+                                <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="#!">Remove</a>
+                              </div>
+                            </div>
+                          </div>
                         </div>
+                        <h6 class="mb-0 mt-2"><span class="fas fa-clock text-primary me-2"></span><span class="text-600">09 Sep, 2020</span><span class="text-500"> at </span><span class="text-600">12:22 AM</span></h6>
+                        <p class="w-lg-75 w-xl-100 w-xxl-75 mb-0 border-top border-top-md-0 border-top-xl border-top-xxl-0 mt-x1 mt-md-4 mt-xl-x1 mt-xxl-4 pt-x1 pt-md-0 pt-xl-x1 pt-xxl-0 border-200 border-xl-200">It has been designed particularly for WordPress, as opposed to other Frameworks which attempt to cover everything.</p>
                       </div>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">High</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:90%"></div>
+                      <div class="bg-white dark__bg-1100 p-x1 rounded-3 shadow-sm">
+                        <div class="row flex-between-center">
+                          <div class="col-12 col-md-7 col-xl-12 col-xxl-8 order-1 order-md-0 order-xl-1 order-xxl-0">
+                            <h5 class="mb-0 border-top border-top-md-0 border-top-xl border-top-xxl-0 mt-x1 mt-md-0 mt-xl-x1 mt-xxl-0 pt-x1 pt-md-0 pt-xl-x1 pt-xxl-0 border-200 border-xl-200">Cultivate a design-oriented culture</h5>
                           </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">90</p>
-                        </div>
-                      </div>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">Low</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:20%"></div>
+                          <div class="col-12 col-md-auto col-xl-12 col-xxl-auto d-flex flex-between-center"><select class="form-select form-select-sm me-2 w-auto" aria-label="agents actions">
+                              <option>Select Agent</option>
+                              <option>Anindya</option>
+                              <option>Nowrin</option>
+                              <option selected="selected">Khalid</option>
+                              <option>Shajeeb</option>
+                            </select>
+                            <div class="dropdown font-sans-serif"><button class="btn btn-falcon-default text-600 btn-sm dropdown-toggle dropdown-caret-none" type="button" id="notes-dropdown-6" data-bs-toggle="dropdown" data-boundary="viewport" aria-haspopup="true" aria-expanded="false"><span class="fas fa-ellipsis-h fs-11"></span></button>
+                              <div class="dropdown-menu dropdown-menu-end border py-2" aria-labelledby="notes-dropdown-6"><a class="dropdown-item" href="#!">View</a><a class="dropdown-item" href="#!">Export</a>
+                                <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="#!">Remove</a>
+                              </div>
+                            </div>
                           </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">20</p>
                         </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row mx-0">
-                    <div class="col-md-6 p-x1 border-end-md border-bottom border-bottom-md-0 border-dashed">
-                      <h6 class="fs-10 mb-3">Tickets unsolved Split by Status</h6>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">Open</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:50%"></div>
-                          </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">50</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6 p-x1">
-                      <h6 class="fs-10 mb-3">Tickets unsolved Split by Category</h6>
-                      <div class="row mt-2">
-                        <div class="col-3 col-sm-2 col-md-3 col-lg-2">
-                          <p class="mb-0 fs-10 fw-semi-bold text-600 text-nowrap">Question</p>
-                        </div>
-                        <div class="col-9 col-sm-10 col-md-9 col-lg-10 d-flex align-items-center">
-                          <div class="progress bg-200 w-100 rounded-pill" role="progressbar" aria-label="Basic example" style="height:6px" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar rounded-pill animated-progress-bar" style="--falcon-progressbar-width:15%"></div>
-                          </div>
-                          <p class="mb-0 fs-10 ps-3 fw-semi-bold text-600">15</p>
-                        </div>
+                        <h6 class="mb-0 mt-2"><span class="fas fa-clock text-primary me-2"></span><span class="text-600">05 Sep, 2020</span><span class="text-500"> at </span><span class="text-600">10:21 AM</span></h6>
+                        <p class="w-lg-75 w-xl-100 w-xxl-75 mb-0 border-top border-top-md-0 border-top-xl border-top-xxl-0 mt-x1 mt-md-4 mt-xl-x1 mt-xxl-4 pt-x1 pt-md-0 pt-xl-x1 pt-xxl-0 border-200 border-xl-200">By teaching your designers to put the needs of the customer first and coordinating design objectives with corporate objectives, you can foster a culture of design strategy. Everything your design team does should be based on a design strategy.</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="card-footer bg-body-tertiary py-2">
-              <div class="row flex-between-center">
-                <div class="col-auto"><select class="form-select form-select-sm">
-                    <option>Last 7 days</option>
-                    <option>Last Month</option>
-                    <option>Last Year</option>
-                  </select></div>
-                <div class="col-auto"><a class="btn btn-link btn-sm px-0 fw-medium" href="#!">View all<span class="fas fa-chevron-right ms-1 fs-11"></span></a></div>
-              </div>
-            </div>
-          </div>
-          <div class="card mt-3">
-            <div class="card-header d-flex justify-content-between align-items-center border-bottom py-2">
-              <h6 class="mb-0">Distribution of Performance</h6>
-              <div class="dropdown font-sans-serif btn-reveal-trigger"><button class="btn btn-link text-600 btn-sm dropdown-toggle dropdown-caret-none btn-reveal" type="button" id="dropdown-distribution-of-performance" data-bs-toggle="dropdown" data-boundary="viewport" aria-haspopup="true" aria-expanded="false"><span class="fas fa-ellipsis-h fs-11"></span></button>
-                <div class="dropdown-menu dropdown-menu-end border py-2" aria-labelledby="dropdown-distribution-of-performance"><a class="dropdown-item" href="#!">View</a><a class="dropdown-item" href="#!">Export</a>
-                  <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="#!">Remove</a>
-                </div>
-              </div>
-            </div>
-            <div class="card-body scrollbar">
-              <div class="echart-distribution-of-performance" data-echart-responsive="true"></div>
-            </div>
-            <div class="card-footer bg-body-tertiary py-2">
-              <div class="row flex-between-center">
-                <div class="col-auto"><select class="form-select form-select-sm">
-                    <option>January</option>
-                    <option>February</option>
-                    <option selected="selected">March</option>
-                    <option>April</option>
-                    <option>May</option>
-                    <option>June</option>
-                    <option>July</option>
-                    <option>August</option>
-                    <option>September</option>
-                    <option>October</option>
-                    <option>Novenber</option>
-                    <option>December</option>
-                  </select></div>
-                <div class="col-auto"><a class="btn btn-sm btn-falcon-default" href="#!">View All</a></div>
-              </div>
-            </div>
-          </div>
-          <div class="card mt-3" id="surveyResultTable" data-list='{"valueNames":["name","satisfied","dissatisfied"],"page":5,"pagination":true}'>
-            <div class="card-header border-bottom border-200">
-              <div class="row flex-between-center gy-2">
-                <div class="col-auto">
-                  <h6 class="mb-0">Agent Survey Result</h6>
-                </div>
-                <div class="col-auto">
-                  <div class="d-none" id="table-survey-result-actions">
-                    <div class="d-flex"><select class="form-select form-select-sm" aria-label="Bulk actions">
-                        <option selected="">Bulk actions</option>
-                        <option value="Refund">Refund</option>
-                        <option value="Delete">Delete</option>
-                        <option value="Archive">Archive</option>
-                      </select><button class="btn btn-falcon-default btn-sm ms-2" type="button">Apply</button></div>
-                  </div><select class="form-select form-select-sm" id="table-survey-result-replace-element">
-                    <option selected="selected">Daily</option>
-                    <option>Weekly</option>
-                    <option>Monthly</option>
-                    <option>Yearly</option>
-                  </select>
-                </div>
-              </div>
-            </div>
-            <div class="card-body p-0">
-              <div class="table-responsive scrollbar">
-                <table class="table table-sm fs-10 mb-0">
-                  <thead class="bg-body-tertiary">
-                    <tr>
-                      <th class="py-2 fs-9">
-                        <div class="form-check d-flex align-items-center"><input class="form-check-input" id="checkbox-bulk-tickets-select" type="checkbox" data-bulk-select='{"body":"table-survey-result-body","actions":"table-survey-result-actions","replacedElement":"table-survey-result-replace-element"}' /></div>
-                      </th>
-                      <th class="text-800 sort align-middle" data-sort="name" style="width:30%">Agent Name</th>
-                      <th class="text-800 sort align-middle" data-sort="satisfied" style="width:30%">Extremely Satisfied</th>
-                      <th class="text-800 sort align-middle" data-sort="dissatisfied">Extremely Dissatisfied</th>
-                    </tr>
-                  </thead>
-                  <tbody class="list" id="table-survey-result-body">
-                    <tr>
-                      <td class="align-middle py-4 fs-9" style="width: 28px;">
-                        <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="agent-survey-result-0" data-bulk-select-row="data-bulk-select-row" /></div>
-                      </td>
-                      <td class="align-middle name white-space-nowrap pe-4 w-lg-25">
-                        <div class="d-flex align-items-center gap-2 position-relative">
-                          <div class="avatar avatar-xl">
-                            <div class="avatar-name rounded-circle text-success bg-success-subtle fs-9"><span>A</span></div>
-                          </div>
-                          <h6 class="mb-0"><a class="stretched-link text-800" href="#!">Amelia</a></h6>
-                        </div>
-                      </td>
-                      <td class="align-middle satisfied white-space-nowrap pe-5 pe-xxl-8">
-                        <div class="d-flex align-items-center">
-                          <div>
-                            <div class="d-flex align-items-baseline gap-1 mb-1">
-                              <h5 class="mb-0">36</h5>
-                              <h6 class="mb-0 fw-semi-bold text-primary"><span class="fs-11 me-1 ms-2 fas fa-caret-up"></span><span class="fs-10">17</span></h6>
-                            </div>
-                            <h6 class="mb-0 text-700">Last Day 19</h6>
-                          </div>
-                          <div class="ms-4">
-                            <div class="progress rounded-pill mb-1" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-primary" style="width: 80%"></div>
-                            </div>
-                            <div class="progress rounded-pill" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-info" style="width: 60%"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </td>
-                      <td class="align-middle dissatisfied">
-                        <div class="d-flex align-items-center">
-                          <div>
-                            <div class="d-flex align-items-baseline gap-1 mb-1">
-                              <h5 class="mb-0">52</h5>
-                              <h6 class="mb-0 fs-11 fw-semi-bold text-danger"><span class="me-1 ms-2 fs-11 fas fa-caret-up"></span><span class="fs-10">33</span></h6>
-                            </div>
-                            <h6 class="mb-0 text-700 text-nowrap">Last Day 19</h6>
-                          </div>
-                          <div class="ms-4">
-                            <div class="progress rounded-pill mb-1" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-primary" style="width: 60%"></div>
-                            </div>
-                            <div class="progress rounded-pill" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-info" style="width: 50%"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="align-middle py-4 fs-9" style="width: 28px;">
-                        <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="agent-survey-result-1" data-bulk-select-row="data-bulk-select-row" /></div>
-                      </td>
-                      <td class="align-middle name white-space-nowrap pe-4 w-lg-25">
-                        <div class="d-flex align-items-center gap-2 position-relative">
-                          <div class="avatar avatar-xl">
-                            <div class="avatar-name rounded-circle text-primary bg-primary-subtle fs-9"><span>B</span></div>
-                          </div>
-                          <h6 class="mb-0"><a class="stretched-link text-800" href="#!">Bentley</a></h6>
-                        </div>
-                      </td>
-                      <td class="align-middle satisfied white-space-nowrap pe-5 pe-xxl-8">
-                        <div class="d-flex align-items-center">
-                          <div>
-                            <div class="d-flex align-items-baseline gap-1 mb-1">
-                              <h5 class="mb-0">41</h5>
-                              <h6 class="mb-0 fw-semi-bold text-primary"><span class="fs-11 me-1 ms-2 fas fa-caret-up"></span><span class="fs-10">17</span></h6>
-                            </div>
-                            <h6 class="mb-0 text-700">Last Day 24</h6>
-                          </div>
-                          <div class="ms-4">
-                            <div class="progress rounded-pill mb-1" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-primary" style="width: 90%"></div>
-                            </div>
-                            <div class="progress rounded-pill" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-info" style="width: 80%"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </td>
-                      <td class="align-middle dissatisfied">
-                        <div class="d-flex align-items-center">
-                          <div>
-                            <div class="d-flex align-items-baseline gap-1 mb-1">
-                              <h5 class="mb-0">23</h5>
-                              <h6 class="mb-0 fs-11 fw-semi-bold text-primary"><span class="me-1 ms-2 fs-11 fas fa-caret-down"></span><span class="fs-10">1</span></h6>
-                            </div>
-                            <h6 class="mb-0 text-700 text-nowrap">Last Day 24</h6>
-                          </div>
-                          <div class="ms-4">
-                            <div class="progress rounded-pill mb-1" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-primary" style="width: 95%"></div>
-                            </div>
-                            <div class="progress rounded-pill" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-info" style="width: 75%"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="align-middle py-4 fs-9" style="width: 28px;">
-                        <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="agent-survey-result-2" data-bulk-select-row="data-bulk-select-row" /></div>
-                      </td>
-                      <td class="align-middle name white-space-nowrap pe-4 w-lg-25">
-                        <div class="d-flex align-items-center gap-2 position-relative">
-                          <div class="avatar avatar-xl">
-                            <div class="avatar-name rounded-circle text-info bg-info-subtle fs-9"><span>A</span></div>
-                          </div>
-                          <h6 class="mb-0"><a class="stretched-link text-800" href="#!">Abigail</a></h6>
-                        </div>
-                      </td>
-                      <td class="align-middle satisfied white-space-nowrap pe-5 pe-xxl-8">
-                        <div class="d-flex align-items-center">
-                          <div>
-                            <div class="d-flex align-items-baseline gap-1 mb-1">
-                              <h5 class="mb-0">52</h5>
-                              <h6 class="mb-0 fw-semi-bold text-primary"><span class="fs-11 me-1 ms-2 fas fa-caret-up"></span><span class="fs-10">27</span></h6>
-                            </div>
-                            <h6 class="mb-0 text-700">Last Day 25</h6>
-                          </div>
-                          <div class="ms-4">
-                            <div class="progress rounded-pill mb-1" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-primary" style="width: 70%"></div>
-                            </div>
-                            <div class="progress rounded-pill" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-info" style="width: 80%"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </td>
-                      <td class="align-middle dissatisfied">
-                        <div class="d-flex align-items-center">
-                          <div>
-                            <div class="d-flex align-items-baseline gap-1 mb-1">
-                              <h5 class="mb-0">12</h5>
-                              <h6 class="mb-0 fs-11 fw-semi-bold text-primary"><span class="me-1 ms-2 fs-11 fas fa-caret-down"></span><span class="fs-10">13</span></h6>
-                            </div>
-                            <h6 class="mb-0 text-700 text-nowrap">Last Day 25</h6>
-                          </div>
-                          <div class="ms-4">
-                            <div class="progress rounded-pill mb-1" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-primary" style="width: 70%"></div>
-                            </div>
-                            <div class="progress rounded-pill" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-info" style="width: 90%"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="align-middle py-4 fs-9" style="width: 28px;">
-                        <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="agent-survey-result-3" data-bulk-select-row="data-bulk-select-row" /></div>
-                      </td>
-                      <td class="align-middle name white-space-nowrap pe-4 w-lg-25">
-                        <div class="d-flex align-items-center gap-2 position-relative">
-                          <div class="avatar avatar-xl">
-                            <div class="avatar-name rounded-circle text-warning bg-warning-subtle fs-9"><span>C</span></div>
-                          </div>
-                          <h6 class="mb-0"><a class="stretched-link text-800" href="#!">Christopher</a></h6>
-                        </div>
-                      </td>
-                      <td class="align-middle satisfied white-space-nowrap pe-5 pe-xxl-8">
-                        <div class="d-flex align-items-center">
-                          <div>
-                            <div class="d-flex align-items-baseline gap-1 mb-1">
-                              <h5 class="mb-0">14</h5>
-                              <h6 class="mb-0 fw-semi-bold text-danger"><span class="fs-11 me-1 ms-2 fas fa-caret-down"></span><span class="fs-10">16</span></h6>
-                            </div>
-                            <h6 class="mb-0 text-700">Last Day 30</h6>
-                          </div>
-                          <div class="ms-4">
-                            <div class="progress rounded-pill mb-1" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-primary" style="width: 50%"></div>
-                            </div>
-                            <div class="progress rounded-pill" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-info" style="width: 80%"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </td>
-                      <td class="align-middle dissatisfied">
-                        <div class="d-flex align-items-center">
-                          <div>
-                            <div class="d-flex align-items-baseline gap-1 mb-1">
-                              <h5 class="mb-0">25</h5>
-                              <h6 class="mb-0 fs-11 fw-semi-bold text-primary"><span class="me-1 ms-2 fs-11 fas fa-caret-down"></span><span class="fs-10">13</span></h6>
-                            </div>
-                            <h6 class="mb-0 text-700 text-nowrap">Last Day 38</h6>
-                          </div>
-                          <div class="ms-4">
-                            <div class="progress rounded-pill mb-1" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-primary" style="width: 60%"></div>
-                            </div>
-                            <div class="progress rounded-pill" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-info" style="width: 70%"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="align-middle py-4 fs-9" style="width: 28px;">
-                        <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="agent-survey-result-4" data-bulk-select-row="data-bulk-select-row" /></div>
-                      </td>
-                      <td class="align-middle name white-space-nowrap pe-4 w-lg-25">
-                        <div class="d-flex align-items-center gap-2 position-relative">
-                          <div class="avatar avatar-xl">
-                            <img class="rounded-circle" src="../../assets/img/team/2-thumb.png" alt="" />
-                          </div>
-                          <h6 class="mb-0"><a class="stretched-link text-800" href="#!">Declan</a></h6>
-                        </div>
-                      </td>
-                      <td class="align-middle satisfied white-space-nowrap pe-5 pe-xxl-8">
-                        <div class="d-flex align-items-center">
-                          <div>
-                            <div class="d-flex align-items-baseline gap-1 mb-1">
-                              <h5 class="mb-0">15</h5>
-                              <h6 class="mb-0 fw-semi-bold text-danger"><span class="fs-11 me-1 ms-2 fas fa-caret-down"></span><span class="fs-10">30</span></h6>
-                            </div>
-                            <h6 class="mb-0 text-700">Last Day 45</h6>
-                          </div>
-                          <div class="ms-4">
-                            <div class="progress rounded-pill mb-1" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-primary" style="width: 60%"></div>
-                            </div>
-                            <div class="progress rounded-pill" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-info" style="width: 85%"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </td>
-                      <td class="align-middle dissatisfied">
-                        <div class="d-flex align-items-center">
-                          <div>
-                            <div class="d-flex align-items-baseline gap-1 mb-1">
-                              <h5 class="mb-0">32</h5>
-                              <h6 class="mb-0 fs-11 fw-semi-bold text-primary"><span class="me-1 ms-2 fs-11 fas fa-caret-down"></span><span class="fs-10">7</span></h6>
-                            </div>
-                            <h6 class="mb-0 text-700 text-nowrap">Last Day 39</h6>
-                          </div>
-                          <div class="ms-4">
-                            <div class="progress rounded-pill mb-1" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-primary" style="width: 30%"></div>
-                            </div>
-                            <div class="progress rounded-pill" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-info" style="width: 70%"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="align-middle py-4 fs-9" style="width: 28px;">
-                        <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="agent-survey-result-5" data-bulk-select-row="data-bulk-select-row" /></div>
-                      </td>
-                      <td class="align-middle name white-space-nowrap pe-4 w-lg-25">
-                        <div class="d-flex align-items-center gap-2 position-relative">
-                          <div class="avatar avatar-xl">
-                            <div class="avatar-name rounded-circle text-primary bg-primary-subtle fs-9"><span>B</span></div>
-                          </div>
-                          <h6 class="mb-0"><a class="stretched-link text-800" href="#!">Bentley</a></h6>
-                        </div>
-                      </td>
-                      <td class="align-middle satisfied white-space-nowrap pe-5 pe-xxl-8">
-                        <div class="d-flex align-items-center">
-                          <div>
-                            <div class="d-flex align-items-baseline gap-1 mb-1">
-                              <h5 class="mb-0">41</h5>
-                              <h6 class="mb-0 fw-semi-bold text-primary"><span class="fs-11 me-1 ms-2 fas fa-caret-up"></span><span class="fs-10">17</span></h6>
-                            </div>
-                            <h6 class="mb-0 text-700">Last Day 24</h6>
-                          </div>
-                          <div class="ms-4">
-                            <div class="progress rounded-pill mb-1" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-primary" style="width: 90%"></div>
-                            </div>
-                            <div class="progress rounded-pill" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-info" style="width: 80%"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </td>
-                      <td class="align-middle dissatisfied">
-                        <div class="d-flex align-items-center">
-                          <div>
-                            <div class="d-flex align-items-baseline gap-1 mb-1">
-                              <h5 class="mb-0">23</h5>
-                              <h6 class="mb-0 fs-11 fw-semi-bold text-primary"><span class="me-1 ms-2 fs-11 fas fa-caret-down"></span><span class="fs-10">1</span></h6>
-                            </div>
-                            <h6 class="mb-0 text-700 text-nowrap">Last Day 24</h6>
-                          </div>
-                          <div class="ms-4">
-                            <div class="progress rounded-pill mb-1" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-primary" style="width: 95%"></div>
-                            </div>
-                            <div class="progress rounded-pill" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-info" style="width: 75%"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="align-middle py-4 fs-9" style="width: 28px;">
-                        <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="agent-survey-result-6" data-bulk-select-row="data-bulk-select-row" /></div>
-                      </td>
-                      <td class="align-middle name white-space-nowrap pe-4 w-lg-25">
-                        <div class="d-flex align-items-center gap-2 position-relative">
-                          <div class="avatar avatar-xl">
-                            <div class="avatar-name rounded-circle text-info bg-info-subtle fs-9"><span>A</span></div>
-                          </div>
-                          <h6 class="mb-0"><a class="stretched-link text-800" href="#!">Abigail</a></h6>
-                        </div>
-                      </td>
-                      <td class="align-middle satisfied white-space-nowrap pe-5 pe-xxl-8">
-                        <div class="d-flex align-items-center">
-                          <div>
-                            <div class="d-flex align-items-baseline gap-1 mb-1">
-                              <h5 class="mb-0">52</h5>
-                              <h6 class="mb-0 fw-semi-bold text-primary"><span class="fs-11 me-1 ms-2 fas fa-caret-up"></span><span class="fs-10">27</span></h6>
-                            </div>
-                            <h6 class="mb-0 text-700">Last Day 25</h6>
-                          </div>
-                          <div class="ms-4">
-                            <div class="progress rounded-pill mb-1" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-primary" style="width: 70%"></div>
-                            </div>
-                            <div class="progress rounded-pill" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-info" style="width: 80%"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </td>
-                      <td class="align-middle dissatisfied">
-                        <div class="d-flex align-items-center">
-                          <div>
-                            <div class="d-flex align-items-baseline gap-1 mb-1">
-                              <h5 class="mb-0">12</h5>
-                              <h6 class="mb-0 fs-11 fw-semi-bold text-primary"><span class="me-1 ms-2 fs-11 fas fa-caret-down"></span><span class="fs-10">13</span></h6>
-                            </div>
-                            <h6 class="mb-0 text-700 text-nowrap">Last Day 25</h6>
-                          </div>
-                          <div class="ms-4">
-                            <div class="progress rounded-pill mb-1" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-primary" style="width: 70%"></div>
-                            </div>
-                            <div class="progress rounded-pill" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-info" style="width: 90%"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="align-middle py-4 fs-9" style="width: 28px;">
-                        <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="agent-survey-result-7" data-bulk-select-row="data-bulk-select-row" /></div>
-                      </td>
-                      <td class="align-middle name white-space-nowrap pe-4 w-lg-25">
-                        <div class="d-flex align-items-center gap-2 position-relative">
-                          <div class="avatar avatar-xl">
-                            <div class="avatar-name rounded-circle text-warning bg-warning-subtle fs-9"><span>C</span></div>
-                          </div>
-                          <h6 class="mb-0"><a class="stretched-link text-800" href="#!">Christopher</a></h6>
-                        </div>
-                      </td>
-                      <td class="align-middle satisfied white-space-nowrap pe-5 pe-xxl-8">
-                        <div class="d-flex align-items-center">
-                          <div>
-                            <div class="d-flex align-items-baseline gap-1 mb-1">
-                              <h5 class="mb-0">14</h5>
-                              <h6 class="mb-0 fw-semi-bold text-danger"><span class="fs-11 me-1 ms-2 fas fa-caret-down"></span><span class="fs-10">16</span></h6>
-                            </div>
-                            <h6 class="mb-0 text-700">Last Day 30</h6>
-                          </div>
-                          <div class="ms-4">
-                            <div class="progress rounded-pill mb-1" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-primary" style="width: 50%"></div>
-                            </div>
-                            <div class="progress rounded-pill" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-info" style="width: 80%"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </td>
-                      <td class="align-middle dissatisfied">
-                        <div class="d-flex align-items-center">
-                          <div>
-                            <div class="d-flex align-items-baseline gap-1 mb-1">
-                              <h5 class="mb-0">25</h5>
-                              <h6 class="mb-0 fs-11 fw-semi-bold text-primary"><span class="me-1 ms-2 fs-11 fas fa-caret-down"></span><span class="fs-10">13</span></h6>
-                            </div>
-                            <h6 class="mb-0 text-700 text-nowrap">Last Day 38</h6>
-                          </div>
-                          <div class="ms-4">
-                            <div class="progress rounded-pill mb-1" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-primary" style="width: 60%"></div>
-                            </div>
-                            <div class="progress rounded-pill" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-info" style="width: 70%"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="align-middle py-4 fs-9" style="width: 28px;">
-                        <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="agent-survey-result-8" data-bulk-select-row="data-bulk-select-row" /></div>
-                      </td>
-                      <td class="align-middle name white-space-nowrap pe-4 w-lg-25">
-                        <div class="d-flex align-items-center gap-2 position-relative">
-                          <div class="avatar avatar-xl">
-                            <img class="rounded-circle" src="../../assets/img/team/2-thumb.png" alt="" />
-                          </div>
-                          <h6 class="mb-0"><a class="stretched-link text-800" href="#!">Declan</a></h6>
-                        </div>
-                      </td>
-                      <td class="align-middle satisfied white-space-nowrap pe-5 pe-xxl-8">
-                        <div class="d-flex align-items-center">
-                          <div>
-                            <div class="d-flex align-items-baseline gap-1 mb-1">
-                              <h5 class="mb-0">15</h5>
-                              <h6 class="mb-0 fw-semi-bold text-danger"><span class="fs-11 me-1 ms-2 fas fa-caret-down"></span><span class="fs-10">30</span></h6>
-                            </div>
-                            <h6 class="mb-0 text-700">Last Day 45</h6>
-                          </div>
-                          <div class="ms-4">
-                            <div class="progress rounded-pill mb-1" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-primary" style="width: 60%"></div>
-                            </div>
-                            <div class="progress rounded-pill" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-info" style="width: 85%"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </td>
-                      <td class="align-middle dissatisfied">
-                        <div class="d-flex align-items-center">
-                          <div>
-                            <div class="d-flex align-items-baseline gap-1 mb-1">
-                              <h5 class="mb-0">32</h5>
-                              <h6 class="mb-0 fs-11 fw-semi-bold text-primary"><span class="me-1 ms-2 fs-11 fas fa-caret-down"></span><span class="fs-10">7</span></h6>
-                            </div>
-                            <h6 class="mb-0 text-700 text-nowrap">Last Day 39</h6>
-                          </div>
-                          <div class="ms-4">
-                            <div class="progress rounded-pill mb-1" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-primary" style="width: 30%"></div>
-                            </div>
-                            <div class="progress rounded-pill" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-info" style="width: 70%"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="align-middle py-4 fs-9" style="width: 28px;">
-                        <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="agent-survey-result-9" data-bulk-select-row="data-bulk-select-row" /></div>
-                      </td>
-                      <td class="align-middle name white-space-nowrap pe-4 w-lg-25">
-                        <div class="d-flex align-items-center gap-2 position-relative">
-                          <div class="avatar avatar-xl">
-                            <div class="avatar-name rounded-circle text-success bg-success-subtle fs-9"><span>A</span></div>
-                          </div>
-                          <h6 class="mb-0"><a class="stretched-link text-800" href="#!">Amelia</a></h6>
-                        </div>
-                      </td>
-                      <td class="align-middle satisfied white-space-nowrap pe-5 pe-xxl-8">
-                        <div class="d-flex align-items-center">
-                          <div>
-                            <div class="d-flex align-items-baseline gap-1 mb-1">
-                              <h5 class="mb-0">36</h5>
-                              <h6 class="mb-0 fw-semi-bold text-danger"><span class="fs-11 me-1 ms-2 fas fa-caret-down"></span><span class="fs-10">17</span></h6>
-                            </div>
-                            <h6 class="mb-0 text-700">Last Day 19</h6>
-                          </div>
-                          <div class="ms-4">
-                            <div class="progress rounded-pill mb-1" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-primary" style="width: 80%"></div>
-                            </div>
-                            <div class="progress rounded-pill" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-info" style="width: 60%"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </td>
-                      <td class="align-middle dissatisfied">
-                        <div class="d-flex align-items-center">
-                          <div>
-                            <div class="d-flex align-items-baseline gap-1 mb-1">
-                              <h5 class="mb-0">52</h5>
-                              <h6 class="mb-0 fs-11 fw-semi-bold text-primary"><span class="me-1 ms-2 fs-11 fas fa-caret-down"></span><span class="fs-10">33</span></h6>
-                            </div>
-                            <h6 class="mb-0 text-700 text-nowrap">Last Day 19</h6>
-                          </div>
-                          <div class="ms-4">
-                            <div class="progress rounded-pill mb-1" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-primary" style="width: 60%"></div>
-                            </div>
-                            <div class="progress rounded-pill" style="height:5px; width:174px" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                              <div class="progress-bar rounded-pill bg-info" style="width: 50%"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-            <div class="card-footer d-flex justify-content-center"><button class="btn btn-sm btn-falcon-default me-1" type="button" title="Previous" data-list-pagination="prev"><span class="fas fa-chevron-left"></span></button>
-              <ul class="pagination mb-0"></ul><button class="btn btn-sm btn-falcon-default ms-1" type="button" title="Next" data-list-pagination="next"><span class="fas fa-chevron-right"></span></button>
-            </div>
-          </div>
-          <div class="card mt-3">
-            <div class="card-header d-flex justify-content-between align-items-center bg-body-tertiary py-2">
-              <h6 class="mb-0">Customer Satisfaction Survey</h6>
-              <div class="dropdown font-sans-serif btn-reveal-trigger"><button class="btn btn-link text-600 btn-sm dropdown-toggle dropdown-caret-none btn-reveal" type="button" id="dropdown-satisfaction-survey" data-bs-toggle="dropdown" data-boundary="viewport" aria-haspopup="true" aria-expanded="false"><span class="fas fa-ellipsis-h fs-11"></span></button>
-                <div class="dropdown-menu dropdown-menu-end border py-2" aria-labelledby="dropdown-satisfaction-survey"><a class="dropdown-item" href="#!">View</a><a class="dropdown-item" href="#!">Export</a>
-                  <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="#!">Remove</a>
-                </div>
-              </div>
-            </div>
-            <div class="card-body scrollbar">
-              <div class="echart-satisfaction-survey" data-echart-responsive="true"></div>
-            </div>
-            <div class="card-footer bg-body-tertiary py-2 text-center"><a class="btn btn-link btn-sm fw-medium" href="#!">View all<span class="fas fa-chevron-right ms-1 fs-11"></span></a></div>
-          </div>
-          <div class="card mt-3">
-            <div class="card-header d-flex justify-content-between align-items-center bg-body-tertiary py-2">
-              <h6 class="mb-0">Analysis of the Top Customers</h6>
-              <div class="dropdown font-sans-serif btn-reveal-trigger"><button class="btn btn-link text-600 btn-sm dropdown-toggle dropdown-caret-none btn-reveal" type="button" id="dropdown-top-customers" data-bs-toggle="dropdown" data-boundary="viewport" aria-haspopup="true" aria-expanded="false"><span class="fas fa-ellipsis-h fs-11"></span></button>
-                <div class="dropdown-menu dropdown-menu-end border py-2" aria-labelledby="dropdown-top-customers"><a class="dropdown-item" href="#!">View</a><a class="dropdown-item" href="#!">Export</a>
-                  <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="#!">Remove</a>
-                </div>
-              </div>
-            </div>
-            <div class="card-body ps-0 py-0 d-flex">
-              <ul class="nav nav-tabs tab-active-caret top-customers-tab border-0 border-end d-inline-block text-center" id="top-customers-chart-tab" role="tablist" data-tab-has-echarts="data-tab-has-echarts">
-                <li class="nav-item border-bottom" role="presentation"><a class="nav-link p-x1 mb-0 active" id="monday-tab" data-bs-toggle="tab" href="#monday" role="tab" aria-controls="monday" aria-selected="true">MON</a></li>
-                <li class="nav-item border-bottom" role="presentation"><a class="nav-link p-x1 mb-0" id="tuesday-tab" data-bs-toggle="tab" href="#tuesday" role="tab" aria-controls="tuesday" aria-selected="false">TUE</a></li>
-                <li class="nav-item border-bottom" role="presentation"><a class="nav-link p-x1 mb-0" id="wednesday-tab" data-bs-toggle="tab" href="#wednesday" role="tab" aria-controls="wednesday" aria-selected="false">WED</a></li>
-                <li class="nav-item border-bottom" role="presentation"><a class="nav-link p-x1 mb-0" id="thursday-tab" data-bs-toggle="tab" href="#thursday" role="tab" aria-controls="thursday" aria-selected="false">THU</a></li>
-                <li class="nav-item border-bottom" role="presentation"><a class="nav-link p-x1 mb-0" id="friday-tab" data-bs-toggle="tab" href="#friday" role="tab" aria-controls="friday" aria-selected="false">FRI</a></li>
-                <li class="nav-item border-bottom" role="presentation"><a class="nav-link p-x1 mb-0" id="saturday-tab" data-bs-toggle="tab" href="#saturday" role="tab" aria-controls="saturday" aria-selected="false">SAT</a></li>
-                <li class="nav-item" role="presentation"><a class="nav-link p-x1 mb-0" id="sunday-tab" data-bs-toggle="tab" href="#sunday" role="tab" aria-controls="sunday" aria-selected="false">SUN</a></li>
-              </ul>
-              <div class="tab-content w-100 ps-x1 pt-x1">
-                <div class="tab-pane active" id="monday" role="tabpanel" aria-labelledby="monday-tab"><!-- Find the JS file for the following chart at: src/js/charts/echarts/top-customers.js--><!-- If you are not using gulp based workflow, you can find the transpiled code at: public/assets/js/theme.js-->
-                  <div class="d-flex align-items-center gap-2 mb-3">
-                    <h4 class="text-primary">65.09%</h4>
-                    <h6 class="fs-11 py-1 px-2 fw-semi-bold badge badge-subtle-primary rounded-pill"><span class="fas fa-caret-up me-1"></span><span>13.6%</span></h6>
-                  </div>
-                  <div class="echart-top-customers" data-echart-responsive="true"></div>
-                </div>
-                <div class="tab-pane" id="tuesday" role="tabpanel" aria-labelledby="tuesday-tab">
-                  <div class="d-flex align-items-center gap-2 mb-3">
-                    <h4 class="text-primary">78.35%</h4>
-                    <h6 class="fs-11 py-1 px-2 fw-semi-bold badge badge-subtle-primary rounded-pill"><span class="fas fa-caret-up me-1"></span><span>8.3%</span></h6>
-                  </div>
-                  <div class="echart-top-customers" data-echart-responsive="true"></div>
-                </div>
-                <div class="tab-pane" id="wednesday" role="tabpanel" aria-labelledby="wednesday-tab">
-                  <div class="d-flex align-items-center gap-2 mb-3">
-                    <h4 class="text-primary">45.45%</h4>
-                    <h6 class="fs-11 py-1 px-2 fw-semi-bold badge badge-subtle-primary rounded-pill"><span class="fas fa-caret-up me-1"></span><span>5.12%</span></h6>
-                  </div>
-                  <div class="echart-top-customers" data-echart-responsive="true"></div>
-                </div>
-                <div class="tab-pane" id="thursday" role="tabpanel" aria-labelledby="thursday-tab">
-                  <div class="d-flex align-items-center gap-2 mb-3">
-                    <h4 class="text-primary">12.19%</h4>
-                    <h6 class="fs-11 py-1 px-2 fw-semi-bold badge badge-subtle-primary rounded-pill"><span class="fas fa-caret-up me-1"></span><span>2.03%</span></h6>
-                  </div>
-                  <div class="echart-top-customers" data-echart-responsive="true"></div>
-                </div>
-                <div class="tab-pane" id="friday" role="tabpanel" aria-labelledby="friday-tab">
-                  <div class="d-flex align-items-center gap-2 mb-3">
-                    <h4 class="text-primary">80.09%</h4>
-                    <h6 class="fs-11 py-1 px-2 fw-semi-bold badge badge-subtle-primary rounded-pill"><span class="fas fa-caret-up me-1"></span><span>11.6%</span></h6>
-                  </div>
-                  <div class="echart-top-customers" data-echart-responsive="true"></div>
-                </div>
-                <div class="tab-pane" id="saturday" role="tabpanel" aria-labelledby="saturday-tab">
-                  <div class="d-flex align-items-center gap-2 mb-3">
-                    <h4 class="text-primary">55.05%</h4>
-                    <h6 class="fs-11 py-1 px-2 fw-semi-bold badge badge-subtle-primary rounded-pill"><span class="fas fa-caret-up me-1"></span><span>5.55%</span></h6>
-                  </div>
-                  <div class="echart-top-customers" data-echart-responsive="true"></div>
-                </div>
-                <div class="tab-pane" id="sunday" role="tabpanel" aria-labelledby="sunday-tab">
-                  <div class="d-flex align-items-center gap-2 mb-3">
-                    <h4 class="text-primary">65.09%</h4>
-                    <h6 class="fs-11 py-1 px-2 fw-semi-bold badge badge-subtle-primary rounded-pill"><span class="fas fa-caret-up me-1"></span><span>13.6%</span></h6>
-                  </div>
-                  <div class="echart-top-customers" data-echart-responsive="true"></div>
-                </div>
-              </div>
-            </div>
-            <div class="card-footer bg-body-tertiary py-2">
-              <div class="row flex-between-center">
-                <div class="col-auto pe-0"><select class="form-select form-select-sm">
-                    <option>Last 7 days</option>
-                    <option>Last Month</option>
-                    <option>Last Year</option>
-                  </select></div>
-                <div class="col-auto"><a class="btn btn-link btn-sm px-0 fw-medium" href="#!">View all reports<span class="fas fa-chevron-right ms-1 fs-11"></span></a></div>
-              </div>
-            </div>
-          </div>
-          <div class="card mt-3">
-            <div class="card-header border-bottom border-300">
-              <div class="row flex-between-center gy-2">
-                <div class="col-auto">
-                  <h6 class="mb-0 me-x1">Load Analysis by Received Tickets</h6>
-                </div>
-                <div class="col-auto"><select class="form-select form-select-sm w-auto">
-                    <option>Daily</option>
-                    <option>Weekly</option>
-                    <option selected="selected">Monthly</option>
-                    <option>Yearly</option>
-                  </select></div>
-              </div>
-            </div>
-            <div class="card-body scrollbar">
-              <div class="echart-received-tickets" data-echart-responsive="true"></div>
-            </div>
-            <div class="card-footer bg-body-tertiary py-2 text-center"><a class="btn btn-link btn-sm px-0 fw-medium" href="#!">View all report<span class="fas fa-chevron-right ms-1 fs-11"></span></a></div>
-          </div>
-          <div class="card mt-3">
-            <div class="card-header border-bottom border-300">
-              <div class="row flex-between-center gy-2">
-                <div class="col-auto">
-                  <h6 class="mb-0 text-truncate me-x1">Trends in Ticket Volume</h6>
-                </div>
-                <div class="col-auto"><select class="form-select form-select-sm w-auto">
-                    <option>Daily</option>
-                    <option>Weekly</option>
-                    <option selected="selected">Monthly</option>
-                    <option>Yearly</option>
-                  </select></div>
-              </div>
-            </div>
-            <div class="card-body">
-              <div class="row flex-between-center mx-0 gy-4">
-                <div class="col-lg-auto px-0 me-5">
-                  <div class="row g-md-0">
-                    <div class="col-auto d-md-flex">
-                      <div class="d-flex align-items-center me-md-3 form-check mb-0"><input class="form-check-input dot mt-0 shadow-none remove-checked-icon rounded-circle cursor-pointer" type="checkbox" data-ticket-volume="On Hold Tickets" value="" id="onHoldTickets" checked="checked" /><label class="form-check-label mb-0 cursor-pointer text-700 font-base fw-normal" for="onHoldTickets">On Hold Tickets</label></div>
-                      <div class="d-flex align-items-center me-md-3 form-check mb-0"><input class="form-check-input dot mt-0 shadow-none remove-checked-icon rounded-circle open-tickets cursor-pointer" type="checkbox" data-ticket-volume="Open Tickets" value="" id="openTickets" checked="checked" /><label class="form-check-label mb-0 cursor-pointer text-700 font-base fw-normal" for="openTickets">Open Tickets</label></div>
-                    </div>
-                    <div class="col-auto d-md-flex">
-                      <div class="d-flex align-items-center me-md-3 form-check mb-0"><input class="form-check-input dot mt-0 shadow-none remove-checked-icon rounded-circle due-tickets-volume cursor-pointer" type="checkbox" data-ticket-volume="Due Tickets" value="" id="dueTickets" checked="checked" /><label class="form-check-label mb-0 cursor-pointer text-700 font-base fw-normal" for="dueTickets">Due Tickets</label></div>
-                      <div class="d-flex align-items-center form-check mb-0"><input class="form-check-input dot mt-0 shadow-none remove-checked-icon rounded-circle unassigned-tickets-volume cursor-pointer" type="checkbox" data-ticket-volume="Unassigned Tickets" value="" id="unassignedTickets" checked="checked" /><label class="form-check-label mb-0 cursor-pointer text-700 font-base fw-normal" for="unassignedTickets">Unassigned Tickets</label></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-auto scrollbar overflow-y-hidden px-0">
-                  <div class="d-flex white-space-nowrap justify-content-xl-end w-100">
-                    <div class="d-flex align-items-center">
-                      <div>
-                        <h6 class="fs-9 d-flex align-items-center text-700 mb-1">125<small class="badge text-success bg-transparent px-0"><span class="fas fa-caret-up ms-2 me-1 fs-11"></span><span>5.3%</span></small></h6>
-                        <h6 class="text-600 mb-0 fs-11">Total On Hold Tickets</h6>
-                      </div>
-                      <div class="bg-200 mx-3" style="height: 24px; width: 1px"></div>
-                    </div>
-                    <div class="d-flex align-items-center">
-                      <div>
-                        <h6 class="fs-9 d-flex align-items-center text-700 mb-1">100<small class="badge px-0 text-primary"><span class="fas fa-caret-up ms-2 me-1 fs-11"></span><span>3.20%</span></small></h6>
-                        <h6 class="fs-11 text-600 mb-0">Total Open Tickets</h6>
-                      </div>
-                      <div class="bg-200 mx-3" style="height: 24px; width: 1px"></div>
-                    </div>
-                    <div class="d-flex align-items-center">
-                      <div>
-                        <h6 class="fs-9 d-flex align-items-center text-700 mb-1">53<small class="badge px-0 text-warning"><span class="fas fa-caret-down ms-2 me-1 fs-11"></span><span>2.3%</span></small></h6>
-                        <h6 class="fs-11 text-600 mb-0">Total Due Tickets</h6>
-                      </div>
-                      <div class="bg-200 mx-3" style="height: 24px; width: 1px"></div>
-                    </div>
-                    <div>
-                      <h6 class="fs-9 d-flex align-items-center text-700 mb-1">136<small class="badge px-0 text-danger"><span class="fas fa-caret-up ms-2 me-1 fs-11"></span><span>3.12%</span></small></h6>
-                      <h6 class="fs-11 text-600 mb-0">Total Unassigned Tickets</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="echart-ticket-volume" data-echart-responsive="true"></div>
-            </div>
-            <div class="card-footer bg-body-tertiary py-2 text-center"><a class="btn btn-link btn-sm px-0 fw-medium" href="#!">View all report<span class="fas fa-chevron-right ms-1 fs-11"></span></a></div>
           </div>
           <footer class="footer">
             <div class="row g-0 justify-content-between fs-10 mt-4 mb-3">
@@ -3990,9 +3266,6 @@
     <script src="../../vendors/bootstrap/bootstrap.min.js"></script>
     <script src="../../vendors/anchorjs/anchor.min.js"></script>
     <script src="../../vendors/is/is.min.js"></script>
-    <script src="../../vendors/echarts/echarts.min.js"></script>
-    <script src="../../vendors/dayjs/dayjs.min.js"></script>
-    <script src="../../vendors/flatpickr/flatpickr.min.js"></script>
     <script src="../../vendors/fontawesome/all.min.js"></script>
     <script src="../../vendors/lodash/lodash.min.js"></script>
     <script src="../../vendors/list.js/list.min.js"></script>
@@ -4000,6 +3273,7 @@
   </body>
 
 
-<!-- Mirrored from prium.github.io/falcon/v3.26.0/app/support-desk/reports.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 14 Apr 2026 15:07:16 GMT -->
+<!-- Mirrored from prium.github.io/falcon/v3.26.0/app/support-desk/customer-details.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 14 Apr 2026 15:05:29 GMT -->
 </html>
+
 

@@ -144,7 +144,7 @@ require '../../includes/header.php';
                           </div>
                           <div class="col-lg-6">
                             <div class="timeline-item-content arrow-bg-white">
-                              <div class="timeline-item-card bg-white dark__bg-1100"><a href="tickets-preview.html">
+                              <div class="timeline-item-card bg-white dark__bg-1100"><a href="tickets-preview.php">
                                   <h5 class="mb-2 hover-primary">Got a new television #377</h5>
                                 </a>
                                 <p class="fs-10 border-bottom mb-3 pb-4 text-600">Thank you for replacing my broken television with a new one.</p>
@@ -171,7 +171,7 @@ require '../../includes/header.php';
                           </div>
                           <div class="col-lg-6">
                             <div class="timeline-item-content arrow-bg-white">
-                              <div class="timeline-item-card bg-white dark__bg-1100"><a href="tickets-preview.html">
+                              <div class="timeline-item-card bg-white dark__bg-1100"><a href="tickets-preview.php">
                                   <h5 class="mb-2 hover-primary">Subscription Issue #362</h5>
                                 </a>
                                 <p class="fs-10 border-bottom mb-3 pb-4 text-600">On November 2, 2022, your membership at Falcon is going to expire. We really hope that you have benefited from your membership.</p>
@@ -198,7 +198,7 @@ require '../../includes/header.php';
                           </div>
                           <div class="col-lg-6">
                             <div class="timeline-item-content arrow-bg-white">
-                              <div class="timeline-item-card bg-white dark__bg-1100"><a href="tickets-preview.html">
+                              <div class="timeline-item-card bg-white dark__bg-1100"><a href="tickets-preview.php">
                                   <h5 class="mb-2 hover-primary">Received a broken TV #345</h5>
                                 </a>
                                 <p class="fs-10 border-bottom mb-3 pb-4 text-600">My television from your website was delivered with a cracked screen. I need assistance getting a refund or a replacement.</p>
@@ -225,7 +225,7 @@ require '../../includes/header.php';
                           </div>
                           <div class="col-lg-6">
                             <div class="timeline-item-content arrow-bg-white">
-                              <div class="timeline-item-card bg-white dark__bg-1100"><a href="tickets-preview.html">
+                              <div class="timeline-item-card bg-white dark__bg-1100"><a href="tickets-preview.php">
                                   <h5 class="mb-2 hover-primary">Payment failed #324</h5>
                                 </a>
                                 <p class="fs-10 border-bottom mb-3 pb-4 text-600">Your payment failed while I tried to make a payment on your website, I was told. My card was, however, billed.</p>
@@ -252,7 +252,7 @@ require '../../includes/header.php';
                           </div>
                           <div class="col-lg-6">
                             <div class="timeline-item-content arrow-bg-white">
-                              <div class="timeline-item-card bg-white dark__bg-1100"><a href="tickets-preview.html">
+                              <div class="timeline-item-card bg-white dark__bg-1100"><a href="tickets-preview.php">
                                   <h5 class="mb-2 hover-primary">Password change #234</h5>
                                 </a>
                                 <p class="fs-10 border-bottom mb-3 pb-4 text-600">I must modify my password. If I make a modification, will I lose access to my account? I have a lot of items in my cart and don't want to go looking for them again.</p>
@@ -279,7 +279,7 @@ require '../../includes/header.php';
                           </div>
                           <div class="col-lg-6">
                             <div class="timeline-item-content arrow-bg-white">
-                              <div class="timeline-item-card bg-white dark__bg-1100"><a href="tickets-preview.html">
+                              <div class="timeline-item-card bg-white dark__bg-1100"><a href="tickets-preview.php">
                                   <h5 class="mb-2 hover-primary">Email Address change #202</h5>
                                 </a>
                                 <p class="fs-10 border-bottom mb-3 pb-4 text-600">My email address needs to be updated. I'm curious if changing it will result in me losing access to my account. I've put a lot of items in my shopping basket and don't want to search for them again.</p>
@@ -301,7 +301,7 @@ require '../../includes/header.php';
                     <div class="bg-body-tertiary d-flex flex-column gap-3 p-x1">
                       <div class="bg-white dark__bg-1100 p-x1 rounded-3 shadow-sm d-md-flex d-xl-inline-block d-xxl-flex align-items-center">
                         <div>
-                          <p class="fw-semi-bold"><a href="tickets-preview.html">Got a new television | Order #377</a></p>
+                          <p class="fw-semi-bold"><a href="tickets-preview.php">Got a new television | Order #377</a></p>
                           <div class="d-flex align-items-center">
                             <h6 class="mb-0 me-3 text-800">25 September, 2022</h6><small class="badge rounded badge-subtle-success false">Recent</small>
                           </div>
@@ -325,7 +325,7 @@ require '../../includes/header.php';
                       </div>
                       <div class="bg-white dark__bg-1100 p-x1 rounded-3 shadow-sm d-md-flex d-xl-inline-block d-xxl-flex align-items-center">
                         <div>
-                          <p class="fw-semi-bold"><a href="tickets-preview.html">Subscription Issue | Order #362</a></p>
+                          <p class="fw-semi-bold"><a href="tickets-preview.php">Subscription Issue | Order #362</a></p>
                           <div class="d-flex align-items-center">
                             <h6 class="mb-0 me-3 text-800">23 September, 2022</h6><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small>
                           </div>
@@ -349,7 +349,7 @@ require '../../includes/header.php';
                       </div>
                       <div class="bg-white dark__bg-1100 p-x1 rounded-3 shadow-sm d-md-flex d-xl-inline-block d-xxl-flex align-items-center">
                         <div>
-                          <p class="fw-semi-bold"><a href="tickets-preview.html">Received a broken TV | Order #345</a></p>
+                          <p class="fw-semi-bold"><a href="tickets-preview.php">Received a broken TV | Order #345</a></p>
                           <div class="d-flex align-items-center">
                             <h6 class="mb-0 me-3 text-800">20 September, 2022</h6><small class="badge rounded badge-subtle-success false">Recent</small>
                           </div>
@@ -373,7 +373,7 @@ require '../../includes/header.php';
                       </div>
                       <div class="bg-white dark__bg-1100 p-x1 rounded-3 shadow-sm d-md-flex d-xl-inline-block d-xxl-flex align-items-center">
                         <div>
-                          <p class="fw-semi-bold"><a href="tickets-preview.html">Payment failed | Order #324</a></p>
+                          <p class="fw-semi-bold"><a href="tickets-preview.php">Payment failed | Order #324</a></p>
                           <div class="d-flex align-items-center">
                             <h6 class="mb-0 me-3 text-800">03 September, 2022</h6><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small>
                           </div>
@@ -397,7 +397,7 @@ require '../../includes/header.php';
                       </div>
                       <div class="bg-white dark__bg-1100 p-x1 rounded-3 shadow-sm d-md-flex d-xl-inline-block d-xxl-flex align-items-center">
                         <div>
-                          <p class="fw-semi-bold"><a href="tickets-preview.html">Password change | Order #234</a></p>
+                          <p class="fw-semi-bold"><a href="tickets-preview.php">Password change | Order #234</a></p>
                           <div class="d-flex align-items-center">
                             <h6 class="mb-0 me-3 text-800">24 August, 2022</h6><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small>
                           </div>
@@ -421,7 +421,7 @@ require '../../includes/header.php';
                       </div>
                       <div class="bg-white dark__bg-1100 p-x1 rounded-3 shadow-sm d-md-flex d-xl-inline-block d-xxl-flex align-items-center">
                         <div>
-                          <p class="fw-semi-bold"><a href="tickets-preview.html">Email Address change | Order #202</a></p>
+                          <p class="fw-semi-bold"><a href="tickets-preview.php">Email Address change | Order #202</a></p>
                           <div class="d-flex align-items-center">
                             <h6 class="mb-0 me-3 text-800">20 August, 2022</h6><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small>
                           </div>

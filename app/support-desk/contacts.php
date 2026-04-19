@@ -2,7 +2,7 @@
 <html data-bs-theme="light" lang="en-US" dir="ltr">
 
   
-<!-- Mirrored from prium.github.io/falcon/v3.26.0/app/support-desk/card-view.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 14 Apr 2026 15:05:28 GMT -->
+<!-- Mirrored from prium.github.io/falcon/v3.26.0/app/support-desk/customers.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 14 Apr 2026 15:05:28 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
     <meta charset="utf-8">
@@ -390,7 +390,7 @@
                           <div class="col-6 col-md-4">
                             <div class="nav flex-column"><a class="nav-link py-1 link-600 fw-medium" href="../calendar.html">Calendar</a><a class="nav-link py-1 link-600 fw-medium" href="../chat.html">Chat</a><a class="nav-link py-1 link-600 fw-medium" href="../kanban.html">Kanban</a>
                               <p class="nav-link text-700 mb-0 fw-bold">Social</p><a class="nav-link py-1 link-600 fw-medium" href="../social/feed.html">Feed</a><a class="nav-link py-1 link-600 fw-medium" href="../social/activity-log.html">Activity log</a><a class="nav-link py-1 link-600 fw-medium" href="../social/notifications.html">Notifications</a><a class="nav-link py-1 link-600 fw-medium" href="../social/followers.html">Followers</a>
-                              <p class="nav-link text-700 mb-0 fw-bold">Support Desk</p><a class="nav-link py-1 link-600 fw-medium" href="table-view.html">Table view</a><a class="nav-link py-1 link-600 fw-medium" href="card-view.html">Card view</a><a class="nav-link py-1 link-600 fw-medium" href="customers.php">Customers</a><a class="nav-link py-1 link-600 fw-medium" href="customer-details.php">Customer details</a><a class="nav-link py-1 link-600 fw-medium" href="tickets-preview.html">Tickets preview</a><a class="nav-link py-1 link-600 fw-medium" href="quick-links.html">Quick links</a>
+                              <p class="nav-link text-700 mb-0 fw-bold">Support Desk</p><a class="nav-link py-1 link-600 fw-medium" href="table-view.php">Table view</a><a class="nav-link py-1 link-600 fw-medium" href="card-view.php">Card view</a><a class="nav-link py-1 link-600 fw-medium" href="customers.php">Customers</a><a class="nav-link py-1 link-600 fw-medium" href="customer-details.php">Customer details</a><a class="nav-link py-1 link-600 fw-medium" href="tickets-preview.php">Tickets preview</a><a class="nav-link py-1 link-600 fw-medium" href="quick-links.php">Quick links</a>
                             </div>
                           </div>
                           <div class="col-6 col-md-4">
@@ -718,25 +718,25 @@
                     <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-ticket-alt"></span></span><span class="nav-link-text ps-1">Support desk</span></div>
                   </a>
                   <ul class="nav collapse show" id="support-desk">
-                    <li class="nav-item"><a class="nav-link" href="table-view.html">
+                    <li class="nav-item"><a class="nav-link" href="table-view.php">
                         <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Table view</span></div>
                       </a><!-- more inner pages--></li>
-                    <li class="nav-item"><a class="nav-link active" href="card-view.html">
+                    <li class="nav-item"><a class="nav-link" href="card-view.php">
                         <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Card view</span></div>
                       </a><!-- more inner pages--></li>
-                    <li class="nav-item"><a class="nav-link" href="customers.php">
+                    <li class="nav-item"><a class="nav-link active" href="customers.php">
                         <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Customers</span></div>
                       </a><!-- more inner pages--></li>
                     <li class="nav-item"><a class="nav-link" href="customer-details.php">
                         <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Customer details</span></div>
                       </a><!-- more inner pages--></li>
-                    <li class="nav-item"><a class="nav-link" href="tickets-preview.html">
+                    <li class="nav-item"><a class="nav-link" href="tickets-preview.php">
                         <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Tickets preview</span></div>
                       </a><!-- more inner pages--></li>
-                    <li class="nav-item"><a class="nav-link" href="quick-links.html">
+                    <li class="nav-item"><a class="nav-link" href="quick-links.php">
                         <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Quick links</span></div>
                       </a><!-- more inner pages--></li>
-                    <li class="nav-item"><a class="nav-link" href="reports.html">
+                    <li class="nav-item"><a class="nav-link" href="reports.php">
                         <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Reports</span></div>
                       </a><!-- more inner pages--></li>
                   </ul>
@@ -1459,7 +1459,7 @@
                         <div class="col-6 col-md-4">
                           <div class="nav flex-column"><a class="nav-link py-1 link-600 fw-medium" href="../calendar.html">Calendar</a><a class="nav-link py-1 link-600 fw-medium" href="../chat.html">Chat</a><a class="nav-link py-1 link-600 fw-medium" href="../kanban.html">Kanban</a>
                             <p class="nav-link text-700 mb-0 fw-bold">Social</p><a class="nav-link py-1 link-600 fw-medium" href="../social/feed.html">Feed</a><a class="nav-link py-1 link-600 fw-medium" href="../social/activity-log.html">Activity log</a><a class="nav-link py-1 link-600 fw-medium" href="../social/notifications.html">Notifications</a><a class="nav-link py-1 link-600 fw-medium" href="../social/followers.html">Followers</a>
-                            <p class="nav-link text-700 mb-0 fw-bold">Support Desk</p><a class="nav-link py-1 link-600 fw-medium" href="table-view.html">Table view</a><a class="nav-link py-1 link-600 fw-medium" href="card-view.html">Card view</a><a class="nav-link py-1 link-600 fw-medium" href="customers.php">Customers</a><a class="nav-link py-1 link-600 fw-medium" href="customer-details.php">Customer details</a><a class="nav-link py-1 link-600 fw-medium" href="tickets-preview.html">Tickets preview</a><a class="nav-link py-1 link-600 fw-medium" href="quick-links.html">Quick links</a>
+                            <p class="nav-link text-700 mb-0 fw-bold">Support Desk</p><a class="nav-link py-1 link-600 fw-medium" href="table-view.php">Table view</a><a class="nav-link py-1 link-600 fw-medium" href="card-view.php">Card view</a><a class="nav-link py-1 link-600 fw-medium" href="customers.php">Customers</a><a class="nav-link py-1 link-600 fw-medium" href="customer-details.php">Customer details</a><a class="nav-link py-1 link-600 fw-medium" href="tickets-preview.php">Tickets preview</a><a class="nav-link py-1 link-600 fw-medium" href="quick-links.php">Quick links</a>
                           </div>
                         </div>
                         <div class="col-6 col-md-4">
@@ -2142,7 +2142,7 @@
                           <div class="col-6 col-md-4">
                             <div class="nav flex-column"><a class="nav-link py-1 link-600 fw-medium" href="../calendar.html">Calendar</a><a class="nav-link py-1 link-600 fw-medium" href="../chat.html">Chat</a><a class="nav-link py-1 link-600 fw-medium" href="../kanban.html">Kanban</a>
                               <p class="nav-link text-700 mb-0 fw-bold">Social</p><a class="nav-link py-1 link-600 fw-medium" href="../social/feed.html">Feed</a><a class="nav-link py-1 link-600 fw-medium" href="../social/activity-log.html">Activity log</a><a class="nav-link py-1 link-600 fw-medium" href="../social/notifications.html">Notifications</a><a class="nav-link py-1 link-600 fw-medium" href="../social/followers.html">Followers</a>
-                              <p class="nav-link text-700 mb-0 fw-bold">Support Desk</p><a class="nav-link py-1 link-600 fw-medium" href="table-view.html">Table view</a><a class="nav-link py-1 link-600 fw-medium" href="card-view.html">Card view</a><a class="nav-link py-1 link-600 fw-medium" href="customers.php">Customers</a><a class="nav-link py-1 link-600 fw-medium" href="customer-details.php">Customer details</a><a class="nav-link py-1 link-600 fw-medium" href="tickets-preview.html">Tickets preview</a><a class="nav-link py-1 link-600 fw-medium" href="quick-links.html">Quick links</a>
+                              <p class="nav-link text-700 mb-0 fw-bold">Support Desk</p><a class="nav-link py-1 link-600 fw-medium" href="table-view.php">Table view</a><a class="nav-link py-1 link-600 fw-medium" href="card-view.php">Card view</a><a class="nav-link py-1 link-600 fw-medium" href="customers.php">Customers</a><a class="nav-link py-1 link-600 fw-medium" href="customer-details.php">Customer details</a><a class="nav-link py-1 link-600 fw-medium" href="tickets-preview.php">Tickets preview</a><a class="nav-link py-1 link-600 fw-medium" href="quick-links.php">Quick links</a>
                             </div>
                           </div>
                           <div class="col-6 col-md-4">
@@ -2532,12 +2532,12 @@
           </script>
           <div class="row gx-3">
             <div class="col-xxl-10 col-xl-9">
-              <div class="card" id="ticketsTable" data-list='{"valueNames":["client","subject","status","priority","agent"],"page":7,"pagination":true,"fallback":"tickets-card-fallback"}'>
+              <div class="card" id="allContactTable" data-list='{"valueNames":["name","phone-number","report","subscription","social"],"page":11,"pagination":true,"fallback":"contact-table-fallback"}'>
                 <div class="card-header border-bottom border-200 px-0">
                   <div class="d-lg-flex justify-content-between">
                     <div class="row flex-between-center gy-2 px-x1">
                       <div class="col-auto pe-0">
-                        <h6 class="mb-0">All tickets</h6>
+                        <h6 class="mb-0">Contacts</h6>
                       </div>
                       <div class="col-auto">
                         <form>
@@ -2546,9 +2546,9 @@
                       </div>
                     </div>
                     <div class="border-bottom border-200 my-3"></div>
-                    <div class="d-flex align-items-center justify-content-between justify-content-lg-end px-x1"><button class="btn btn-sm btn-falcon-default d-xl-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#ticketOffcanvas" aria-controls="ticketOffcanvas"><span class="fas fa-filter" data-fa-transform="shrink-4 down-1"></span><span class="ms-1 d-none d-sm-inline-block">Filter</span></button>
+                    <div class="d-flex align-items-center justify-content-between justify-content-lg-end px-x1"><button class="btn btn-sm btn-falcon-default d-xl-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#allContactOffcanvas" aria-controls="allContactOffcanvas"><span class="fas fa-filter" data-fa-transform="shrink-4"></span><span class="ms-1 d-none d-sm-inline-block">Filter</span></button>
                       <div class="bg-300 mx-3 d-none d-lg-block d-xl-none" style="width:1px; height:29px"></div>
-                      <div class="d-none" id="table-ticket-actions">
+                      <div class="d-none" id="table-contact-actions">
                         <div class="d-flex"><select class="form-select form-select-sm" aria-label="Bulk actions">
                             <option selected="">Bulk actions</option>
                             <option value="Refund">Refund</option>
@@ -2556,11 +2556,9 @@
                             <option value="Archive">Archive</option>
                           </select><button class="btn btn-falcon-default btn-sm ms-2" type="button">Apply</button></div>
                       </div>
-                      <div class="d-flex align-items-center" id="table-ticket-replace-element">
-                        <div class="dropdown"><button class="btn btn-sm btn-falcon-default dropdown-toggle dropdown-caret-none" type="button" id="ticket-layout" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="d-none d-sm-inline-block d-xl-none d-xxl-inline-block me-1">Card View</span><span class="fas fa-chevron-down" data-fa-transform="shrink-3 down-1"></span></button>
-                          <div class="dropdown-menu dropdown-toggle-item dropdown-menu-end border py-2" aria-labelledby="ticket-layout"><a class="dropdown-item" href="table-view.html">Table View</a><a class="dropdown-item active" href="card-view.html">Card View</a></div>
-                        </div><button class="btn btn-falcon-default btn-sm mx-2" type="button"><span class="fas fa-plus" data-fa-transform="shrink-3"></span><span class="d-none d-sm-inline-block d-xl-none d-xxl-inline-block ms-1">New</span></button>
-                        <button class="btn btn-falcon-default btn-sm" type="button"><span class="fas fa-external-link-alt" data-fa-transform="shrink-3"></span><span class="d-none d-sm-inline-block d-xl-none d-xxl-inline-block ms-1">Export</span></button>
+                      <div class="d-flex align-items-center" id="table-contact-replace-element"><button class="btn btn-falcon-default btn-sm" type="button"><span class="fas fa-plus" data-fa-transform="shrink-3"></span><span class="d-none d-sm-inline-block d-xl-none d-xxl-inline-block ms-1">New</span></button>
+                        <button class="btn btn-falcon-default btn-sm mx-2" type="button"><span class="fas fa-external-link-alt" data-fa-transform="shrink-3"></span><span class="d-none d-sm-inline-block d-xl-none d-xxl-inline-block ms-1">Export</span></button>
+                        <button class="btn btn-falcon-default btn-sm" type="button"><span class="fas fa-file-import" data--transform="shrink-3"></span><span class="d-none d-sm-inline-block d-xl-none d-xxl-inline-block ms-1">Import</span></button>
                         <div class="dropdown font-sans-serif ms-2"><button class="btn btn-falcon-default text-600 btn-sm dropdown-toggle dropdown-caret-none" type="button" id="preview-dropdown" data-bs-toggle="dropdown" data-boundary="viewport" aria-haspopup="true" aria-expanded="false"><span class="fas fa-ellipsis-h fs-11"></span></button>
                           <div class="dropdown-menu dropdown-menu-end border py-2" aria-labelledby="preview-dropdown"><a class="dropdown-item" href="#!">View</a><a class="dropdown-item" href="#!">Export</a>
                             <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="#!">Remove</a>
@@ -2571,780 +2569,622 @@
                   </div>
                 </div>
                 <div class="card-body p-0">
-                  <div class="form-check d-none"><input class="form-check-input" id="checkbox-bulk-card-tickets-select" type="checkbox" data-bulk-select='{"body":"card-ticket-body","actions":"table-ticket-actions","replacedElement":"table-ticket-replace-element"}' /></div>
-                  <div class="list bg-body-tertiary p-x1 d-flex flex-column gap-3" id="card-ticket-body">
-                    <div class="bg-white dark__bg-1100 d-md-flex d-xl-inline-block d-xxl-flex align-items-center p-x1 rounded-3 shadow-sm card-view-height">
-                      <div class="d-flex align-items-start align-items-sm-center">
-                        <div class="form-check me-2 me-xxl-3 mb-0"><input class="form-check-input" type="checkbox" id="card-view-tickets-0" data-bulk-select-row="data-bulk-select-row" /></div><a class="d-none d-sm-block" href="customer-details.php">
-                          <div class="avatar avatar-xl avatar-3xl">
-                            <div class="avatar-name rounded-circle"><span>EW</span></div>
-                          </div>
-                        </a>
-                        <div class="ms-1 ms-sm-3">
-                          <p class="fw-semi-bold mb-3 mb-sm-2"><a href="tickets-preview.html">Synapse Design #1125</a></p>
-                          <div class="row align-items-center gx-0 gy-2">
-                            <div class="col-auto me-2">
-                              <h6 class="client mb-0"><a class="text-800 d-flex align-items-center gap-1" href="customer-details.php"><span class="fas fa-user" data-fa-transform="shrink-3 up-1"></span><span>Emma Watson</span></a></h6>
+                  <div class="table-responsive scrollbar">
+                    <table class="table table-sm fs-10 mb-0">
+                      <thead class="bg-body-tertiary">
+                        <tr>
+                          <th class="py-2 fs-9 pe-2" style="width: 28px;">
+                            <div class="form-check d-flex align-items-center"><input class="form-check-input" id="checkbox-bulk-tickets-select" type="checkbox" data-bulk-select='{"body":"table-contact-body","actions":"table-contact-actions","replacedElement":"table-contact-replace-element"}' /></div>
+                          </th>
+                          <th class="text-800 sort align-middle ps-2" data-sort="name">Name</th>
+                          <th class="text-800 sort align-middle pe-5" data-sort="phone-number">Phone Number</th>
+                          <th class="text-800 sort align-middle pe-5" data-sort="report">Name of the report</th>
+                          <th class="text-800 sort align-middle text-end" data-sort="subscription">Subscription</th>
+                          <th class="text-800 sort align-middle text-end" data-sort="social">Social</th>
+                        </tr>
+                      </thead>
+                      <tbody class="list" id="table-contact-body">
+                        <tr>
+                          <td class="align-middle fs-9 py-3">
+                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="all-contact-0" data-bulk-select-row="data-bulk-select-row" /></div>
+                          </td>
+                          <td class="align-middle name white-space-nowrap pe-5 ps-2">
+                            <div class="d-flex align-items-center gap-2 position-relative">
+                              <div class="avatar avatar-xl">
+                                <div class="avatar-name rounded-circle"><span>EW</span></div>
+                              </div>
+                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Emma Watson</a></h6>
                             </div>
-                            <div class="col-auto lh-1 me-3"><small class="badge rounded badge-subtle-success false">Recent</small></div>
-                            <div class="col-auto">
-                              <h6 class="mb-0 text-500">2d ago</h6>
+                          </td>
+                          <td class="align-middle phone-number font-sans-serif white-space-nowrap"><a class="text-700" href="tel:+611800861302">+61 1800 861 302</a></td>
+                          <td class="align-middle report"><a href="#!">Analysis of the Top Customers</a></td>
+                          <td class="align-middle subscription fs-9 text-end"><small class="badge rounded badge-subtle-success">Active</small></td>
+                          <td class="align-middle social text-end ps-4"><a href="#!">Facebook</a></td>
+                        </tr>
+                        <tr>
+                          <td class="align-middle fs-9 py-3">
+                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="all-contact-1" data-bulk-select-row="data-bulk-select-row" /></div>
+                          </td>
+                          <td class="align-middle name white-space-nowrap pe-5 ps-2">
+                            <div class="d-flex align-items-center gap-2 position-relative">
+                              <div class="avatar avatar-xl">
+                                <div class="avatar-name rounded-circle"><span>L</span></div>
+                              </div>
+                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Luke</a></h6>
                             </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="border-bottom mt-4 mb-x1"></div>
-                      <div class="d-flex justify-content-between ms-auto">
-                        <div class="d-flex align-items-center gap-2 ms-md-4 ms-xl-0" style="width:7.5rem;">
-                          <div style="--falcon-circle-progress-bar:100"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                              <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                              <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#e63757" stroke-width="12"></circle>
-                            </svg></div>
-                          <h6 class="mb-0 text-700">Urgent</h6>
-                        </div><select class="form-select form-select-sm" aria-label="agents actions" style="width:9.375rem;">
-                          <option>Select Agent</option>
-                          <option selected="selected">Anindya</option>
-                          <option>Nowrin</option>
-                          <option>Khalid</option>
-                        </select>
-                      </div>
+                          </td>
+                          <td class="align-middle phone-number font-sans-serif white-space-nowrap"><a class="text-700" href="tel:+361256523369">+36 1256 523 369</a></td>
+                          <td class="align-middle report"><a href="#!">Performance of a Group</a></td>
+                          <td class="align-middle subscription fs-9 text-end"><small class="badge rounded badge-subtle-secondary">Inactive</small></td>
+                          <td class="align-middle social text-end ps-4"><a href="#!">Twitter</a></td>
+                        </tr>
+                        <tr>
+                          <td class="align-middle fs-9 py-3">
+                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="all-contact-2" data-bulk-select-row="data-bulk-select-row" /></div>
+                          </td>
+                          <td class="align-middle name white-space-nowrap pe-5 ps-2">
+                            <div class="d-flex align-items-center gap-2 position-relative">
+                              <div class="avatar avatar-xl">
+                                <img class="rounded-circle" src="../../assets/img/team/1-thumb.png" alt="" />
+                              </div>
+                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Finley</a></h6>
+                            </div>
+                          </td>
+                          <td class="align-middle phone-number font-sans-serif white-space-nowrap"><a class="text-700" href="tel:+611800861302">+61 1800 861 302</a></td>
+                          <td class="align-middle report"><a href="#!">Performance of Agents</a></td>
+                          <td class="align-middle subscription fs-9 text-end"><small class="badge rounded badge-subtle-danger">Expired</small></td>
+                          <td class="align-middle social text-end ps-4"><a href="#!">Linkedin</a></td>
+                        </tr>
+                        <tr>
+                          <td class="align-middle fs-9 py-3">
+                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="all-contact-3" data-bulk-select-row="data-bulk-select-row" /></div>
+                          </td>
+                          <td class="align-middle name white-space-nowrap pe-5 ps-2">
+                            <div class="d-flex align-items-center gap-2 position-relative">
+                              <div class="avatar avatar-xl">
+                                <div class="avatar-name rounded-circle"><span>PG</span></div>
+                              </div>
+                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Peter Gill</a></h6>
+                            </div>
+                          </td>
+                          <td class="align-middle phone-number font-sans-serif white-space-nowrap"><a class="text-700" href="tel:+992536632566">+99 2536 632 566</a></td>
+                          <td class="align-middle report"><a href="#!">Handling Time (on Average)</a></td>
+                          <td class="align-middle subscription fs-9 text-end"><small class="badge rounded badge-subtle-success">Active</small></td>
+                          <td class="align-middle social text-end ps-4"><a href="#!">Twitter</a></td>
+                        </tr>
+                        <tr>
+                          <td class="align-middle fs-9 py-3">
+                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="all-contact-4" data-bulk-select-row="data-bulk-select-row" /></div>
+                          </td>
+                          <td class="align-middle name white-space-nowrap pe-5 ps-2">
+                            <div class="d-flex align-items-center gap-2 position-relative">
+                              <div class="avatar avatar-xl">
+                                <img class="rounded-circle" src="../../assets/img/team/25-thumb.png" alt="" />
+                              </div>
+                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Sallie Reyes</a></h6>
+                            </div>
+                          </td>
+                          <td class="align-middle phone-number font-sans-serif white-space-nowrap"><a class="text-700" href="tel:+843698856963">+84 3698 856 963</a></td>
+                          <td class="align-middle report"><a href="#!">Handling Time (on Average)</a></td>
+                          <td class="align-middle subscription text-500 font-sans-serif text-end">N/A</td>
+                          <td class="align-middle social text-end ps-4"><a href="#!">Twitter</a></td>
+                        </tr>
+                        <tr>
+                          <td class="align-middle fs-9 py-3">
+                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="all-contact-5" data-bulk-select-row="data-bulk-select-row" /></div>
+                          </td>
+                          <td class="align-middle name white-space-nowrap pe-5 ps-2">
+                            <div class="d-flex align-items-center gap-2 position-relative">
+                              <div class="avatar avatar-xl">
+                                <div class="avatar-name rounded-circle"><span>F</span></div>
+                              </div>
+                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Freya</a></h6>
+                            </div>
+                          </td>
+                          <td class="align-middle phone-number font-sans-serif white-space-nowrap"><a class="text-700" href="tel:+663256632235">+66 3256 632 235</a></td>
+                          <td class="align-middle report"><a href="#!">Survey of Customer Satisfaction</a></td>
+                          <td class="align-middle subscription text-500 font-sans-serif text-end">N/A</td>
+                          <td class="align-middle social text-end ps-4">
+                            <p class="mb-0 text-500">N/A</p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="align-middle fs-9 py-3">
+                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="all-contact-6" data-bulk-select-row="data-bulk-select-row" /></div>
+                          </td>
+                          <td class="align-middle name white-space-nowrap pe-5 ps-2">
+                            <div class="d-flex align-items-center gap-2 position-relative">
+                              <div class="avatar avatar-xl">
+                                <div class="avatar-name rounded-circle"><span>M</span></div>
+                              </div>
+                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Morrison</a></h6>
+                            </div>
+                          </td>
+                          <td class="align-middle phone-number font-sans-serif white-space-nowrap"><a class="text-700" href="tel:+122563223325">+12 2563 223 325</a></td>
+                          <td class="align-middle report"><a href="#!">Distribution of Performance</a></td>
+                          <td class="align-middle subscription fs-9 text-end"><small class="badge rounded badge-subtle-warning">Pending</small></td>
+                          <td class="align-middle social text-end ps-4"><a href="#!">Twitter</a></td>
+                        </tr>
+                        <tr>
+                          <td class="align-middle fs-9 py-3">
+                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="all-contact-7" data-bulk-select-row="data-bulk-select-row" /></div>
+                          </td>
+                          <td class="align-middle name white-space-nowrap pe-5 ps-2">
+                            <div class="d-flex align-items-center gap-2 position-relative">
+                              <div class="avatar avatar-xl">
+                                <div class="avatar-name rounded-circle"><span>AK</span></div>
+                              </div>
+                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Aar Kay</a></h6>
+                            </div>
+                          </td>
+                          <td class="align-middle phone-number font-sans-serif white-space-nowrap"><a class="text-700" href="tel:+89213658963">+89 213 658 963</a></td>
+                          <td class="align-middle report"><a href="#!">Distribution of Performance</a></td>
+                          <td class="align-middle subscription fs-9 text-end"><small class="badge rounded badge-subtle-success">Active</small></td>
+                          <td class="align-middle social text-end ps-4">
+                            <p class="mb-0 text-500">N/A</p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="align-middle fs-9 py-3">
+                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="all-contact-8" data-bulk-select-row="data-bulk-select-row" /></div>
+                          </td>
+                          <td class="align-middle name white-space-nowrap pe-5 ps-2">
+                            <div class="d-flex align-items-center gap-2 position-relative">
+                              <div class="avatar avatar-xl">
+                                <div class="avatar-name rounded-circle"><span>M</span></div>
+                              </div>
+                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Michele</a></h6>
+                            </div>
+                          </td>
+                          <td class="align-middle phone-number font-sans-serif white-space-nowrap"><a class="text-700" href="tel:+39213658963">+39 213 658 963</a></td>
+                          <td class="align-middle report"><a href="#!">Analysis of the Top Customer</a></td>
+                          <td class="align-middle subscription text-500 font-sans-serif text-end">N/A</td>
+                          <td class="align-middle social text-end ps-4"><a href="#!">Twitter</a></td>
+                        </tr>
+                        <tr>
+                          <td class="align-middle fs-9 py-3">
+                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="all-contact-9" data-bulk-select-row="data-bulk-select-row" /></div>
+                          </td>
+                          <td class="align-middle name white-space-nowrap pe-5 ps-2">
+                            <div class="d-flex align-items-center gap-2 position-relative">
+                              <div class="avatar avatar-xl">
+                                <img class="rounded-circle" src="../../assets/img/team/14-thumb.png" alt="" />
+                              </div>
+                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Banneker</a></h6>
+                            </div>
+                          </td>
+                          <td class="align-middle phone-number font-sans-serif white-space-nowrap"><a class="text-700" href="tel:+69213658963">+69 213 658 963</a></td>
+                          <td class="align-middle report"><a href="#!">Freddy's canned retort</a></td>
+                          <td class="align-middle subscription fs-9 text-end"><small class="badge rounded badge-subtle-success">Active</small></td>
+                          <td class="align-middle social text-end ps-4">
+                            <p class="mb-0 text-500">N/A</p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="align-middle fs-9 py-3">
+                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="all-contact-10" data-bulk-select-row="data-bulk-select-row" /></div>
+                          </td>
+                          <td class="align-middle name white-space-nowrap pe-5 ps-2">
+                            <div class="d-flex align-items-center gap-2 position-relative">
+                              <div class="avatar avatar-xl">
+                                <img class="rounded-circle" src="../../assets/img/team/3-thumb.png" alt="" />
+                              </div>
+                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Romanin</a></h6>
+                            </div>
+                          </td>
+                          <td class="align-middle phone-number font-sans-serif white-space-nowrap"><a class="text-700" href="tel:+79213658963">+79 213 658 963</a></td>
+                          <td class="align-middle report"><a href="#!">Emailbot Freddy</a></td>
+                          <td class="align-middle subscription fs-9 text-end"><small class="badge rounded badge-subtle-success">Active</small></td>
+                          <td class="align-middle social text-end ps-4">
+                            <p class="mb-0 text-500">N/A</p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="align-middle fs-9 py-3">
+                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="all-contact-11" data-bulk-select-row="data-bulk-select-row" /></div>
+                          </td>
+                          <td class="align-middle name white-space-nowrap pe-5 ps-2">
+                            <div class="d-flex align-items-center gap-2 position-relative">
+                              <div class="avatar avatar-xl">
+                                <div class="avatar-name rounded-circle"><span>M</span></div>
+                              </div>
+                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Michele</a></h6>
+                            </div>
+                          </td>
+                          <td class="align-middle phone-number font-sans-serif white-space-nowrap"><a class="text-700" href="tel:+663256632235">+66 3256 632 235</a></td>
+                          <td class="align-middle report"><a href="#!">Survey of Customer Satisfaction</a></td>
+                          <td class="align-middle subscription text-500 font-sans-serif text-end">N/A</td>
+                          <td class="align-middle social text-end ps-4">
+                            <p class="mb-0 text-500">N/A</p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="align-middle fs-9 py-3">
+                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="all-contact-12" data-bulk-select-row="data-bulk-select-row" /></div>
+                          </td>
+                          <td class="align-middle name white-space-nowrap pe-5 ps-2">
+                            <div class="d-flex align-items-center gap-2 position-relative">
+                              <div class="avatar avatar-xl">
+                                <div class="avatar-name rounded-circle"><span>M</span></div>
+                              </div>
+                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Morrison</a></h6>
+                            </div>
+                          </td>
+                          <td class="align-middle phone-number font-sans-serif white-space-nowrap"><a class="text-700" href="tel:+122563223325">+12 2563 223 325</a></td>
+                          <td class="align-middle report"><a href="#!">Distribution of Performance</a></td>
+                          <td class="align-middle subscription fs-9 text-end"><small class="badge rounded badge-subtle-warning">Pending</small></td>
+                          <td class="align-middle social text-end ps-4"><a href="#!">Twitter</a></td>
+                        </tr>
+                        <tr>
+                          <td class="align-middle fs-9 py-3">
+                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="all-contact-13" data-bulk-select-row="data-bulk-select-row" /></div>
+                          </td>
+                          <td class="align-middle name white-space-nowrap pe-5 ps-2">
+                            <div class="d-flex align-items-center gap-2 position-relative">
+                              <div class="avatar avatar-xl">
+                                <div class="avatar-name rounded-circle"><span>AK</span></div>
+                              </div>
+                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Aar Kay</a></h6>
+                            </div>
+                          </td>
+                          <td class="align-middle phone-number font-sans-serif white-space-nowrap"><a class="text-700" href="tel:+89213658963">+89 213 658 963</a></td>
+                          <td class="align-middle report"><a href="#!">Distribution of Performance</a></td>
+                          <td class="align-middle subscription fs-9 text-end"><small class="badge rounded badge-subtle-success">Active</small></td>
+                          <td class="align-middle social text-end ps-4">
+                            <p class="mb-0 text-500">N/A</p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="align-middle fs-9 py-3">
+                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="all-contact-14" data-bulk-select-row="data-bulk-select-row" /></div>
+                          </td>
+                          <td class="align-middle name white-space-nowrap pe-5 ps-2">
+                            <div class="d-flex align-items-center gap-2 position-relative">
+                              <div class="avatar avatar-xl">
+                                <div class="avatar-name rounded-circle"><span>EW</span></div>
+                              </div>
+                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Emma Watson</a></h6>
+                            </div>
+                          </td>
+                          <td class="align-middle phone-number font-sans-serif white-space-nowrap"><a class="text-700" href="tel:+611800861302">+61 1800 861 302</a></td>
+                          <td class="align-middle report"><a href="#!">Analysis of the Top Customers</a></td>
+                          <td class="align-middle subscription fs-9 text-end"><small class="badge rounded badge-subtle-success">Active</small></td>
+                          <td class="align-middle social text-end ps-4"><a href="#!">Facebook</a></td>
+                        </tr>
+                        <tr>
+                          <td class="align-middle fs-9 py-3">
+                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="all-contact-15" data-bulk-select-row="data-bulk-select-row" /></div>
+                          </td>
+                          <td class="align-middle name white-space-nowrap pe-5 ps-2">
+                            <div class="d-flex align-items-center gap-2 position-relative">
+                              <div class="avatar avatar-xl">
+                                <img class="rounded-circle" src="../../assets/img/team/14-thumb.png" alt="" />
+                              </div>
+                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Banneker</a></h6>
+                            </div>
+                          </td>
+                          <td class="align-middle phone-number font-sans-serif white-space-nowrap"><a class="text-700" href="tel:+361256523369">+36 1256 523 369</a></td>
+                          <td class="align-middle report"><a href="#!">Performance of a Group</a></td>
+                          <td class="align-middle subscription fs-9 text-end"><small class="badge rounded badge-subtle-secondary">Inactive</small></td>
+                          <td class="align-middle social text-end ps-4"><a href="#!">Twitter</a></td>
+                        </tr>
+                        <tr>
+                          <td class="align-middle fs-9 py-3">
+                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="all-contact-16" data-bulk-select-row="data-bulk-select-row" /></div>
+                          </td>
+                          <td class="align-middle name white-space-nowrap pe-5 ps-2">
+                            <div class="d-flex align-items-center gap-2 position-relative">
+                              <div class="avatar avatar-xl">
+                                <img class="rounded-circle" src="../../assets/img/team/1-thumb.png" alt="" />
+                              </div>
+                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Finley</a></h6>
+                            </div>
+                          </td>
+                          <td class="align-middle phone-number font-sans-serif white-space-nowrap"><a class="text-700" href="tel:+611800861302">+61 1800 861 302</a></td>
+                          <td class="align-middle report"><a href="#!">Performance of Agents</a></td>
+                          <td class="align-middle subscription fs-9 text-end"><small class="badge rounded badge-subtle-danger">Expired</small></td>
+                          <td class="align-middle social text-end ps-4"><a href="#!">Linkedin</a></td>
+                        </tr>
+                        <tr>
+                          <td class="align-middle fs-9 py-3">
+                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="all-contact-17" data-bulk-select-row="data-bulk-select-row" /></div>
+                          </td>
+                          <td class="align-middle name white-space-nowrap pe-5 ps-2">
+                            <div class="d-flex align-items-center gap-2 position-relative">
+                              <div class="avatar avatar-xl">
+                                <div class="avatar-name rounded-circle"><span>PG</span></div>
+                              </div>
+                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Peter Gill</a></h6>
+                            </div>
+                          </td>
+                          <td class="align-middle phone-number font-sans-serif white-space-nowrap"><a class="text-700" href="tel:+992536632566">+99 2536 632 566</a></td>
+                          <td class="align-middle report"><a href="#!">Handling Time (on Average)</a></td>
+                          <td class="align-middle subscription fs-9 text-end"><small class="badge rounded badge-subtle-success">Active</small></td>
+                          <td class="align-middle social text-end ps-4"><a href="#!">Twitter</a></td>
+                        </tr>
+                        <tr>
+                          <td class="align-middle fs-9 py-3">
+                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="all-contact-18" data-bulk-select-row="data-bulk-select-row" /></div>
+                          </td>
+                          <td class="align-middle name white-space-nowrap pe-5 ps-2">
+                            <div class="d-flex align-items-center gap-2 position-relative">
+                              <div class="avatar avatar-xl">
+                                <img class="rounded-circle" src="../../assets/img/team/25-thumb.png" alt="" />
+                              </div>
+                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Sallie Reyes</a></h6>
+                            </div>
+                          </td>
+                          <td class="align-middle phone-number font-sans-serif white-space-nowrap"><a class="text-700" href="tel:+843698856963">+84 3698 856 963</a></td>
+                          <td class="align-middle report"><a href="#!">Handling Time (on Average)</a></td>
+                          <td class="align-middle subscription text-500 font-sans-serif text-end">N/A</td>
+                          <td class="align-middle social text-end ps-4"><a href="#!">Twitter</a></td>
+                        </tr>
+                        <tr>
+                          <td class="align-middle fs-9 py-3">
+                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="all-contact-19" data-bulk-select-row="data-bulk-select-row" /></div>
+                          </td>
+                          <td class="align-middle name white-space-nowrap pe-5 ps-2">
+                            <div class="d-flex align-items-center gap-2 position-relative">
+                              <div class="avatar avatar-xl">
+                                <div class="avatar-name rounded-circle"><span>F</span></div>
+                              </div>
+                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Freya</a></h6>
+                            </div>
+                          </td>
+                          <td class="align-middle phone-number font-sans-serif white-space-nowrap"><a class="text-700" href="tel:+663256632235">+66 3256 632 235</a></td>
+                          <td class="align-middle report"><a href="#!">Survey of Customer Satisfaction</a></td>
+                          <td class="align-middle subscription text-500 font-sans-serif text-end">N/A</td>
+                          <td class="align-middle social text-end ps-4">
+                            <p class="mb-0 text-500">N/A</p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="align-middle fs-9 py-3">
+                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="all-contact-20" data-bulk-select-row="data-bulk-select-row" /></div>
+                          </td>
+                          <td class="align-middle name white-space-nowrap pe-5 ps-2">
+                            <div class="d-flex align-items-center gap-2 position-relative">
+                              <div class="avatar avatar-xl">
+                                <div class="avatar-name rounded-circle"><span>L</span></div>
+                              </div>
+                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Luke</a></h6>
+                            </div>
+                          </td>
+                          <td class="align-middle phone-number font-sans-serif white-space-nowrap"><a class="text-700" href="tel:+361256523369">+36 1256 523 369</a></td>
+                          <td class="align-middle report"><a href="#!">Performance of a Group</a></td>
+                          <td class="align-middle subscription fs-9 text-end"><small class="badge rounded badge-subtle-secondary">Inactive</small></td>
+                          <td class="align-middle social text-end ps-4"><a href="#!">Twitter</a></td>
+                        </tr>
+                        <tr>
+                          <td class="align-middle fs-9 py-3">
+                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="all-contact-21" data-bulk-select-row="data-bulk-select-row" /></div>
+                          </td>
+                          <td class="align-middle name white-space-nowrap pe-5 ps-2">
+                            <div class="d-flex align-items-center gap-2 position-relative">
+                              <div class="avatar avatar-xl">
+                                <img class="rounded-circle" src="../../assets/img/team/1-thumb.png" alt="" />
+                              </div>
+                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Finley</a></h6>
+                            </div>
+                          </td>
+                          <td class="align-middle phone-number font-sans-serif white-space-nowrap"><a class="text-700" href="tel:+611800861302">+61 1800 861 302</a></td>
+                          <td class="align-middle report"><a href="#!">Performance of Agents</a></td>
+                          <td class="align-middle subscription fs-9 text-end"><small class="badge rounded badge-subtle-danger">Expired</small></td>
+                          <td class="align-middle social text-end ps-4"><a href="#!">Linkedin</a></td>
+                        </tr>
+                        <tr>
+                          <td class="align-middle fs-9 py-3">
+                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="all-contact-22" data-bulk-select-row="data-bulk-select-row" /></div>
+                          </td>
+                          <td class="align-middle name white-space-nowrap pe-5 ps-2">
+                            <div class="d-flex align-items-center gap-2 position-relative">
+                              <div class="avatar avatar-xl">
+                                <img class="rounded-circle" src="../../assets/img/team/14-thumb.png" alt="" />
+                              </div>
+                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Banneker</a></h6>
+                            </div>
+                          </td>
+                          <td class="align-middle phone-number font-sans-serif white-space-nowrap"><a class="text-700" href="tel:+69213658963">+69 213 658 963</a></td>
+                          <td class="align-middle report"><a href="#!">Freddy's canned retort</a></td>
+                          <td class="align-middle subscription fs-9 text-end"><small class="badge rounded badge-subtle-success">Active</small></td>
+                          <td class="align-middle social text-end ps-4">
+                            <p class="mb-0 text-500">N/A</p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="align-middle fs-9 py-3">
+                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="all-contact-23" data-bulk-select-row="data-bulk-select-row" /></div>
+                          </td>
+                          <td class="align-middle name white-space-nowrap pe-5 ps-2">
+                            <div class="d-flex align-items-center gap-2 position-relative">
+                              <div class="avatar avatar-xl">
+                                <img class="rounded-circle" src="../../assets/img/team/25-thumb.png" alt="" />
+                              </div>
+                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Sallie Reyes</a></h6>
+                            </div>
+                          </td>
+                          <td class="align-middle phone-number font-sans-serif white-space-nowrap"><a class="text-700" href="tel:+843698856963">+84 3698 856 963</a></td>
+                          <td class="align-middle report"><a href="#!">Handling Time (on Average)</a></td>
+                          <td class="align-middle subscription text-500 font-sans-serif text-end">N/A</td>
+                          <td class="align-middle social text-end ps-4"><a href="#!">Twitter</a></td>
+                        </tr>
+                        <tr>
+                          <td class="align-middle fs-9 py-3">
+                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="all-contact-24" data-bulk-select-row="data-bulk-select-row" /></div>
+                          </td>
+                          <td class="align-middle name white-space-nowrap pe-5 ps-2">
+                            <div class="d-flex align-items-center gap-2 position-relative">
+                              <div class="avatar avatar-xl">
+                                <div class="avatar-name rounded-circle"><span>F</span></div>
+                              </div>
+                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Freya</a></h6>
+                            </div>
+                          </td>
+                          <td class="align-middle phone-number font-sans-serif white-space-nowrap"><a class="text-700" href="tel:+663256632235">+66 3256 632 235</a></td>
+                          <td class="align-middle report"><a href="#!">Survey of Customer Satisfaction</a></td>
+                          <td class="align-middle subscription text-500 font-sans-serif text-end">N/A</td>
+                          <td class="align-middle social text-end ps-4">
+                            <p class="mb-0 text-500">N/A</p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="align-middle fs-9 py-3">
+                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="all-contact-25" data-bulk-select-row="data-bulk-select-row" /></div>
+                          </td>
+                          <td class="align-middle name white-space-nowrap pe-5 ps-2">
+                            <div class="d-flex align-items-center gap-2 position-relative">
+                              <div class="avatar avatar-xl">
+                                <div class="avatar-name rounded-circle"><span>L</span></div>
+                              </div>
+                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Luke</a></h6>
+                            </div>
+                          </td>
+                          <td class="align-middle phone-number font-sans-serif white-space-nowrap"><a class="text-700" href="tel:+361256523369">+36 1256 523 369</a></td>
+                          <td class="align-middle report"><a href="#!">Performance of a Group</a></td>
+                          <td class="align-middle subscription fs-9 text-end"><small class="badge rounded badge-subtle-secondary">Inactive</small></td>
+                          <td class="align-middle social text-end ps-4"><a href="#!">Twitter</a></td>
+                        </tr>
+                        <tr>
+                          <td class="align-middle fs-9 py-3">
+                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="all-contact-26" data-bulk-select-row="data-bulk-select-row" /></div>
+                          </td>
+                          <td class="align-middle name white-space-nowrap pe-5 ps-2">
+                            <div class="d-flex align-items-center gap-2 position-relative">
+                              <div class="avatar avatar-xl">
+                                <img class="rounded-circle" src="../../assets/img/team/1-thumb.png" alt="" />
+                              </div>
+                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Finley</a></h6>
+                            </div>
+                          </td>
+                          <td class="align-middle phone-number font-sans-serif white-space-nowrap"><a class="text-700" href="tel:+611800861302">+61 1800 861 302</a></td>
+                          <td class="align-middle report"><a href="#!">Performance of Agents</a></td>
+                          <td class="align-middle subscription fs-9 text-end"><small class="badge rounded badge-subtle-danger">Expired</small></td>
+                          <td class="align-middle social text-end ps-4"><a href="#!">Linkedin</a></td>
+                        </tr>
+                        <tr>
+                          <td class="align-middle fs-9 py-3">
+                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="all-contact-27" data-bulk-select-row="data-bulk-select-row" /></div>
+                          </td>
+                          <td class="align-middle name white-space-nowrap pe-5 ps-2">
+                            <div class="d-flex align-items-center gap-2 position-relative">
+                              <div class="avatar avatar-xl">
+                                <div class="avatar-name rounded-circle"><span>PG</span></div>
+                              </div>
+                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Peter Gill</a></h6>
+                            </div>
+                          </td>
+                          <td class="align-middle phone-number font-sans-serif white-space-nowrap"><a class="text-700" href="tel:+992536632566">+99 2536 632 566</a></td>
+                          <td class="align-middle report"><a href="#!">Handling Time (on Average)</a></td>
+                          <td class="align-middle subscription fs-9 text-end"><small class="badge rounded badge-subtle-success">Active</small></td>
+                          <td class="align-middle social text-end ps-4"><a href="#!">Twitter</a></td>
+                        </tr>
+                        <tr>
+                          <td class="align-middle fs-9 py-3">
+                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="all-contact-28" data-bulk-select-row="data-bulk-select-row" /></div>
+                          </td>
+                          <td class="align-middle name white-space-nowrap pe-5 ps-2">
+                            <div class="d-flex align-items-center gap-2 position-relative">
+                              <div class="avatar avatar-xl">
+                                <img class="rounded-circle" src="../../assets/img/team/25-thumb.png" alt="" />
+                              </div>
+                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Sallie Reyes</a></h6>
+                            </div>
+                          </td>
+                          <td class="align-middle phone-number font-sans-serif white-space-nowrap"><a class="text-700" href="tel:+843698856963">+84 3698 856 963</a></td>
+                          <td class="align-middle report"><a href="#!">Handling Time (on Average)</a></td>
+                          <td class="align-middle subscription text-500 font-sans-serif text-end">N/A</td>
+                          <td class="align-middle social text-end ps-4"><a href="#!">Twitter</a></td>
+                        </tr>
+                        <tr>
+                          <td class="align-middle fs-9 py-3">
+                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="all-contact-29" data-bulk-select-row="data-bulk-select-row" /></div>
+                          </td>
+                          <td class="align-middle name white-space-nowrap pe-5 ps-2">
+                            <div class="d-flex align-items-center gap-2 position-relative">
+                              <div class="avatar avatar-xl">
+                                <div class="avatar-name rounded-circle"><span>EW</span></div>
+                              </div>
+                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Emma Watson</a></h6>
+                            </div>
+                          </td>
+                          <td class="align-middle phone-number font-sans-serif white-space-nowrap"><a class="text-700" href="tel:+663256632235">+66 3256 632 235</a></td>
+                          <td class="align-middle report"><a href="#!">Survey of Customer Satisfaction</a></td>
+                          <td class="align-middle subscription text-500 font-sans-serif text-end">N/A</td>
+                          <td class="align-middle social text-end ps-4">
+                            <p class="mb-0 text-500">N/A</p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="align-middle fs-9 py-3">
+                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="all-contact-30" data-bulk-select-row="data-bulk-select-row" /></div>
+                          </td>
+                          <td class="align-middle name white-space-nowrap pe-5 ps-2">
+                            <div class="d-flex align-items-center gap-2 position-relative">
+                              <div class="avatar avatar-xl">
+                                <div class="avatar-name rounded-circle"><span>M</span></div>
+                              </div>
+                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Morrison</a></h6>
+                            </div>
+                          </td>
+                          <td class="align-middle phone-number font-sans-serif white-space-nowrap"><a class="text-700" href="tel:+122563223325">+12 2563 223 325</a></td>
+                          <td class="align-middle report"><a href="#!">Distribution of Performance</a></td>
+                          <td class="align-middle subscription fs-9 text-end"><small class="badge rounded badge-subtle-warning">Pending</small></td>
+                          <td class="align-middle social text-end ps-4"><a href="#!">Twitter</a></td>
+                        </tr>
+                        <tr>
+                          <td class="align-middle fs-9 py-3">
+                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="all-contact-31" data-bulk-select-row="data-bulk-select-row" /></div>
+                          </td>
+                          <td class="align-middle name white-space-nowrap pe-5 ps-2">
+                            <div class="d-flex align-items-center gap-2 position-relative">
+                              <div class="avatar avatar-xl">
+                                <div class="avatar-name rounded-circle"><span>AK</span></div>
+                              </div>
+                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Aar Kay</a></h6>
+                            </div>
+                          </td>
+                          <td class="align-middle phone-number font-sans-serif white-space-nowrap"><a class="text-700" href="tel:+89213658963">+89 213 658 963</a></td>
+                          <td class="align-middle report"><a href="#!">Distribution of Performance</a></td>
+                          <td class="align-middle subscription fs-9 text-end"><small class="badge rounded badge-subtle-success">Active</small></td>
+                          <td class="align-middle social text-end ps-4">
+                            <p class="mb-0 text-500">N/A</p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="align-middle fs-9 py-3">
+                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="all-contact-32" data-bulk-select-row="data-bulk-select-row" /></div>
+                          </td>
+                          <td class="align-middle name white-space-nowrap pe-5 ps-2">
+                            <div class="d-flex align-items-center gap-2 position-relative">
+                              <div class="avatar avatar-xl">
+                                <img class="rounded-circle" src="../../assets/img/team/3-thumb.png" alt="" />
+                              </div>
+                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Romanin</a></h6>
+                            </div>
+                          </td>
+                          <td class="align-middle phone-number font-sans-serif white-space-nowrap"><a class="text-700" href="tel:+79213658963">+79 213 658 963</a></td>
+                          <td class="align-middle report"><a href="#!">Emailbot Freddy</a></td>
+                          <td class="align-middle subscription fs-9 text-end"><small class="badge rounded badge-subtle-success">Active</small></td>
+                          <td class="align-middle social text-end ps-4">
+                            <p class="mb-0 text-500">N/A</p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <div class="text-center d-none" id="contact-table-fallback">
+                      <p class="fw-bold fs-8 mt-3">No contact found</p>
                     </div>
-                    <div class="bg-white dark__bg-1100 d-md-flex d-xl-inline-block d-xxl-flex align-items-center p-x1 rounded-3 shadow-sm card-view-height">
-                      <div class="d-flex align-items-start align-items-sm-center">
-                        <div class="form-check me-2 me-xxl-3 mb-0"><input class="form-check-input" type="checkbox" id="card-view-tickets-1" data-bulk-select-row="data-bulk-select-row" /></div><a class="d-none d-sm-block" href="customer-details.php">
-                          <div class="avatar avatar-xl avatar-3xl">
-                            <div class="avatar-name rounded-circle"><span>L</span></div>
-                          </div>
-                        </a>
-                        <div class="ms-1 ms-sm-3">
-                          <p class="fw-semi-bold mb-3 mb-sm-2"><a href="tickets-preview.html">Change of refund my last buy | Order #125631</a></p>
-                          <div class="row align-items-center gx-0 gy-2">
-                            <div class="col-auto me-2">
-                              <h6 class="client mb-0"><a class="text-800 d-flex align-items-center gap-1" href="customer-details.php"><span class="fas fa-user" data-fa-transform="shrink-3 up-1"></span><span>Luke</span></a></h6>
-                            </div>
-                            <div class="col-auto lh-1 me-3"><small class="badge rounded badge-subtle-danger false">Overdue</small></div>
-                            <div class="col-auto">
-                              <h6 class="mb-0 text-500">2d ago</h6>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="border-bottom mt-4 mb-x1"></div>
-                      <div class="d-flex justify-content-between ms-auto">
-                        <div class="d-flex align-items-center gap-2 ms-md-4 ms-xl-0" style="width:7.5rem;">
-                          <div style="--falcon-circle-progress-bar:75"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                              <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                              <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#F68F57" stroke-width="12"></circle>
-                            </svg></div>
-                          <h6 class="mb-0 text-700">High</h6>
-                        </div><select class="form-select form-select-sm" aria-label="agents actions" style="width:9.375rem;">
-                          <option>Select Agent</option>
-                          <option selected="selected">Anindya</option>
-                          <option>Nowrin</option>
-                          <option>Khalid</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="bg-white dark__bg-1100 d-md-flex d-xl-inline-block d-xxl-flex align-items-center p-x1 rounded-3 shadow-sm card-view-height">
-                      <div class="d-flex align-items-start align-items-sm-center">
-                        <div class="form-check me-2 me-xxl-3 mb-0"><input class="form-check-input" type="checkbox" id="card-view-tickets-2" data-bulk-select-row="data-bulk-select-row" /></div><a class="d-none d-sm-block" href="customer-details.php">
-                          <div class="avatar avatar-xl avatar-3xl">
-                            <img class="rounded-circle" src="../../assets/img/team/1-thumb.png" alt="" />
-                          </div>
-                        </a>
-                        <div class="ms-1 ms-sm-3">
-                          <p class="fw-semi-bold mb-3 mb-sm-2"><a href="tickets-preview.html">I need your help #2256</a></p>
-                          <div class="row align-items-center gx-0 gy-2">
-                            <div class="col-auto me-2">
-                              <h6 class="client mb-0"><a class="text-800 d-flex align-items-center gap-1" href="customer-details.php"><span class="fas fa-user" data-fa-transform="shrink-3 up-1"></span><span>Finley</span></a></h6>
-                            </div>
-                            <div class="col-auto lh-1 me-3"><small class="badge rounded badge-subtle-warning false">Remaining</small></div>
-                            <div class="col-auto">
-                              <h6 class="mb-0 text-500">2d ago</h6>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="border-bottom mt-4 mb-x1"></div>
-                      <div class="d-flex justify-content-between ms-auto">
-                        <div class="d-flex align-items-center gap-2 ms-md-4 ms-xl-0" style="width:7.5rem;">
-                          <div style="--falcon-circle-progress-bar:50"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                              <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                              <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#2A7BE4" stroke-width="12"></circle>
-                            </svg></div>
-                          <h6 class="mb-0 text-700">Medium</h6>
-                        </div><select class="form-select form-select-sm" aria-label="agents actions" style="width:9.375rem;">
-                          <option>Select Agent</option>
-                          <option>Anindya</option>
-                          <option selected="selected">Nowrin</option>
-                          <option>Khalid</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="bg-white dark__bg-1100 d-md-flex d-xl-inline-block d-xxl-flex align-items-center p-x1 rounded-3 shadow-sm card-view-height">
-                      <div class="d-flex align-items-start align-items-sm-center">
-                        <div class="form-check me-2 me-xxl-3 mb-0"><input class="form-check-input" type="checkbox" id="card-view-tickets-3" data-bulk-select-row="data-bulk-select-row" /></div><a class="d-none d-sm-block" href="customer-details.php">
-                          <div class="avatar avatar-xl avatar-3xl">
-                            <div class="avatar-name rounded-circle"><span>PG</span></div>
-                          </div>
-                        </a>
-                        <div class="ms-1 ms-sm-3">
-                          <p class="fw-semi-bold mb-3 mb-sm-2"><a href="tickets-preview.html">I need your help #2256</a></p>
-                          <div class="row align-items-center gx-0 gy-2">
-                            <div class="col-auto me-2">
-                              <h6 class="client mb-0"><a class="text-800 d-flex align-items-center gap-1" href="customer-details.php"><span class="fas fa-user" data-fa-transform="shrink-3 up-1"></span><span>Peter Gill</span></a></h6>
-                            </div>
-                            <div class="col-auto lh-1 me-3"><small class="badge rounded badge-subtle-info false">Responded</small></div>
-                            <div class="col-auto">
-                              <h6 class="mb-0 text-500">2d ago</h6>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="border-bottom mt-4 mb-x1"></div>
-                      <div class="d-flex justify-content-between ms-auto">
-                        <div class="d-flex align-items-center gap-2 ms-md-4 ms-xl-0" style="width:7.5rem;">
-                          <div style="--falcon-circle-progress-bar:25"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                              <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                              <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#00D27B" stroke-width="12"></circle>
-                            </svg></div>
-                          <h6 class="mb-0 text-700">Low</h6>
-                        </div><select class="form-select form-select-sm" aria-label="agents actions" style="width:9.375rem;">
-                          <option>Select Agent</option>
-                          <option>Anindya</option>
-                          <option selected="selected">Nowrin</option>
-                          <option>Khalid</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="bg-white dark__bg-1100 d-md-flex d-xl-inline-block d-xxl-flex align-items-center p-x1 rounded-3 shadow-sm card-view-height">
-                      <div class="d-flex align-items-start align-items-sm-center">
-                        <div class="form-check me-2 me-xxl-3 mb-0"><input class="form-check-input" type="checkbox" id="card-view-tickets-4" data-bulk-select-row="data-bulk-select-row" /></div><a class="d-none d-sm-block" href="customer-details.php">
-                          <div class="avatar avatar-xl avatar-3xl">
-                            <img class="rounded-circle" src="../../assets/img/team/25-thumb.png" alt="" />
-                          </div>
-                        </a>
-                        <div class="ms-1 ms-sm-3">
-                          <p class="fw-semi-bold mb-3 mb-sm-2"><a href="tickets-preview.html">Contact Froms #3264</a></p>
-                          <div class="row align-items-center gx-0 gy-2">
-                            <div class="col-auto me-2">
-                              <h6 class="client mb-0"><a class="text-800 d-flex align-items-center gap-1" href="customer-details.php"><span class="fas fa-user" data-fa-transform="shrink-3 up-1"></span><span>Freya</span></a></h6>
-                            </div>
-                            <div class="col-auto lh-1 me-3"><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small></div>
-                            <div class="col-auto">
-                              <h6 class="mb-0 text-500">2d ago</h6>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="border-bottom mt-4 mb-x1"></div>
-                      <div class="d-flex justify-content-between ms-auto">
-                        <div class="d-flex align-items-center gap-2 ms-md-4 ms-xl-0" style="width:7.5rem;">
-                          <div style="--falcon-circle-progress-bar:50"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                              <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                              <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#2A7BE4" stroke-width="12"></circle>
-                            </svg></div>
-                          <h6 class="mb-0 text-700">Medium</h6>
-                        </div><select class="form-select form-select-sm" aria-label="agents actions" style="width:9.375rem;">
-                          <option>Select Agent</option>
-                          <option>Anindya</option>
-                          <option>Nowrin</option>
-                          <option selected="selected">Khalid</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="bg-white dark__bg-1100 d-md-flex d-xl-inline-block d-xxl-flex align-items-center p-x1 rounded-3 shadow-sm card-view-height">
-                      <div class="d-flex align-items-start align-items-sm-center">
-                        <div class="form-check me-2 me-xxl-3 mb-0"><input class="form-check-input" type="checkbox" id="card-view-tickets-5" data-bulk-select-row="data-bulk-select-row" /></div><a class="d-none d-sm-block" href="customer-details.php">
-                          <div class="avatar avatar-xl avatar-3xl">
-                            <div class="avatar-name rounded-circle"><span>M</span></div>
-                          </div>
-                        </a>
-                        <div class="ms-1 ms-sm-3">
-                          <p class="fw-semi-bold mb-3 mb-sm-2"><a href="tickets-preview.html">I need your help #2256</a></p>
-                          <div class="row align-items-center gx-0 gy-2">
-                            <div class="col-auto me-2">
-                              <h6 class="client mb-0"><a class="text-800 d-flex align-items-center gap-1" href="customer-details.php"><span class="fas fa-user" data-fa-transform="shrink-3 up-1"></span><span>Morrison</span></a></h6>
-                            </div>
-                            <div class="col-auto lh-1 me-3"><small class="badge rounded badge-subtle-info false">Responded</small></div>
-                            <div class="col-auto">
-                              <h6 class="mb-0 text-500">2d ago</h6>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="border-bottom mt-4 mb-x1"></div>
-                      <div class="d-flex justify-content-between ms-auto">
-                        <div class="d-flex align-items-center gap-2 ms-md-4 ms-xl-0" style="width:7.5rem;">
-                          <div style="--falcon-circle-progress-bar:50"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                              <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                              <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#2A7BE4" stroke-width="12"></circle>
-                            </svg></div>
-                          <h6 class="mb-0 text-700">Medium</h6>
-                        </div><select class="form-select form-select-sm" aria-label="agents actions" style="width:9.375rem;">
-                          <option>Select Agent</option>
-                          <option>Anindya</option>
-                          <option>Nowrin</option>
-                          <option selected="selected">Khalid</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="bg-white dark__bg-1100 d-md-flex d-xl-inline-block d-xxl-flex align-items-center p-x1 rounded-3 shadow-sm card-view-height">
-                      <div class="d-flex align-items-start align-items-sm-center">
-                        <div class="form-check me-2 me-xxl-3 mb-0"><input class="form-check-input" type="checkbox" id="card-view-tickets-6" data-bulk-select-row="data-bulk-select-row" /></div><a class="d-none d-sm-block" href="customer-details.php">
-                          <div class="avatar avatar-xl avatar-3xl">
-                            <div class="avatar-name rounded-circle"><span>MB</span></div>
-                          </div>
-                        </a>
-                        <div class="ms-1 ms-sm-3">
-                          <p class="fw-semi-bold mb-3 mb-sm-2"><a href="tickets-preview.html">I need your help #2256</a></p>
-                          <div class="row align-items-center gx-0 gy-2">
-                            <div class="col-auto me-2">
-                              <h6 class="client mb-0"><a class="text-800 d-flex align-items-center gap-1" href="customer-details.php"><span class="fas fa-user" data-fa-transform="shrink-3 up-1"></span><span>Morrison Banneker</span></a></h6>
-                            </div>
-                            <div class="col-auto lh-1 me-3"><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small></div>
-                            <div class="col-auto">
-                              <h6 class="mb-0 text-500">2d ago</h6>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="border-bottom mt-4 mb-x1"></div>
-                      <div class="d-flex justify-content-between ms-auto">
-                        <div class="d-flex align-items-center gap-2 ms-md-4 ms-xl-0" style="width:7.5rem;">
-                          <div style="--falcon-circle-progress-bar:50"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                              <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                              <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#2A7BE4" stroke-width="12"></circle>
-                            </svg></div>
-                          <h6 class="mb-0 text-700">Medium</h6>
-                        </div><select class="form-select form-select-sm" aria-label="agents actions" style="width:9.375rem;">
-                          <option>Select Agent</option>
-                          <option>Anindya</option>
-                          <option>Nowrin</option>
-                          <option selected="selected">Khalid</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="bg-white dark__bg-1100 d-md-flex d-xl-inline-block d-xxl-flex align-items-center p-x1 rounded-3 shadow-sm card-view-height">
-                      <div class="d-flex align-items-start align-items-sm-center">
-                        <div class="form-check me-2 me-xxl-3 mb-0"><input class="form-check-input" type="checkbox" id="card-view-tickets-7" data-bulk-select-row="data-bulk-select-row" /></div><a class="d-none d-sm-block" href="customer-details.php">
-                          <div class="avatar avatar-xl avatar-3xl">
-                            <img class="rounded-circle" src="../../assets/img/team/14-thumb.png" alt="" />
-                          </div>
-                        </a>
-                        <div class="ms-1 ms-sm-3">
-                          <p class="fw-semi-bold mb-3 mb-sm-2"><a href="tickets-preview.html">Regarding Falcon Theme #3262</a></p>
-                          <div class="row align-items-center gx-0 gy-2">
-                            <div class="col-auto me-2">
-                              <h6 class="client mb-0"><a class="text-800 d-flex align-items-center gap-1" href="customer-details.php"><span class="fas fa-user" data-fa-transform="shrink-3 up-1"></span><span>Aar Kay</span></a></h6>
-                            </div>
-                            <div class="col-auto lh-1 me-3"><small class="badge rounded badge-subtle-success false">Recent</small></div>
-                            <div class="col-auto">
-                              <h6 class="mb-0 text-500">2d ago</h6>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="border-bottom mt-4 mb-x1"></div>
-                      <div class="d-flex justify-content-between ms-auto">
-                        <div class="d-flex align-items-center gap-2 ms-md-4 ms-xl-0" style="width:7.5rem;">
-                          <div style="--falcon-circle-progress-bar:75"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                              <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                              <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#F68F57" stroke-width="12"></circle>
-                            </svg></div>
-                          <h6 class="mb-0 text-700">High</h6>
-                        </div><select class="form-select form-select-sm" aria-label="agents actions" style="width:9.375rem;">
-                          <option>Select Agent</option>
-                          <option>Anindya</option>
-                          <option>Nowrin</option>
-                          <option>Khalid</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="bg-white dark__bg-1100 d-md-flex d-xl-inline-block d-xxl-flex align-items-center p-x1 rounded-3 shadow-sm card-view-height">
-                      <div class="d-flex align-items-start align-items-sm-center">
-                        <div class="form-check me-2 me-xxl-3 mb-0"><input class="form-check-input" type="checkbox" id="card-view-tickets-8" data-bulk-select-row="data-bulk-select-row" /></div><a class="d-none d-sm-block" href="customer-details.php">
-                          <div class="avatar avatar-xl avatar-3xl">
-                            <div class="avatar-name rounded-circle"><span>FB</span></div>
-                          </div>
-                        </a>
-                        <div class="ms-1 ms-sm-3">
-                          <p class="fw-semi-bold mb-3 mb-sm-2"><a href="tickets-preview.html">i would like to buy theme #3261</a></p>
-                          <div class="row align-items-center gx-0 gy-2">
-                            <div class="col-auto me-2">
-                              <h6 class="client mb-0"><a class="text-800 d-flex align-items-center gap-1" href="customer-details.php"><span class="fas fa-user" data-fa-transform="shrink-3 up-1"></span><span>Fadil Badr</span></a></h6>
-                            </div>
-                            <div class="col-auto lh-1 me-3"><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small></div>
-                            <div class="col-auto">
-                              <h6 class="mb-0 text-500">2d ago</h6>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="border-bottom mt-4 mb-x1"></div>
-                      <div class="d-flex justify-content-between ms-auto">
-                        <div class="d-flex align-items-center gap-2 ms-md-4 ms-xl-0" style="width:7.5rem;">
-                          <div style="--falcon-circle-progress-bar:25"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                              <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                              <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#00D27B" stroke-width="12"></circle>
-                            </svg></div>
-                          <h6 class="mb-0 text-700">Low</h6>
-                        </div><select class="form-select form-select-sm" aria-label="agents actions" style="width:9.375rem;">
-                          <option>Select Agent</option>
-                          <option>Anindya</option>
-                          <option>Nowrin</option>
-                          <option selected="selected">Khalid</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="bg-white dark__bg-1100 d-md-flex d-xl-inline-block d-xxl-flex align-items-center p-x1 rounded-3 shadow-sm card-view-height">
-                      <div class="d-flex align-items-start align-items-sm-center">
-                        <div class="form-check me-2 me-xxl-3 mb-0"><input class="form-check-input" type="checkbox" id="card-view-tickets-9" data-bulk-select-row="data-bulk-select-row" /></div><a class="d-none d-sm-block" href="customer-details.php">
-                          <div class="avatar avatar-xl avatar-3xl">
-                            <img class="rounded-circle" src="../../assets/img/team/3-thumb.png" alt="" />
-                          </div>
-                        </a>
-                        <div class="ms-1 ms-sm-3">
-                          <p class="fw-semi-bold mb-3 mb-sm-2"><a href="tickets-preview.html">Theme info (icons) #3260</a></p>
-                          <div class="row align-items-center gx-0 gy-2">
-                            <div class="col-auto me-2">
-                              <h6 class="client mb-0"><a class="text-800 d-flex align-items-center gap-1" href="customer-details.php"><span class="fas fa-user" data-fa-transform="shrink-3 up-1"></span><span>Regina Kempt</span></a></h6>
-                            </div>
-                            <div class="col-auto lh-1 me-3"><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small></div>
-                            <div class="col-auto">
-                              <h6 class="mb-0 text-500">2d ago</h6>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="border-bottom mt-4 mb-x1"></div>
-                      <div class="d-flex justify-content-between ms-auto">
-                        <div class="d-flex align-items-center gap-2 ms-md-4 ms-xl-0" style="width:7.5rem;">
-                          <div style="--falcon-circle-progress-bar:50"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                              <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                              <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#2A7BE4" stroke-width="12"></circle>
-                            </svg></div>
-                          <h6 class="mb-0 text-700">Medium</h6>
-                        </div><select class="form-select form-select-sm" aria-label="agents actions" style="width:9.375rem;">
-                          <option>Select Agent</option>
-                          <option selected="selected">Anindya</option>
-                          <option>Nowrin</option>
-                          <option>Khalid</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="bg-white dark__bg-1100 d-md-flex d-xl-inline-block d-xxl-flex align-items-center p-x1 rounded-3 shadow-sm card-view-height">
-                      <div class="d-flex align-items-start align-items-sm-center">
-                        <div class="form-check me-2 me-xxl-3 mb-0"><input class="form-check-input" type="checkbox" id="card-view-tickets-10" data-bulk-select-row="data-bulk-select-row" /></div><a class="d-none d-sm-block" href="customer-details.php">
-                          <div class="avatar avatar-xl avatar-3xl">
-                            <div class="avatar-name rounded-circle"><span>C</span></div>
-                          </div>
-                        </a>
-                        <div class="ms-1 ms-sm-3">
-                          <p class="fw-semi-bold mb-3 mb-sm-2"><a href="tickets-preview.html">Phishing link #3259</a></p>
-                          <div class="row align-items-center gx-0 gy-2">
-                            <div class="col-auto me-2">
-                              <h6 class="client mb-0"><a class="text-800 d-flex align-items-center gap-1" href="customer-details.php"><span class="fas fa-user" data-fa-transform="shrink-3 up-1"></span><span>Caleb</span></a></h6>
-                            </div>
-                            <div class="col-auto lh-1 me-3"><small class="badge rounded badge-subtle-success false">Recent</small></div>
-                            <div class="col-auto">
-                              <h6 class="mb-0 text-500">2d ago</h6>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="border-bottom mt-4 mb-x1"></div>
-                      <div class="d-flex justify-content-between ms-auto">
-                        <div class="d-flex align-items-center gap-2 ms-md-4 ms-xl-0" style="width:7.5rem;">
-                          <div style="--falcon-circle-progress-bar:25"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                              <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                              <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#00D27B" stroke-width="12"></circle>
-                            </svg></div>
-                          <h6 class="mb-0 text-700">Low</h6>
-                        </div><select class="form-select form-select-sm" aria-label="agents actions" style="width:9.375rem;">
-                          <option>Select Agent</option>
-                          <option>Anindya</option>
-                          <option>Nowrin</option>
-                          <option>Khalid</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="bg-white dark__bg-1100 d-md-flex d-xl-inline-block d-xxl-flex align-items-center p-x1 rounded-3 shadow-sm card-view-height">
-                      <div class="d-flex align-items-start align-items-sm-center">
-                        <div class="form-check me-2 me-xxl-3 mb-0"><input class="form-check-input" type="checkbox" id="card-view-tickets-11" data-bulk-select-row="data-bulk-select-row" /></div><a class="d-none d-sm-block" href="customer-details.php">
-                          <div class="avatar avatar-xl avatar-3xl">
-                            <div class="avatar-name rounded-circle"><span>FB</span></div>
-                          </div>
-                        </a>
-                        <div class="ms-1 ms-sm-3">
-                          <p class="fw-semi-bold mb-3 mb-sm-2"><a href="tickets-preview.html">i would like to buy theme #3261</a></p>
-                          <div class="row align-items-center gx-0 gy-2">
-                            <div class="col-auto me-2">
-                              <h6 class="client mb-0"><a class="text-800 d-flex align-items-center gap-1" href="customer-details.php"><span class="fas fa-user" data-fa-transform="shrink-3 up-1"></span><span>Fadil Badr</span></a></h6>
-                            </div>
-                            <div class="col-auto lh-1 me-3"><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small></div>
-                            <div class="col-auto">
-                              <h6 class="mb-0 text-500">2d ago</h6>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="border-bottom mt-4 mb-x1"></div>
-                      <div class="d-flex justify-content-between ms-auto">
-                        <div class="d-flex align-items-center gap-2 ms-md-4 ms-xl-0" style="width:7.5rem;">
-                          <div style="--falcon-circle-progress-bar:50"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                              <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                              <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#2A7BE4" stroke-width="12"></circle>
-                            </svg></div>
-                          <h6 class="mb-0 text-700">Medium</h6>
-                        </div><select class="form-select form-select-sm" aria-label="agents actions" style="width:9.375rem;">
-                          <option>Select Agent</option>
-                          <option>Anindya</option>
-                          <option>Nowrin</option>
-                          <option selected="selected">Khalid</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="bg-white dark__bg-1100 d-md-flex d-xl-inline-block d-xxl-flex align-items-center p-x1 rounded-3 shadow-sm card-view-height">
-                      <div class="d-flex align-items-start align-items-sm-center">
-                        <div class="form-check me-2 me-xxl-3 mb-0"><input class="form-check-input" type="checkbox" id="card-view-tickets-12" data-bulk-select-row="data-bulk-select-row" /></div><a class="d-none d-sm-block" href="customer-details.php">
-                          <div class="avatar avatar-xl avatar-3xl">
-                            <img class="rounded-circle" src="../../assets/img/team/3-thumb.png" alt="" />
-                          </div>
-                        </a>
-                        <div class="ms-1 ms-sm-3">
-                          <p class="fw-semi-bold mb-3 mb-sm-2"><a href="tickets-preview.html">Theme info (icons) #3260</a></p>
-                          <div class="row align-items-center gx-0 gy-2">
-                            <div class="col-auto me-2">
-                              <h6 class="client mb-0"><a class="text-800 d-flex align-items-center gap-1" href="customer-details.php"><span class="fas fa-user" data-fa-transform="shrink-3 up-1"></span><span>Regina Kempt</span></a></h6>
-                            </div>
-                            <div class="col-auto lh-1 me-3"><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small></div>
-                            <div class="col-auto">
-                              <h6 class="mb-0 text-500">2d ago</h6>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="border-bottom mt-4 mb-x1"></div>
-                      <div class="d-flex justify-content-between ms-auto">
-                        <div class="d-flex align-items-center gap-2 ms-md-4 ms-xl-0" style="width:7.5rem;">
-                          <div style="--falcon-circle-progress-bar:25"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                              <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                              <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#00D27B" stroke-width="12"></circle>
-                            </svg></div>
-                          <h6 class="mb-0 text-700">Low</h6>
-                        </div><select class="form-select form-select-sm" aria-label="agents actions" style="width:9.375rem;">
-                          <option>Select Agent</option>
-                          <option selected="selected">Anindya</option>
-                          <option>Nowrin</option>
-                          <option>Khalid</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="bg-white dark__bg-1100 d-md-flex d-xl-inline-block d-xxl-flex align-items-center p-x1 rounded-3 shadow-sm card-view-height">
-                      <div class="d-flex align-items-start align-items-sm-center">
-                        <div class="form-check me-2 me-xxl-3 mb-0"><input class="form-check-input" type="checkbox" id="card-view-tickets-13" data-bulk-select-row="data-bulk-select-row" /></div><a class="d-none d-sm-block" href="customer-details.php">
-                          <div class="avatar avatar-xl avatar-3xl">
-                            <div class="avatar-name rounded-circle"><span>C</span></div>
-                          </div>
-                        </a>
-                        <div class="ms-1 ms-sm-3">
-                          <p class="fw-semi-bold mb-3 mb-sm-2"><a href="tickets-preview.html">Phishing link #3259</a></p>
-                          <div class="row align-items-center gx-0 gy-2">
-                            <div class="col-auto me-2">
-                              <h6 class="client mb-0"><a class="text-800 d-flex align-items-center gap-1" href="customer-details.php"><span class="fas fa-user" data-fa-transform="shrink-3 up-1"></span><span>Caleb</span></a></h6>
-                            </div>
-                            <div class="col-auto lh-1 me-3"><small class="badge rounded badge-subtle-success false">Recent</small></div>
-                            <div class="col-auto">
-                              <h6 class="mb-0 text-500">2d ago</h6>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="border-bottom mt-4 mb-x1"></div>
-                      <div class="d-flex justify-content-between ms-auto">
-                        <div class="d-flex align-items-center gap-2 ms-md-4 ms-xl-0" style="width:7.5rem;">
-                          <div style="--falcon-circle-progress-bar:50"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                              <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                              <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#2A7BE4" stroke-width="12"></circle>
-                            </svg></div>
-                          <h6 class="mb-0 text-700">Medium</h6>
-                        </div><select class="form-select form-select-sm" aria-label="agents actions" style="width:9.375rem;">
-                          <option>Select Agent</option>
-                          <option>Anindya</option>
-                          <option>Nowrin</option>
-                          <option>Khalid</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="bg-white dark__bg-1100 d-md-flex d-xl-inline-block d-xxl-flex align-items-center p-x1 rounded-3 shadow-sm card-view-height">
-                      <div class="d-flex align-items-start align-items-sm-center">
-                        <div class="form-check me-2 me-xxl-3 mb-0"><input class="form-check-input" type="checkbox" id="card-view-tickets-14" data-bulk-select-row="data-bulk-select-row" /></div><a class="d-none d-sm-block" href="customer-details.php">
-                          <div class="avatar avatar-xl avatar-3xl">
-                            <div class="avatar-name rounded-circle"><span>EW</span></div>
-                          </div>
-                        </a>
-                        <div class="ms-1 ms-sm-3">
-                          <p class="fw-semi-bold mb-3 mb-sm-2"><a href="tickets-preview.html">Synapse Design #1125</a></p>
-                          <div class="row align-items-center gx-0 gy-2">
-                            <div class="col-auto me-2">
-                              <h6 class="client mb-0"><a class="text-800 d-flex align-items-center gap-1" href="customer-details.php"><span class="fas fa-user" data-fa-transform="shrink-3 up-1"></span><span>Emma Watson</span></a></h6>
-                            </div>
-                            <div class="col-auto lh-1 me-3"><small class="badge rounded badge-subtle-success false">Recent</small></div>
-                            <div class="col-auto">
-                              <h6 class="mb-0 text-500">2d ago</h6>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="border-bottom mt-4 mb-x1"></div>
-                      <div class="d-flex justify-content-between ms-auto">
-                        <div class="d-flex align-items-center gap-2 ms-md-4 ms-xl-0" style="width:7.5rem;">
-                          <div style="--falcon-circle-progress-bar:100"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                              <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                              <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#e63757" stroke-width="12"></circle>
-                            </svg></div>
-                          <h6 class="mb-0 text-700">Urgent</h6>
-                        </div><select class="form-select form-select-sm" aria-label="agents actions" style="width:9.375rem;">
-                          <option>Select Agent</option>
-                          <option selected="selected">Anindya</option>
-                          <option>Nowrin</option>
-                          <option>Khalid</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="bg-white dark__bg-1100 d-md-flex d-xl-inline-block d-xxl-flex align-items-center p-x1 rounded-3 shadow-sm card-view-height">
-                      <div class="d-flex align-items-start align-items-sm-center">
-                        <div class="form-check me-2 me-xxl-3 mb-0"><input class="form-check-input" type="checkbox" id="card-view-tickets-15" data-bulk-select-row="data-bulk-select-row" /></div><a class="d-none d-sm-block" href="customer-details.php">
-                          <div class="avatar avatar-xl avatar-3xl">
-                            <div class="avatar-name rounded-circle"><span>L</span></div>
-                          </div>
-                        </a>
-                        <div class="ms-1 ms-sm-3">
-                          <p class="fw-semi-bold mb-3 mb-sm-2"><a href="tickets-preview.html">Change of refund my last buy | Order #125631</a></p>
-                          <div class="row align-items-center gx-0 gy-2">
-                            <div class="col-auto me-2">
-                              <h6 class="client mb-0"><a class="text-800 d-flex align-items-center gap-1" href="customer-details.php"><span class="fas fa-user" data-fa-transform="shrink-3 up-1"></span><span>Luke</span></a></h6>
-                            </div>
-                            <div class="col-auto lh-1 me-3"><small class="badge rounded badge-subtle-danger false">Overdue</small></div>
-                            <div class="col-auto">
-                              <h6 class="mb-0 text-500">2d ago</h6>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="border-bottom mt-4 mb-x1"></div>
-                      <div class="d-flex justify-content-between ms-auto">
-                        <div class="d-flex align-items-center gap-2 ms-md-4 ms-xl-0" style="width:7.5rem;">
-                          <div style="--falcon-circle-progress-bar:75"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                              <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                              <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#F68F57" stroke-width="12"></circle>
-                            </svg></div>
-                          <h6 class="mb-0 text-700">High</h6>
-                        </div><select class="form-select form-select-sm" aria-label="agents actions" style="width:9.375rem;">
-                          <option>Select Agent</option>
-                          <option selected="selected">Anindya</option>
-                          <option>Nowrin</option>
-                          <option>Khalid</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="bg-white dark__bg-1100 d-md-flex d-xl-inline-block d-xxl-flex align-items-center p-x1 rounded-3 shadow-sm card-view-height">
-                      <div class="d-flex align-items-start align-items-sm-center">
-                        <div class="form-check me-2 me-xxl-3 mb-0"><input class="form-check-input" type="checkbox" id="card-view-tickets-16" data-bulk-select-row="data-bulk-select-row" /></div><a class="d-none d-sm-block" href="customer-details.php">
-                          <div class="avatar avatar-xl avatar-3xl">
-                            <img class="rounded-circle" src="../../assets/img/team/1-thumb.png" alt="" />
-                          </div>
-                        </a>
-                        <div class="ms-1 ms-sm-3">
-                          <p class="fw-semi-bold mb-3 mb-sm-2"><a href="tickets-preview.html">I need your help #2256</a></p>
-                          <div class="row align-items-center gx-0 gy-2">
-                            <div class="col-auto me-2">
-                              <h6 class="client mb-0"><a class="text-800 d-flex align-items-center gap-1" href="customer-details.php"><span class="fas fa-user" data-fa-transform="shrink-3 up-1"></span><span>Finley</span></a></h6>
-                            </div>
-                            <div class="col-auto lh-1 me-3"><small class="badge rounded badge-subtle-warning false">Remaining</small></div>
-                            <div class="col-auto">
-                              <h6 class="mb-0 text-500">2d ago</h6>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="border-bottom mt-4 mb-x1"></div>
-                      <div class="d-flex justify-content-between ms-auto">
-                        <div class="d-flex align-items-center gap-2 ms-md-4 ms-xl-0" style="width:7.5rem;">
-                          <div style="--falcon-circle-progress-bar:50"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                              <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                              <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#2A7BE4" stroke-width="12"></circle>
-                            </svg></div>
-                          <h6 class="mb-0 text-700">Medium</h6>
-                        </div><select class="form-select form-select-sm" aria-label="agents actions" style="width:9.375rem;">
-                          <option>Select Agent</option>
-                          <option>Anindya</option>
-                          <option selected="selected">Nowrin</option>
-                          <option>Khalid</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="bg-white dark__bg-1100 d-md-flex d-xl-inline-block d-xxl-flex align-items-center p-x1 rounded-3 shadow-sm card-view-height">
-                      <div class="d-flex align-items-start align-items-sm-center">
-                        <div class="form-check me-2 me-xxl-3 mb-0"><input class="form-check-input" type="checkbox" id="card-view-tickets-17" data-bulk-select-row="data-bulk-select-row" /></div><a class="d-none d-sm-block" href="customer-details.php">
-                          <div class="avatar avatar-xl avatar-3xl">
-                            <div class="avatar-name rounded-circle"><span>PG</span></div>
-                          </div>
-                        </a>
-                        <div class="ms-1 ms-sm-3">
-                          <p class="fw-semi-bold mb-3 mb-sm-2"><a href="tickets-preview.html">I need your help #2256</a></p>
-                          <div class="row align-items-center gx-0 gy-2">
-                            <div class="col-auto me-2">
-                              <h6 class="client mb-0"><a class="text-800 d-flex align-items-center gap-1" href="customer-details.php"><span class="fas fa-user" data-fa-transform="shrink-3 up-1"></span><span>Peter Gill</span></a></h6>
-                            </div>
-                            <div class="col-auto lh-1 me-3"><small class="badge rounded badge-subtle-info false">Responded</small></div>
-                            <div class="col-auto">
-                              <h6 class="mb-0 text-500">2d ago</h6>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="border-bottom mt-4 mb-x1"></div>
-                      <div class="d-flex justify-content-between ms-auto">
-                        <div class="d-flex align-items-center gap-2 ms-md-4 ms-xl-0" style="width:7.5rem;">
-                          <div style="--falcon-circle-progress-bar:25"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                              <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                              <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#00D27B" stroke-width="12"></circle>
-                            </svg></div>
-                          <h6 class="mb-0 text-700">Low</h6>
-                        </div><select class="form-select form-select-sm" aria-label="agents actions" style="width:9.375rem;">
-                          <option>Select Agent</option>
-                          <option>Anindya</option>
-                          <option selected="selected">Nowrin</option>
-                          <option>Khalid</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="bg-white dark__bg-1100 d-md-flex d-xl-inline-block d-xxl-flex align-items-center p-x1 rounded-3 shadow-sm card-view-height">
-                      <div class="d-flex align-items-start align-items-sm-center">
-                        <div class="form-check me-2 me-xxl-3 mb-0"><input class="form-check-input" type="checkbox" id="card-view-tickets-18" data-bulk-select-row="data-bulk-select-row" /></div><a class="d-none d-sm-block" href="customer-details.php">
-                          <div class="avatar avatar-xl avatar-3xl">
-                            <img class="rounded-circle" src="../../assets/img/team/25-thumb.png" alt="" />
-                          </div>
-                        </a>
-                        <div class="ms-1 ms-sm-3">
-                          <p class="fw-semi-bold mb-3 mb-sm-2"><a href="tickets-preview.html">Contact Froms #3264</a></p>
-                          <div class="row align-items-center gx-0 gy-2">
-                            <div class="col-auto me-2">
-                              <h6 class="client mb-0"><a class="text-800 d-flex align-items-center gap-1" href="customer-details.php"><span class="fas fa-user" data-fa-transform="shrink-3 up-1"></span><span>Freya</span></a></h6>
-                            </div>
-                            <div class="col-auto lh-1 me-3"><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small></div>
-                            <div class="col-auto">
-                              <h6 class="mb-0 text-500">2d ago</h6>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="border-bottom mt-4 mb-x1"></div>
-                      <div class="d-flex justify-content-between ms-auto">
-                        <div class="d-flex align-items-center gap-2 ms-md-4 ms-xl-0" style="width:7.5rem;">
-                          <div style="--falcon-circle-progress-bar:100"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                              <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                              <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#e63757" stroke-width="12"></circle>
-                            </svg></div>
-                          <h6 class="mb-0 text-700">Urgent</h6>
-                        </div><select class="form-select form-select-sm" aria-label="agents actions" style="width:9.375rem;">
-                          <option>Select Agent</option>
-                          <option>Anindya</option>
-                          <option>Nowrin</option>
-                          <option selected="selected">Khalid</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="bg-white dark__bg-1100 d-md-flex d-xl-inline-block d-xxl-flex align-items-center p-x1 rounded-3 shadow-sm card-view-height">
-                      <div class="d-flex align-items-start align-items-sm-center">
-                        <div class="form-check me-2 me-xxl-3 mb-0"><input class="form-check-input" type="checkbox" id="card-view-tickets-19" data-bulk-select-row="data-bulk-select-row" /></div><a class="d-none d-sm-block" href="customer-details.php">
-                          <div class="avatar avatar-xl avatar-3xl">
-                            <div class="avatar-name rounded-circle"><span>M</span></div>
-                          </div>
-                        </a>
-                        <div class="ms-1 ms-sm-3">
-                          <p class="fw-semi-bold mb-3 mb-sm-2"><a href="tickets-preview.html">I need your help #2256</a></p>
-                          <div class="row align-items-center gx-0 gy-2">
-                            <div class="col-auto me-2">
-                              <h6 class="client mb-0"><a class="text-800 d-flex align-items-center gap-1" href="customer-details.php"><span class="fas fa-user" data-fa-transform="shrink-3 up-1"></span><span>Morrison</span></a></h6>
-                            </div>
-                            <div class="col-auto lh-1 me-3"><small class="badge rounded badge-subtle-info false">Responded</small></div>
-                            <div class="col-auto">
-                              <h6 class="mb-0 text-500">2d ago</h6>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="border-bottom mt-4 mb-x1"></div>
-                      <div class="d-flex justify-content-between ms-auto">
-                        <div class="d-flex align-items-center gap-2 ms-md-4 ms-xl-0" style="width:7.5rem;">
-                          <div style="--falcon-circle-progress-bar:50"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                              <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                              <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#2A7BE4" stroke-width="12"></circle>
-                            </svg></div>
-                          <h6 class="mb-0 text-700">Medium</h6>
-                        </div><select class="form-select form-select-sm" aria-label="agents actions" style="width:9.375rem;">
-                          <option>Select Agent</option>
-                          <option>Anindya</option>
-                          <option>Nowrin</option>
-                          <option selected="selected">Khalid</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="bg-white dark__bg-1100 d-md-flex d-xl-inline-block d-xxl-flex align-items-center p-x1 rounded-3 shadow-sm card-view-height">
-                      <div class="d-flex align-items-start align-items-sm-center">
-                        <div class="form-check me-2 me-xxl-3 mb-0"><input class="form-check-input" type="checkbox" id="card-view-tickets-20" data-bulk-select-row="data-bulk-select-row" /></div><a class="d-none d-sm-block" href="customer-details.php">
-                          <div class="avatar avatar-xl avatar-3xl">
-                            <div class="avatar-name rounded-circle"><span>MB</span></div>
-                          </div>
-                        </a>
-                        <div class="ms-1 ms-sm-3">
-                          <p class="fw-semi-bold mb-3 mb-sm-2"><a href="tickets-preview.html">I need your help #2256</a></p>
-                          <div class="row align-items-center gx-0 gy-2">
-                            <div class="col-auto me-2">
-                              <h6 class="client mb-0"><a class="text-800 d-flex align-items-center gap-1" href="customer-details.php"><span class="fas fa-user" data-fa-transform="shrink-3 up-1"></span><span>Morrison Banneker</span></a></h6>
-                            </div>
-                            <div class="col-auto lh-1 me-3"><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small></div>
-                            <div class="col-auto">
-                              <h6 class="mb-0 text-500">2d ago</h6>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="border-bottom mt-4 mb-x1"></div>
-                      <div class="d-flex justify-content-between ms-auto">
-                        <div class="d-flex align-items-center gap-2 ms-md-4 ms-xl-0" style="width:7.5rem;">
-                          <div style="--falcon-circle-progress-bar:50"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                              <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                              <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#2A7BE4" stroke-width="12"></circle>
-                            </svg></div>
-                          <h6 class="mb-0 text-700">Medium</h6>
-                        </div><select class="form-select form-select-sm" aria-label="agents actions" style="width:9.375rem;">
-                          <option>Select Agent</option>
-                          <option>Anindya</option>
-                          <option>Nowrin</option>
-                          <option selected="selected">Khalid</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="text-center d-none" id="tickets-card-fallback">
-                    <p class="fw-bold fs-8 mt-3">No ticket found</p>
                   </div>
                 </div>
-                <div class="card-footer">
-                  <div class="d-flex justify-content-center"><button class="btn btn-sm btn-falcon-default me-1" type="button" title="Previous" data-list-pagination="prev"><span class="fas fa-chevron-left"></span></button>
-                    <ul class="pagination mb-0"></ul><button class="btn btn-sm btn-falcon-default ms-1" type="button" title="Next" data-list-pagination="next"><span class="fas fa-chevron-right"></span></button>
-                  </div>
+                <div class="card-footer d-flex justify-content-center"><button class="btn btn-sm btn-falcon-default me-1" type="button" title="Previous" data-list-pagination="prev"><span class="fas fa-chevron-left"></span></button>
+                  <ul class="pagination mb-0"></ul><button class="btn btn-sm btn-falcon-default ms-1" type="button" title="Next" data-list-pagination="next"><span class="fas fa-chevron-right"></span></button>
                 </div>
               </div>
             </div>
             <div class="col-xxl-2 col-xl-3">
-              <div class="offcanvas offcanvas-end offcanvas-filter-sidebar border-0 bg-body-quaternary h-auto rounded-xl-3" tabindex="-1" id="ticketOffcanvas" aria-labelledby="ticketOffcanvasLabelCard">
+              <div class="offcanvas offcanvas-end offcanvas-filter-sidebar border-0 dark__bg-card-dark h-auto rounded-xl-3" tabindex="-1" id="allContactOffcanvas" aria-labelledby="allContactOffcanvasLabel">
                 <div class="offcanvas-header d-flex flex-between-center d-xl-none bg-body-tertiary">
-                  <h6 class="fs-9 mb-0 fw-semi-bold">Filter</h6><button class="btn-close text-reset d-xl-none shadow-none" id="ticketOffcanvasLabelCard" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  <h6 class="fs-9 mb-0 fw-semi-bold">Filter</h6><button class="btn-close text-reset d-xl-none shadow-none" id="allContactOffcanvasLabel" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="card scrollbar shadow-none shadow-show-xl">
                   <div class="card-header bg-body-tertiary d-none d-xl-block">
@@ -3352,35 +3192,48 @@
                   </div>
                   <div class="card-body">
                     <form>
-                      <div class="mb-2 mt-n2"><label class="mb-1">Priority</label><select class="form-select form-select-sm">
+                      <div class="mb-2 mt-n2"><label class="mb-1">Contact Created</label><select class="form-select form-select-sm">
                           <option>None</option>
-                          <option>Urgent</option>
-                          <option>High</option>
-                          <option>Medium</option>
-                          <option>Low</option>
+                          <option>Today</option>
+                          <option selected="selected">Last Day</option>
+                          <option>Last 7 days</option>
+                          <option>Last 30 days</option>
+                          <option>Choose a time period</option>
                         </select></div>
-                      <div class="mb-2"><label class="mb-1 mt-2">Source</label><select class="form-select form-select-sm">
+                      <div class="mb-2"><label class="mb-1 mt-2">Zone of time</label><select class="form-select form-select-sm">
                           <option>None</option>
-                          <option>Email</option>
-                          <option>Phone</option>
-                          <option>Forum</option>
-                          <option selected="selected">Facebook</option>
+                          <option>Bangladesh Standard Time</option>
+                          <option>India Standard Time</option>
+                          <option>Pakistan Standard Time</option>
+                          <option>Central America Standard Time</option>
+                          <option>Nepal Standard Time</option>
+                        </select></div>
+                      <div class="mb-2"><label class="mb-1 mt-2">Subscription</label><select class="form-select form-select-sm">
+                          <option>None</option>
+                          <option>Active</option>
+                          <option>Inactive</option>
+                          <option>Expired</option>
+                          <option>Pending</option>
+                        </select></div>
+                      <div class="mb-2"><label class="mb-1 mt-2">Social</label><select class="form-select form-select-sm">
+                          <option>None</option>
+                          <option>Facebook</option>
                           <option>Twitter</option>
-                          <option>Chat</option>
-                          <option>Whatsapp</option>
-                          <option>Portal</option>
-                          <option>Bots</option>
-                          <option>External Email</option>
-                          <option>Ecommerce</option>
-                          <option>Feedback Widget</option>
+                          <option>LinkedIn</option>
                         </select></div>
-                      <div class="mb-2"><label class="mb-1 mt-2">Status</label><select class="form-select form-select-sm">
+                      <div class="mb-2"><label class="mb-1 mt-2">Agents</label><select class="form-select form-select-sm">
                           <option>None</option>
-                          <option>Recent</option>
-                          <option>Overdue</option>
-                          <option>Closed</option>
-                          <option>Remaining</option>
-                          <option>Responded</option>
+                          <option>Emma</option>
+                          <option>Luke</option>
+                          <option selected="selected">Finley</option>
+                          <option>Peter Gill</option>
+                          <option>Sallie Reyes</option>
+                          <option>Freya</option>
+                          <option>Morrison</option>
+                          <option>Aar Kay</option>
+                          <option>Michele</option>
+                          <option>Banneker</option>
+                          <option>Romanin</option>
                         </select></div>
                       <div class="mb-2"><label class="mb-1 mt-2">Group</label><select class="form-select form-select-sm">
                           <option>None</option>
@@ -3390,44 +3243,19 @@
                           <option>Enhancement</option>
                           <option>Unassigned</option>
                         </select></div>
-                      <div class="mb-2"><label class="mb-1 mt-2">Agent</label><select class="form-select form-select-sm">
+                      <div><label class="mb-1 mt-2">Customer</label><select class="form-select form-select-sm">
                           <option>None</option>
-                          <option>Anindya</option>
-                          <option>Nowrin</option>
-                          <option>Khalid</option>
-                        </select></div>
-                      <div class="mb-2"><label class="mb-1 mt-2">Type</label><select class="form-select form-select-sm">
-                          <option>None</option>
-                          <option>Question</option>
-                          <option>Incident</option>
-                          <option>Problem</option>
-                          <option>Feature Request</option>
-                          <option>Refund</option>
-                        </select></div>
-                      <div class="mb-2"><label class="mb-1 mt-2">Category</label><select class="form-select form-select-sm">
-                          <option>None</option>
-                          <option>General Issue</option>
-                          <option>Maintenance</option>
-                          <option>Engineering</option>
-                          <option>Accounts</option>
-                          <option>Feedback</option>
-                          <option selected="selected">Support</option>
-                          <option>Test Helpdesk</option>
-                        </select></div>
-                      <div class="mb-2"><label class="mb-1 mt-2">Tags</label><select class="form-select form-select-sm">
-                          <option>None</option>
-                          <option>Sales</option>
-                          <option>Request</option>
-                          <option>Complaint</option>
-                          <option>Feedback</option>
-                          <option>Support</option>
-                        </select></div>
-                      <div><label class="mb-1 mt-2">Subscription</label><select class="form-select form-select-sm">
-                          <option>None</option>
-                          <option>Active</option>
-                          <option>Inactive</option>
-                          <option>Expired</option>
-                          <option>Pending</option>
+                          <option>Emma</option>
+                          <option>Luke</option>
+                          <option>Finley</option>
+                          <option>Peter Gill</option>
+                          <option>Sallie Reyes</option>
+                          <option>Freya</option>
+                          <option>Morrison</option>
+                          <option>Aar Kay</option>
+                          <option>Michele</option>
+                          <option>Banneker</option>
+                          <option>Romanin</option>
                         </select></div>
                     </form>
                   </div>
@@ -3566,7 +3394,6 @@
     <script src="../../vendors/bootstrap/bootstrap.min.js"></script>
     <script src="../../vendors/anchorjs/anchor.min.js"></script>
     <script src="../../vendors/is/is.min.js"></script>
-    <script src="../../vendors/echarts/echarts.min.js"></script>
     <script src="../../vendors/fontawesome/all.min.js"></script>
     <script src="../../vendors/lodash/lodash.min.js"></script>
     <script src="../../vendors/list.js/list.min.js"></script>
@@ -3574,6 +3401,7 @@
   </body>
 
 
-<!-- Mirrored from prium.github.io/falcon/v3.26.0/app/support-desk/card-view.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 14 Apr 2026 15:05:28 GMT -->
+<!-- Mirrored from prium.github.io/falcon/v3.26.0/app/support-desk/customers.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 14 Apr 2026 15:05:28 GMT -->
 </html>
+
 

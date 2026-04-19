@@ -1,5 +1,5 @@
 <?php
-$basePath = '/isp-views';
+$basePath = isset($appBasePath) ? $appBasePath : '';
 ?>
         <div class="content">
           <script>

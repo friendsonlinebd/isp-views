@@ -1,7 +1,7 @@
           <footer class="footer">
             <div class="row g-0 justify-content-between fs-10 mt-4 mb-3">
               <div class="col-12 col-sm-auto text-center">
-                <p class="mb-0 text-600">Copyright &copy; 2026 @joyoares</p>
+                <p class="mb-0 text-600">isp360 Copyright &copy; 2026 @mostafaJoy</p>
               </div>
               <div class="col-12 col-sm-auto text-center">
                 <p class="mb-0 text-600">1.0.0</p>
@@ -13,21 +13,23 @@
     <!-- ===============================================--><!--    End of Main Content--><!-- ===============================================-->
 
     <!-- ===============================================--><!--    JavaScripts--><!-- ===============================================-->
-    <script src="/isp-views/vendors/popper/popper.min.js"></script>
-    <script src="/isp-views/vendors/bootstrap/bootstrap.min.js"></script>
-    <script src="/isp-views/vendors/anchorjs/anchor.min.js"></script>
-    <script src="/isp-views/vendors/is/is.min.js"></script>
-    <script src="/isp-views/vendors/countup/countUp.umd.js"></script>
-    <script src="/isp-views/vendors/echarts/echarts.min.js"></script>
-    <script src="/isp-views/vendors/dayjs/dayjs.min.js"></script>
-    <script src="/isp-views/vendors/lodash/lodash.min.js"></script>
-    <script src="/isp-views/vendors/list.js/list.min.js"></script>
-    <script src="/isp-views/vendors/fontawesome/all.min.js"></script>
-    <script src="/isp-views/vendors/prism/prism.js"></script>
+    <?php $appPathPrefix = isset($appBasePath) ? $appBasePath : ''; ?>
+    <script src="<?= $appPathPrefix ?>/vendors/popper/popper.min.js"></script>
+    <script src="<?= $appPathPrefix ?>/vendors/bootstrap/bootstrap.min.js"></script>
+    <script src="<?= $appPathPrefix ?>/vendors/anchorjs/anchor.min.js"></script>
+    <script src="<?= $appPathPrefix ?>/vendors/is/is.min.js"></script>
+    <script src="<?= $appPathPrefix ?>/vendors/countup/countUp.umd.js"></script>
+    <script src="<?= $appPathPrefix ?>/vendors/echarts/echarts.min.js"></script>
+    <script src="<?= $appPathPrefix ?>/vendors/dayjs/dayjs.min.js"></script>
+    <script src="<?= $appPathPrefix ?>/vendors/lodash/lodash.min.js"></script>
+    <script src="<?= $appPathPrefix ?>/vendors/list.js/list.min.js"></script>
+    <script src="<?= $appPathPrefix ?>/vendors/fontawesome/all.min.js"></script>
+    <script src="<?= $appPathPrefix ?>/vendors/prism/prism.js"></script>
     <script>
       (function () {
         var path = window.location.pathname.toLowerCase();
-        if (path.indexOf('/isp-views/app/') === -1) return;
+        var appPrefix = '<?= strtolower($appPathPrefix) ?>/app/';
+        if (path.indexOf(appPrefix) === -1) return;
 
         var content = document.querySelector('.content');
         if (!content) return;
@@ -125,7 +127,7 @@
           : null;
         var parentLabel = parentToggle ? parentToggle.textContent.replace(/\s+/g, ' ').trim() : '';
 
-        var breadcrumbItems = [{ label: 'Home', href: '/isp-views/index.php', icon: 'fas fa-home', iconOnly: true }];
+        var breadcrumbItems = [{ label: 'Home', href: '<?= $appPathPrefix ?>/index.php', icon: 'fas fa-home', iconOnly: true }];
         if (parentLabel) {
           breadcrumbItems.push({ label: parentLabel });
         }
@@ -340,7 +342,8 @@
         }
       })();
     </script>
-    <script src="/isp-views/assets/js/theme.js"></script>
+    <script src="<?= $appPathPrefix ?>/assets/js/theme.js"></script>
   </body>
 
 </html>
+

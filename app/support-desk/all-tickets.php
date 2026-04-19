@@ -29,8 +29,8 @@ require '../../includes/header.php';
                       </div>
                       <div class="d-flex align-items-center" id="table-ticket-replace-element">
                         <div class="dropdown"><button class="btn btn-sm btn-falcon-default dropdown-toggle dropdown-caret-none" type="button" id="ticket-layout" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="d-none d-sm-inline-block d-xl-none d-xxl-inline-block me-1">Table View</span><span class="fas fa-chevron-down" data-fa-transform="shrink-3 down-1"></span></button>
-                          <div class="dropdown-menu dropdown-toggle-item dropdown-menu-end border py-2" aria-labelledby="ticket-layout"><a class="dropdown-item active" href="table-view.html">Table View</a><a class="dropdown-item" href="card-view.html">Card View</a></div>
-                        </div><a class="btn btn-falcon-default btn-sm mx-2" href="/isp-views/app/support-desk/add-ticket.php"><span class="fas fa-plus" data-fa-transform="shrink-3"></span><span class="d-none d-sm-inline-block d-xl-none d-xxl-inline-block ms-1">New</span></a>
+                          <div class="dropdown-menu dropdown-toggle-item dropdown-menu-end border py-2" aria-labelledby="ticket-layout"><a class="dropdown-item active" href="table-view.php">Table View</a><a class="dropdown-item" href="card-view.php">Card View</a></div>
+                        </div><a class="btn btn-falcon-default btn-sm mx-2" href="<?= $appBasePath ?>/app/support-desk/add-ticket.php"><span class="fas fa-plus" data-fa-transform="shrink-3"></span><span class="d-none d-sm-inline-block d-xl-none d-xxl-inline-block ms-1">New</span></a>
                         <button class="btn btn-falcon-default btn-sm" type="button"><span class="fas fa-external-link-alt" data-fa-transform="shrink-3"></span><span class="d-none d-sm-inline-block d-xl-none d-xxl-inline-block ms-1">Export</span></button>
                         <div class="dropdown font-sans-serif ms-2"><button class="btn btn-falcon-default text-600 btn-sm dropdown-toggle dropdown-caret-none" type="button" id="preview-dropdown" data-bs-toggle="dropdown" data-boundary="viewport" aria-haspopup="true" aria-expanded="false"><span class="fas fa-ellipsis-h fs-11"></span></button>
                           <div class="dropdown-menu dropdown-menu-end border py-2" aria-labelledby="preview-dropdown"><a class="dropdown-item" href="#!">View</a><a class="dropdown-item" href="#!">Export</a>
@@ -68,7 +68,7 @@ require '../../includes/header.php';
                               
                             </div>
                           </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">Synapse Design #1125</a></td>
+                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.php">Synapse Design #1125</a></td>
                           <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-success false">Recent</small></td>
                           <td class="align-middle priority pe-4">
                             <div class="d-flex align-items-center gap-2">
@@ -98,7 +98,7 @@ require '../../includes/header.php';
                               <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Luke</a></h6>
                             </div>
                           </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">Change of refund my last buy | Order #125631</a></td>
+                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.php">Change of refund my last buy | Order #125631</a></td>
                           <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-danger false">Overdue</small></td>
                           <td class="align-middle priority pe-4">
                             <div class="d-flex align-items-center gap-2">
@@ -128,7 +128,7 @@ require '../../includes/header.php';
                               <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Finley</a></h6>
                             </div>
                           </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">I need your help #2256</a></td>
+                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.php">I need your help #2256</a></td>
                           <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-warning false">Remaining</small></td>
                           <td class="align-middle priority pe-4">
                             <div class="d-flex align-items-center gap-2">
@@ -158,7 +158,7 @@ require '../../includes/header.php';
                               <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Peter Gill</a></h6>
                             </div>
                           </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">I need your help #2256</a></td>
+                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.php">I need your help #2256</a></td>
                           <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-info false">Responded</small></td>
                           <td class="align-middle priority pe-4">
                             <div class="d-flex align-items-center gap-2">
@@ -188,7 +188,7 @@ require '../../includes/header.php';
                               <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Freya</a></h6>
                             </div>
                           </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">Contact Froms #3264</a></td>
+                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.php">Contact Froms #3264</a></td>
                           <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small></td>
                           <td class="align-middle priority pe-4">
                             <div class="d-flex align-items-center gap-2">
@@ -218,7 +218,7 @@ require '../../includes/header.php';
                               <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Morrison</a></h6>
                             </div>
                           </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">I need your help #2256</a></td>
+                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.php">I need your help #2256</a></td>
                           <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-info false">Responded</small></td>
                           <td class="align-middle priority pe-4">
                             <div class="d-flex align-items-center gap-2">
@@ -248,7 +248,7 @@ require '../../includes/header.php';
                               <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Morrison Banneker</a></h6>
                             </div>
                           </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">I need your help #2256</a></td>
+                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.php">I need your help #2256</a></td>
                           <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small></td>
                           <td class="align-middle priority pe-4">
                             <div class="d-flex align-items-center gap-2">
@@ -278,7 +278,7 @@ require '../../includes/header.php';
                               <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Aar Kay</a></h6>
                             </div>
                           </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">Regarding Falcon Theme #3262</a></td>
+                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.php">Regarding Falcon Theme #3262</a></td>
                           <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-success false">Recent</small></td>
                           <td class="align-middle priority pe-4">
                             <div class="d-flex align-items-center gap-2">
@@ -308,7 +308,7 @@ require '../../includes/header.php';
                               <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Fadil Badr</a></h6>
                             </div>
                           </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">i would like to buy theme #3261</a></td>
+                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.php">i would like to buy theme #3261</a></td>
                           <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small></td>
                           <td class="align-middle priority pe-4">
                             <div class="d-flex align-items-center gap-2">
@@ -338,7 +338,7 @@ require '../../includes/header.php';
                               <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Regina Kempt</a></h6>
                             </div>
                           </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">Theme info (icons) #3260</a></td>
+                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.php">Theme info (icons) #3260</a></td>
                           <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small></td>
                           <td class="align-middle priority pe-4">
                             <div class="d-flex align-items-center gap-2">
@@ -368,7 +368,7 @@ require '../../includes/header.php';
                               <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Caleb</a></h6>
                             </div>
                           </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">Phishing link #3259</a></td>
+                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.php">Phishing link #3259</a></td>
                           <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-success false">Recent</small></td>
                           <td class="align-middle priority pe-4">
                             <div class="d-flex align-items-center gap-2">
@@ -398,7 +398,7 @@ require '../../includes/header.php';
                               <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Fadil Badr</a></h6>
                             </div>
                           </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">i would like to buy theme #3261</a></td>
+                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.php">i would like to buy theme #3261</a></td>
                           <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small></td>
                           <td class="align-middle priority pe-4">
                             <div class="d-flex align-items-center gap-2">
@@ -428,7 +428,7 @@ require '../../includes/header.php';
                               <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Regina Kempt</a></h6>
                             </div>
                           </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">Theme info (icons) #3260</a></td>
+                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.php">Theme info (icons) #3260</a></td>
                           <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small></td>
                           <td class="align-middle priority pe-4">
                             <div class="d-flex align-items-center gap-2">
@@ -458,7 +458,7 @@ require '../../includes/header.php';
                               <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Caleb</a></h6>
                             </div>
                           </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">Phishing link #3259</a></td>
+                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.php">Phishing link #3259</a></td>
                           <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-success false">Recent</small></td>
                           <td class="align-middle priority pe-4">
                             <div class="d-flex align-items-center gap-2">
@@ -488,7 +488,7 @@ require '../../includes/header.php';
                               <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Emma Watson</a></h6>
                             </div>
                           </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">Synapse Design #1125</a></td>
+                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.php">Synapse Design #1125</a></td>
                           <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-success false">Recent</small></td>
                           <td class="align-middle priority pe-4">
                             <div class="d-flex align-items-center gap-2">
@@ -518,7 +518,7 @@ require '../../includes/header.php';
                               <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Luke</a></h6>
                             </div>
                           </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">Change of refund my last buy | Order #125631</a></td>
+                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.php">Change of refund my last buy | Order #125631</a></td>
                           <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-danger false">Overdue</small></td>
                           <td class="align-middle priority pe-4">
                             <div class="d-flex align-items-center gap-2">
@@ -548,7 +548,7 @@ require '../../includes/header.php';
                               <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Finley</a></h6>
                             </div>
                           </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">I need your help #2256</a></td>
+                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.php">I need your help #2256</a></td>
                           <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-warning false">Remaining</small></td>
                           <td class="align-middle priority pe-4">
                             <div class="d-flex align-items-center gap-2">
@@ -578,7 +578,7 @@ require '../../includes/header.php';
                               <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Peter Gill</a></h6>
                             </div>
                           </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">I need your help #2256</a></td>
+                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.php">I need your help #2256</a></td>
                           <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-info false">Responded</small></td>
                           <td class="align-middle priority pe-4">
                             <div class="d-flex align-items-center gap-2">
@@ -608,7 +608,7 @@ require '../../includes/header.php';
                               <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Freya</a></h6>
                             </div>
                           </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">Contact Froms #3264</a></td>
+                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.php">Contact Froms #3264</a></td>
                           <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small></td>
                           <td class="align-middle priority pe-4">
                             <div class="d-flex align-items-center gap-2">
@@ -638,7 +638,7 @@ require '../../includes/header.php';
                               <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Morrison</a></h6>
                             </div>
                           </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">I need your help #2256</a></td>
+                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.php">I need your help #2256</a></td>
                           <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-info false">Responded</small></td>
                           <td class="align-middle priority pe-4">
                             <div class="d-flex align-items-center gap-2">
@@ -668,7 +668,7 @@ require '../../includes/header.php';
                               <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Morrison Banneker</a></h6>
                             </div>
                           </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">I need your help #2256</a></td>
+                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.php">I need your help #2256</a></td>
                           <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small></td>
                           <td class="align-middle priority pe-4">
                             <div class="d-flex align-items-center gap-2">
@@ -698,7 +698,7 @@ require '../../includes/header.php';
                               <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Aar Kay</a></h6>
                             </div>
                           </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">Regarding Falcon Theme #3262</a></td>
+                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.php">Regarding Falcon Theme #3262</a></td>
                           <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-success false">Recent</small></td>
                           <td class="align-middle priority pe-4">
                             <div class="d-flex align-items-center gap-2">
@@ -728,7 +728,7 @@ require '../../includes/header.php';
                               <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Caleb</a></h6>
                             </div>
                           </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">Phishing link #3259</a></td>
+                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.php">Phishing link #3259</a></td>
                           <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-success false">Recent</small></td>
                           <td class="align-middle priority pe-4">
                             <div class="d-flex align-items-center gap-2">
@@ -758,7 +758,7 @@ require '../../includes/header.php';
                               <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Fadil Badr</a></h6>
                             </div>
                           </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">i would like to buy theme #3261</a></td>
+                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.php">i would like to buy theme #3261</a></td>
                           <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small></td>
                           <td class="align-middle priority pe-4">
                             <div class="d-flex align-items-center gap-2">
@@ -788,7 +788,7 @@ require '../../includes/header.php';
                               <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Regina Kempt</a></h6>
                             </div>
                           </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">Theme info (icons) #3260</a></td>
+                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.php">Theme info (icons) #3260</a></td>
                           <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small></td>
                           <td class="align-middle priority pe-4">
                             <div class="d-flex align-items-center gap-2">
@@ -818,7 +818,7 @@ require '../../includes/header.php';
                               <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Emma Watson</a></h6>
                             </div>
                           </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">Synapse Design #1125</a></td>
+                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.php">Synapse Design #1125</a></td>
                           <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-success false">Recent</small></td>
                           <td class="align-middle priority pe-4">
                             <div class="d-flex align-items-center gap-2">
@@ -848,7 +848,7 @@ require '../../includes/header.php';
                               <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Luke</a></h6>
                             </div>
                           </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">Change of refund my last buy | Order #125631</a></td>
+                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.php">Change of refund my last buy | Order #125631</a></td>
                           <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-danger false">Overdue</small></td>
                           <td class="align-middle priority pe-4">
                             <div class="d-flex align-items-center gap-2">
@@ -878,7 +878,7 @@ require '../../includes/header.php';
                               <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Aar Kay</a></h6>
                             </div>
                           </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">Regarding Falcon Theme #3262</a></td>
+                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.php">Regarding Falcon Theme #3262</a></td>
                           <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-success false">Recent</small></td>
                           <td class="align-middle priority pe-4">
                             <div class="d-flex align-items-center gap-2">
@@ -908,7 +908,7 @@ require '../../includes/header.php';
                               <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Morrison Banneker</a></h6>
                             </div>
                           </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">I need your help #2256</a></td>
+                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.php">I need your help #2256</a></td>
                           <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small></td>
                           <td class="align-middle priority pe-4">
                             <div class="d-flex align-items-center gap-2">
@@ -938,7 +938,7 @@ require '../../includes/header.php';
                               <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Morrison</a></h6>
                             </div>
                           </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">I need your help #2256</a></td>
+                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.php">I need your help #2256</a></td>
                           <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-info false">Responded</small></td>
                           <td class="align-middle priority pe-4">
                             <div class="d-flex align-items-center gap-2">
@@ -968,7 +968,7 @@ require '../../includes/header.php';
                               <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Finley</a></h6>
                             </div>
                           </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">I need your help #2256</a></td>
+                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.php">I need your help #2256</a></td>
                           <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-warning false">Remaining</small></td>
                           <td class="align-middle priority pe-4">
                             <div class="d-flex align-items-center gap-2">
@@ -998,7 +998,7 @@ require '../../includes/header.php';
                               <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Peter Gill</a></h6>
                             </div>
                           </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">I need your help #2256</a></td>
+                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.php">I need your help #2256</a></td>
                           <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-info false">Responded</small></td>
                           <td class="align-middle priority pe-4">
                             <div class="d-flex align-items-center gap-2">
@@ -1028,7 +1028,7 @@ require '../../includes/header.php';
                               <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Freya</a></h6>
                             </div>
                           </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">Contact Froms #3264</a></td>
+                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.php">Contact Froms #3264</a></td>
                           <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small></td>
                           <td class="align-middle priority pe-4">
                             <div class="d-flex align-items-center gap-2">
@@ -1158,3 +1158,4 @@ require '../../includes/header.php';
 <?php
 require '../../includes/footer.php';
 ?>
+

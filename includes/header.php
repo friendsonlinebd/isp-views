@@ -1,3 +1,22 @@
+<?php
+$documentRootPath = isset($_SERVER['DOCUMENT_ROOT']) ? realpath($_SERVER['DOCUMENT_ROOT']) : false;
+$projectRootPath = realpath(dirname(__DIR__));
+
+$appBasePath = '';
+if ($documentRootPath && $projectRootPath) {
+  $normalizedDocumentRoot = rtrim(str_replace('\\', '/', $documentRootPath), '/');
+  $normalizedProjectRoot = rtrim(str_replace('\\', '/', $projectRootPath), '/');
+  if ($normalizedDocumentRoot !== '' && strpos($normalizedProjectRoot, $normalizedDocumentRoot) === 0) {
+    $appBasePath = substr($normalizedProjectRoot, strlen($normalizedDocumentRoot));
+  }
+}
+
+if ($appBasePath === '') {
+  $appBasePath = '/' . basename(dirname(__DIR__));
+}
+
+$appBasePath = '/' . trim($appBasePath, '/');
+?>
 <!DOCTYPE html>
 <html data-bs-theme="light" lang="en-US" dir="ltr">
 
@@ -12,24 +31,24 @@
     <title>Admin | Dashboard &amp; Web App Template</title>
 
     <!-- ===============================================--><!--    Favicons--><!-- ===============================================-->
-    <link rel="apple-touch-icon" sizes="180x180" href="/isp-views/assets/img/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/isp-views/assets/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/isp-views/assets/img/favicons/favicon-16x16.png">
-    <link rel="shortcut icon" type="image/x-icon" href="/isp-views/assets/img/favicons/favicon.ico">
-    <link rel="manifest" href="/isp-views/assets/img/favicons/manifest.json">
-    <meta name="msapplication-TileImage" content="/isp-views/assets/img/favicons/mstile-150x150.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?= $appBasePath ?>/assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?= $appBasePath ?>/assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?= $appBasePath ?>/assets/img/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="<?= $appBasePath ?>/assets/img/favicons/favicon.ico">
+    <link rel="manifest" href="<?= $appBasePath ?>/assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="<?= $appBasePath ?>/assets/img/favicons/mstile-150x150.png">
     <meta name="theme-color" content="#ffffff">
-    <script src="/isp-views/assets/js/config.js"></script>
-    <script src="/isp-views/vendors/simplebar/simplebar.min.js"></script>
+    <script src="<?= $appBasePath ?>/assets/js/config.js"></script>
+    <script src="<?= $appBasePath ?>/vendors/simplebar/simplebar.min.js"></script>
 
     <!-- ===============================================--><!--    Stylesheets--><!-- ===============================================-->
     <link rel="preconnect" href="https://fonts.gstatic.com/">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700%7cPoppins:300,400,500,600,700,800,900&amp;display=swap" rel="stylesheet">
-    <link href="/isp-views/vendors/simplebar/simplebar.min.css" rel="stylesheet">
-    <link href="/isp-views/assets/css/theme-rtl.min.css" rel="stylesheet" id="style-rtl">
-    <link href="/isp-views/assets/css/theme.min.css" rel="stylesheet" id="style-default">
-    <link href="/isp-views/assets/css/user-rtl.min.css" rel="stylesheet" id="user-style-rtl">
-    <link href="/isp-views/assets/css/user.min.css" rel="stylesheet" id="user-style-default">
+    <link href="<?= $appBasePath ?>/vendors/simplebar/simplebar.min.css" rel="stylesheet">
+    <link href="<?= $appBasePath ?>/assets/css/theme-rtl.min.css" rel="stylesheet" id="style-rtl">
+    <link href="<?= $appBasePath ?>/assets/css/theme.min.css" rel="stylesheet" id="style-default">
+    <link href="<?= $appBasePath ?>/assets/css/user-rtl.min.css" rel="stylesheet" id="user-style-rtl">
+    <link href="<?= $appBasePath ?>/assets/css/user.min.css" rel="stylesheet" id="user-style-default">
     <script>
       var isRTL = JSON.parse(localStorage.getItem('isRTL'));
       if (isRTL) {

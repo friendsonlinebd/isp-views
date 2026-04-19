@@ -2,7 +2,7 @@
 <html data-bs-theme="light" lang="en-US" dir="ltr">
 
   
-<!-- Mirrored from prium.github.io/falcon/v3.26.0/app/support-desk/table-view.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 14 Apr 2026 15:05:28 GMT -->
+<!-- Mirrored from prium.github.io/falcon/v3.26.0/app/support-desk/tickets-preview.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 14 Apr 2026 15:05:29 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
     <meta charset="utf-8">
@@ -390,7 +390,7 @@
                           <div class="col-6 col-md-4">
                             <div class="nav flex-column"><a class="nav-link py-1 link-600 fw-medium" href="../calendar.html">Calendar</a><a class="nav-link py-1 link-600 fw-medium" href="../chat.html">Chat</a><a class="nav-link py-1 link-600 fw-medium" href="../kanban.html">Kanban</a>
                               <p class="nav-link text-700 mb-0 fw-bold">Social</p><a class="nav-link py-1 link-600 fw-medium" href="../social/feed.html">Feed</a><a class="nav-link py-1 link-600 fw-medium" href="../social/activity-log.html">Activity log</a><a class="nav-link py-1 link-600 fw-medium" href="../social/notifications.html">Notifications</a><a class="nav-link py-1 link-600 fw-medium" href="../social/followers.html">Followers</a>
-                              <p class="nav-link text-700 mb-0 fw-bold">Support Desk</p><a class="nav-link py-1 link-600 fw-medium" href="table-view.html">Table view</a><a class="nav-link py-1 link-600 fw-medium" href="card-view.html">Card view</a><a class="nav-link py-1 link-600 fw-medium" href="customers.php">Customers</a><a class="nav-link py-1 link-600 fw-medium" href="customer-details.php">Customer details</a><a class="nav-link py-1 link-600 fw-medium" href="tickets-preview.html">Tickets preview</a><a class="nav-link py-1 link-600 fw-medium" href="quick-links.html">Quick links</a>
+                              <p class="nav-link text-700 mb-0 fw-bold">Support Desk</p><a class="nav-link py-1 link-600 fw-medium" href="table-view.php">Table view</a><a class="nav-link py-1 link-600 fw-medium" href="card-view.php">Card view</a><a class="nav-link py-1 link-600 fw-medium" href="customers.php">Customers</a><a class="nav-link py-1 link-600 fw-medium" href="customer-details.php">Customer details</a><a class="nav-link py-1 link-600 fw-medium" href="tickets-preview.php">Tickets preview</a><a class="nav-link py-1 link-600 fw-medium" href="quick-links.php">Quick links</a>
                             </div>
                           </div>
                           <div class="col-6 col-md-4">
@@ -718,10 +718,10 @@
                     <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-ticket-alt"></span></span><span class="nav-link-text ps-1">Support desk</span></div>
                   </a>
                   <ul class="nav collapse show" id="support-desk">
-                    <li class="nav-item"><a class="nav-link active" href="table-view.html">
+                    <li class="nav-item"><a class="nav-link" href="table-view.php">
                         <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Table view</span></div>
                       </a><!-- more inner pages--></li>
-                    <li class="nav-item"><a class="nav-link" href="card-view.html">
+                    <li class="nav-item"><a class="nav-link" href="card-view.php">
                         <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Card view</span></div>
                       </a><!-- more inner pages--></li>
                     <li class="nav-item"><a class="nav-link" href="customers.php">
@@ -730,13 +730,13 @@
                     <li class="nav-item"><a class="nav-link" href="customer-details.php">
                         <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Customer details</span></div>
                       </a><!-- more inner pages--></li>
-                    <li class="nav-item"><a class="nav-link" href="tickets-preview.html">
+                    <li class="nav-item"><a class="nav-link active" href="tickets-preview.php">
                         <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Tickets preview</span></div>
                       </a><!-- more inner pages--></li>
-                    <li class="nav-item"><a class="nav-link" href="quick-links.html">
+                    <li class="nav-item"><a class="nav-link" href="quick-links.php">
                         <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Quick links</span></div>
                       </a><!-- more inner pages--></li>
-                    <li class="nav-item"><a class="nav-link" href="reports.html">
+                    <li class="nav-item"><a class="nav-link" href="reports.php">
                         <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Reports</span></div>
                       </a><!-- more inner pages--></li>
                   </ul>
@@ -1459,7 +1459,7 @@
                         <div class="col-6 col-md-4">
                           <div class="nav flex-column"><a class="nav-link py-1 link-600 fw-medium" href="../calendar.html">Calendar</a><a class="nav-link py-1 link-600 fw-medium" href="../chat.html">Chat</a><a class="nav-link py-1 link-600 fw-medium" href="../kanban.html">Kanban</a>
                             <p class="nav-link text-700 mb-0 fw-bold">Social</p><a class="nav-link py-1 link-600 fw-medium" href="../social/feed.html">Feed</a><a class="nav-link py-1 link-600 fw-medium" href="../social/activity-log.html">Activity log</a><a class="nav-link py-1 link-600 fw-medium" href="../social/notifications.html">Notifications</a><a class="nav-link py-1 link-600 fw-medium" href="../social/followers.html">Followers</a>
-                            <p class="nav-link text-700 mb-0 fw-bold">Support Desk</p><a class="nav-link py-1 link-600 fw-medium" href="table-view.html">Table view</a><a class="nav-link py-1 link-600 fw-medium" href="card-view.html">Card view</a><a class="nav-link py-1 link-600 fw-medium" href="customers.php">Customers</a><a class="nav-link py-1 link-600 fw-medium" href="customer-details.php">Customer details</a><a class="nav-link py-1 link-600 fw-medium" href="tickets-preview.html">Tickets preview</a><a class="nav-link py-1 link-600 fw-medium" href="quick-links.html">Quick links</a>
+                            <p class="nav-link text-700 mb-0 fw-bold">Support Desk</p><a class="nav-link py-1 link-600 fw-medium" href="table-view.php">Table view</a><a class="nav-link py-1 link-600 fw-medium" href="card-view.php">Card view</a><a class="nav-link py-1 link-600 fw-medium" href="customers.php">Customers</a><a class="nav-link py-1 link-600 fw-medium" href="customer-details.php">Customer details</a><a class="nav-link py-1 link-600 fw-medium" href="tickets-preview.php">Tickets preview</a><a class="nav-link py-1 link-600 fw-medium" href="quick-links.php">Quick links</a>
                           </div>
                         </div>
                         <div class="col-6 col-md-4">
@@ -2142,7 +2142,7 @@
                           <div class="col-6 col-md-4">
                             <div class="nav flex-column"><a class="nav-link py-1 link-600 fw-medium" href="../calendar.html">Calendar</a><a class="nav-link py-1 link-600 fw-medium" href="../chat.html">Chat</a><a class="nav-link py-1 link-600 fw-medium" href="../kanban.html">Kanban</a>
                               <p class="nav-link text-700 mb-0 fw-bold">Social</p><a class="nav-link py-1 link-600 fw-medium" href="../social/feed.html">Feed</a><a class="nav-link py-1 link-600 fw-medium" href="../social/activity-log.html">Activity log</a><a class="nav-link py-1 link-600 fw-medium" href="../social/notifications.html">Notifications</a><a class="nav-link py-1 link-600 fw-medium" href="../social/followers.html">Followers</a>
-                              <p class="nav-link text-700 mb-0 fw-bold">Support Desk</p><a class="nav-link py-1 link-600 fw-medium" href="table-view.html">Table view</a><a class="nav-link py-1 link-600 fw-medium" href="card-view.html">Card view</a><a class="nav-link py-1 link-600 fw-medium" href="customers.php">Customers</a><a class="nav-link py-1 link-600 fw-medium" href="customer-details.php">Customer details</a><a class="nav-link py-1 link-600 fw-medium" href="tickets-preview.html">Tickets preview</a><a class="nav-link py-1 link-600 fw-medium" href="quick-links.html">Quick links</a>
+                              <p class="nav-link text-700 mb-0 fw-bold">Support Desk</p><a class="nav-link py-1 link-600 fw-medium" href="table-view.php">Table view</a><a class="nav-link py-1 link-600 fw-medium" href="card-view.php">Card view</a><a class="nav-link py-1 link-600 fw-medium" href="customers.php">Customers</a><a class="nav-link py-1 link-600 fw-medium" href="customer-details.php">Customer details</a><a class="nav-link py-1 link-600 fw-medium" href="tickets-preview.php">Tickets preview</a><a class="nav-link py-1 link-600 fw-medium" href="quick-links.php">Quick links</a>
                             </div>
                           </div>
                           <div class="col-6 col-md-4">
@@ -2530,1157 +2530,309 @@
               navbarTopCombo.remove(navbarTopCombo);
             }
           </script>
-          <div class="row gx-3">
-            <div class="col-xxl-10 col-xl-9">
-              <div class="card" id="ticketsTable" data-list='{"valueNames":["client","subject","status","priority","agent"],"page":11,"pagination":true,"fallback":"tickets-table-fallback"}'>
-                <div class="card-header border-bottom border-200 px-0">
-                  <div class="d-lg-flex justify-content-between">
-                    <div class="row flex-between-center gy-2 px-x1">
-                      <div class="col-auto pe-0">
-                        <h6 class="mb-0">All tickets</h6>
-                      </div>
-                      <div class="col-auto">
-                        <form>
-                          <div class="input-group input-search-width"><input class="form-control form-control-sm shadow-none search" type="search" placeholder="Search  by name" aria-label="search" /><button class="btn btn-sm btn-outline-secondary border-300 hover-border-secondary"><span class="fa fa-search fs-10"></span></button></div>
-                        </form>
+          <div class="row g-3">
+            <div class="col-xxl-9 col-xl-8">
+              <div class="card">
+                <div class="card-header d-flex flex-between-center"><button class="btn btn-falcon-default btn-sm" type="button"><span class="fas fa-arrow-left"></span></button>
+                  <div class="d-flex"><button class="btn btn-falcon-default btn-sm" type="button"><span class="fas fa-object-ungroup" data-fa-transform="shrink-2"></span><span class="d-none d-md-inline-block ms-1">Merge</span></button>
+                    <button class="btn btn-falcon-default btn-sm mx-2" type="button"><span class="fas fa-check" data-fa-transform="shrink-2 down-2"></span><span class="d-none d-md-inline-block ms-1">close</span></button>
+                    <button class="btn btn-falcon-default btn-sm" type="button"><span class="fas fa-ban" data-fa-transform="shrink-2 down-1"></span><span class="d-none d-md-inline-block ms-1">Ban visitor</span></button>
+                    <button class="btn btn-falcon-default btn-sm ms-2 d-none d-sm-block" type="button"><span class="fas fa-trash-alt" data-fa-transform="shrink-2 down-1"></span><span class="d-none d-md-inline-block ms-1">Delete</span></button>
+                    <div class="dropdown font-sans-serif ms-2"><button class="btn btn-falcon-default text-600 btn-sm dropdown-toggle dropdown-caret-none" type="button" id="preview-dropdown" data-bs-toggle="dropdown" data-boundary="viewport" aria-haspopup="true" aria-expanded="false"><span class="fas fa-ellipsis-v fs-11"></span></button>
+                      <div class="dropdown-menu dropdown-menu-end border py-2" aria-labelledby="preview-dropdown"><a class="dropdown-item" href="#!">View</a><a class="dropdown-item" href="#!">Export</a><a class="dropdown-item d-sm-none" href="#!">Delete</a>
+                        <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="#!">Remove</a>
                       </div>
                     </div>
-                    <div class="border-bottom border-200 my-3"></div>
-                    <div class="d-flex align-items-center justify-content-between justify-content-lg-end px-x1"><button class="btn btn-sm btn-falcon-default d-xl-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#ticketOffcanvas" aria-controls="ticketOffcanvas"><span class="fas fa-filter" data-fa-transform="shrink-4 down-1"></span><span class="ms-1 d-none d-sm-inline-block">Filter</span></button>
-                      <div class="bg-300 mx-3 d-none d-lg-block d-xl-none" style="width:1px; height:29px"></div>
-                      <div class="d-none" id="table-ticket-actions">
-                        <div class="d-flex"><select class="form-select form-select-sm" aria-label="Bulk actions">
-                            <option selected="">Bulk actions</option>
-                            <option value="Refund">Refund</option>
-                            <option value="Delete">Delete</option>
-                            <option value="Archive">Archive</option>
-                          </select><button class="btn btn-falcon-default btn-sm ms-2" type="button">Apply</button></div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mt-3">
+                <div class="card-header bg-body-tertiary">
+                  <h5><span class="fas fa-envelope me-2"></span><span>Received a broken TV</span></h5>
+                </div>
+                <div class="card-body">
+                  <div class="d-md-flex d-xl-inline-block d-xxl-flex align-items-center justify-content-between mb-x1">
+                    <div class="d-flex align-items-center gap-2"><a href="customer-details.php">
+                        <div class="avatar avatar-2xl">
+                          <img class="rounded-circle" src="../../assets/img/team/1-thumb.png" alt="" />
+                        </div>
+                      </a>
+                      <p class="mb-0"><a class="fw-semi-bold mb-0 text-800" href="customer-details.php">Emma Waston</a><span class="fs-11 text-800 fw-normal mx-2">via email</span><a class="mb-0 fs-10 d-block text-500" href="mailto:emma@watson.com">emma@watson.com</a></p>
+                    </div>
+                    <p class="mb-0 fs-11 fs-sm-10 fw-semi-bold mt-2 mt-md-0 mt-xl-2 mt-xxl-0 ms-5">01 March, 2020<span class="mx-1">|</span><span class="fst-italic">8:30 AM (1 Day ago)</span><span class="fas fa-star ms-2 text-warning"></span></p>
+                  </div>
+                  <div>
+                    <h6 class="mb-3 fw-semi-bold text-1000">Improve in A purposed Manner</h6>
+                    <p>Hi</p>
+                    <p>The television I ordered from your site was delivered with a cracked screen. I need some help with a refund or a replacement.</p>
+                    <p>Here is the order number FD07062010</p>
+                    <p class="mb-0">Thanks</p>
+                    <p class="mb-0">Emma Watson</p>
+                    <div class="p-x1 bg-body-tertiary rounded-3 mt-3">
+                      <div class="d-inline-flex flex-column">
+                        <div class="border p-2 rounded-3 d-flex bg-white dark__bg-1000 fs-10 mb-2"><span class="fs-8 far fa-image"></span><span class="ms-2 me-3">broken_tv_solve.jpg (873kb)</span><a class="text-300 ms-auto" href="#!" data-bs-toggle="tooltip" data-bs-placement="right" title="Download"><span class="fas fa-arrow-down"></span></a></div>
+                        <div class="border p-2 rounded-3 d-flex bg-white dark__bg-1000 fs-10"><span class="fs-8 fas fa-file-archive"></span><span class="ms-2 me-3">broken_tv_solve.zip (342kb)</span><a class="text-300 ms-auto" href="#!" data-bs-toggle="tooltip" data-bs-placement="right" title="Download"><span class="fas fa-arrow-down"></span></a></div>
                       </div>
-                      <div class="d-flex align-items-center" id="table-ticket-replace-element">
-                        <div class="dropdown"><button class="btn btn-sm btn-falcon-default dropdown-toggle dropdown-caret-none" type="button" id="ticket-layout" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="d-none d-sm-inline-block d-xl-none d-xxl-inline-block me-1">Table View</span><span class="fas fa-chevron-down" data-fa-transform="shrink-3 down-1"></span></button>
-                          <div class="dropdown-menu dropdown-toggle-item dropdown-menu-end border py-2" aria-labelledby="ticket-layout"><a class="dropdown-item active" href="table-view.html">Table View</a><a class="dropdown-item" href="card-view.html">Card View</a></div>
-                        </div><button class="btn btn-falcon-default btn-sm mx-2" type="button"><span class="fas fa-plus" data-fa-transform="shrink-3"></span><span class="d-none d-sm-inline-block d-xl-none d-xxl-inline-block ms-1">New</span></button>
-                        <button class="btn btn-falcon-default btn-sm" type="button"><span class="fas fa-external-link-alt" data-fa-transform="shrink-3"></span><span class="d-none d-sm-inline-block d-xl-none d-xxl-inline-block ms-1">Export</span></button>
-                        <div class="dropdown font-sans-serif ms-2"><button class="btn btn-falcon-default text-600 btn-sm dropdown-toggle dropdown-caret-none" type="button" id="preview-dropdown" data-bs-toggle="dropdown" data-boundary="viewport" aria-haspopup="true" aria-expanded="false"><span class="fas fa-ellipsis-h fs-11"></span></button>
-                          <div class="dropdown-menu dropdown-menu-end border py-2" aria-labelledby="preview-dropdown"><a class="dropdown-item" href="#!">View</a><a class="dropdown-item" href="#!">Export</a>
-                            <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="#!">Remove</a>
+                      <hr class="my-x1" />
+                      <div class="row flex-between-center gx-4 gy-2">
+                        <div class="col-auto">
+                          <p class="fs-10 text-1000 mb-sm-0 font-sans-serif fw-medium mb-0"><span class="fas fa-link me-2"></span>2 files attached</p>
+                        </div>
+                        <div class="col-auto"><button class="btn btn-falcon-default btn-sm"><span class="fas fa-file-download me-2"></span>Download all</button></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="my-5 position-relative text-center">
+                    <hr class="position-absolute top-50 border-300 w-100 my-0" /><span class="position-relative bg-body-emphasis px-3 z-1"><button class="btn btn-sm btn-outline-secondary rounded-pill border-300 px-lg-5">Conversions 5+</button></span>
+                  </div>
+                  <div class="d-md-flex d-xl-inline-block d-xxl-flex align-items-center justify-content-between mb-x1">
+                    <div class="d-flex align-items-center gap-2"><a href="customer-details.php">
+                        <div class="avatar avatar-2xl">
+                          <img class="rounded-circle" src="../../assets/img/team/2-thumb.png" alt="" />
+                        </div>
+                      </a>
+                      <p class="mb-0"><a class="fw-semi-bold mb-0 text-800" href="customer-details.php">Mike</a><span class="fs-11 text-800 fw-normal mx-2">replied</span><a class="mb-0 fs-10 d-block text-500" href="mailto:mike@support.com">mike@support.com</a></p>
+                    </div>
+                    <p class="mb-0 fs-11 fs-sm-10 fw-semi-bold mt-2 mt-md-0 mt-xl-2 mt-xxl-0 ms-5">01 March, 2020<span class="mx-1">|</span><span class="fst-italic">8:35 AM (1 Day ago)</span><span class="fas fa-star ms-2 text-warning"></span></p>
+                  </div>
+                  <div class="border-bottom mb-5 pb-5">
+                    <h6 class="mb-3 fw-semi-bold text-1000">Television with cracked screen</h6>
+                    <p>Hi Emma Waston,</p>
+                    <p>I am sorry to hear about your experience with our TV. It sounds like you received a damaged product. Please provide me with the order number and we will work to resolve this issue as quickly as possible.</p>
+                    <p>We are here to help!</p>
+                    <p class="mb-0">Thanks</p>
+                    <p class="mb-0">Customer Support</p>
+                  </div>
+                  <div class="d-md-flex d-xl-inline-block d-xxl-flex align-items-center justify-content-between mb-x1">
+                    <div class="d-flex align-items-center gap-2"><a href="customer-details.php">
+                        <div class="avatar avatar-2xl">
+                          <img class="rounded-circle" src="../../assets/img/team/1-thumb.png" alt="" />
+                        </div>
+                      </a>
+                      <p class="mb-0"><a class="fw-semi-bold mb-0 text-800" href="customer-details.php">Emma Waston</a><span class="fs-11 text-800 fw-normal mx-2">via email</span><a class="mb-0 fs-10 d-block text-500" href="mailto:emma@watson.com">emma@watson.com</a></p>
+                    </div>
+                    <p class="mb-0 fs-11 fs-sm-10 fw-semi-bold mt-2 mt-md-0 mt-xl-2 mt-xxl-0 ms-5">01 March, 2020<span class="mx-1">|</span><span class="fst-italic">8:40 AM (1 Day ago)</span><span class="fas fa-star ms-2 text-warning"></span></p>
+                  </div>
+                  <div class="border-bottom mb-5 pb-5">
+                    <h6 class="mb-3 fw-semi-bold text-1000">Cracked Television screen Issue</h6>
+                    <p>Hi Mr. Mike,</p>
+                    <p>Thanks for resolving the issue as per request. It worked as I wanted. I hope to work with you ahead. thanks again.</p>
+                    <p></p>
+                    <p class="mb-0">Regards</p>
+                    <p class="mb-0">Emma Watson</p>
+                  </div>
+                  <div class="d-md-flex d-xl-inline-block d-xxl-flex align-items-center justify-content-between mb-x1">
+                    <div class="d-flex align-items-center gap-2"><a href="customer-details.php">
+                        <div class="avatar avatar-2xl">
+                          <img class="rounded-circle" src="../../assets/img/team/2-thumb.png" alt="" />
+                        </div>
+                      </a>
+                      <p class="mb-0"><a class="fw-semi-bold mb-0 text-800" href="customer-details.php">Mike</a><span class="fs-11 text-800 fw-normal mx-2">replied</span><a class="mb-0 fs-10 d-block text-500" href="mailto:mike@support.com">mike@support.com</a></p>
+                    </div>
+                    <p class="mb-0 fs-11 fs-sm-10 fw-semi-bold mt-2 mt-md-0 mt-xl-2 mt-xxl-0 ms-5">01 March, 2020<span class="mx-1">|</span><span class="fst-italic">8:45 AM (1 Day ago)</span><span class="fas fa-star ms-2 text-warning"></span></p>
+                  </div>
+                  <div class="border-bottom mb-5 pb-5">
+                    <h6 class="mb-3 fw-semi-bold text-1000">Cracked Television screen Issue</h6>
+                    <p>Hi Emma Waston,</p>
+                    <p>Glad to help you. Buzz us anytime if you have any other queries regarding our products. Would you please consider rate us on the board?</p>
+                    <p></p>
+                    <p class="mb-0">Thanks,</p>
+                    <p class="mb-0">Mike</p>
+                  </div>
+                  <div class="d-md-flex d-xl-inline-block d-xxl-flex align-items-center justify-content-between mb-x1">
+                    <div class="d-flex align-items-center gap-2"><a href="customer-details.php">
+                        <div class="avatar avatar-2xl">
+                          <img class="rounded-circle" src="../../assets/img/team/2-thumb.png" alt="" />
+                        </div>
+                      </a>
+                      <p class="mb-0"><a class="fw-semi-bold mb-0 text-800" href="customer-details.php">Mike</a><span class="fs-11 text-800 fw-normal mx-2">replied</span><a class="mb-0 fs-10 d-block text-500" href="mailto:mike@support.com">mike@support.com</a></p>
+                    </div>
+                    <p class="mb-0 fs-11 fs-sm-10 fw-semi-bold mt-2 mt-md-0 mt-xl-2 mt-xxl-0 ms-5">01 March, 2020<span class="mx-1">|</span><span class="fst-italic">8:50 AM (1 Day ago)</span><span class="fas fa-star ms-2 text-warning"></span></p>
+                  </div>
+                  <div class="border-bottom mb-5 pb-5">
+                    <h6 class="mb-3 fw-semi-bold text-1000">Cracked Television screen Issue</h6>
+                    <p>Hi Emma Waston,</p>
+                    <p>If you like our support service, please leave your valuable feedback and review us with a 5-star.</p>
+                    <p></p>
+                    <p class="mb-0">Thanks,</p>
+                    <p class="mb-0">Mike</p>
+                  </div>
+                  <div class="d-md-flex d-xl-inline-block d-xxl-flex align-items-center justify-content-between mb-x1">
+                    <div class="d-flex align-items-center gap-2"><a href="customer-details.php">
+                        <div class="avatar avatar-2xl">
+                          <img class="rounded-circle" src="../../assets/img/team/1-thumb.png" alt="" />
+                        </div>
+                      </a>
+                      <p class="mb-0"><a class="fw-semi-bold mb-0 text-800" href="customer-details.php">Emma Waston</a><span class="fs-11 text-800 fw-normal mx-2">via email</span><a class="mb-0 fs-10 d-block text-500" href="mailto:emma@watson.com">emma@watson.com</a></p>
+                    </div>
+                    <p class="mb-0 fs-11 fs-sm-10 fw-semi-bold mt-2 mt-md-0 mt-xl-2 mt-xxl-0 ms-5">01 March, 2020<span class="mx-1">|</span><span class="fst-italic">8:55 AM (1 Day ago)</span><span class="fas fa-star ms-2 text-warning"></span></p>
+                  </div>
+                  <div class="border-bottom border-none">
+                    <h6 class="mb-3 fw-semi-bold text-1000">Cracked Television screen Issue</h6>
+                    <p>Hi Mr. Mike,</p>
+                    <p>The support you provided was really good, and I got the correct solution for my problems.</p>
+                    <p></p>
+                    <p class="mb-0">Regards,</p>
+                    <p class="mb-0">Emma Watson</p>
+                  </div>
+                </div>
+                <div class="collapse transition-none" id="previewMailForm">
+                  <h5 class="mb-0 p-x1 bg-body-tertiary">Reply</h5>
+                  <div class="border border-top-0 border-200"><input class="form-control border-0 rounded-0 outline-none px-x1" id="email-to" type="email" aria-describedby="email-from" placeholder="From" value="mike@support.com" /></div>
+                  <div class="border border-top-0 border-200"><input class="form-control border-0 rounded-0 outline-none px-x1" id="email-from" type="email" aria-describedby="email-to" placeholder="To" value="emma@watson.com" /></div>
+                  <div class="email-compose-textarea border border-y-0 border-200"><input class="form-control border-0 rounded-0 outline-none px-x1" id="email-subject" type="text" aria-describedby="email-subject" placeholder="Subject" /><textarea class="tinymce d-none" data-tinymce="data-tinymce" name="content"></textarea></div>
+                  <div class="px-x1 py-3 bg-body-tertiary">
+                    <div class="d-inline-flex flex-column">
+                      <div class="border p-2 rounded-3 d-flex bg-white dark__bg-1000 fs-10 mb-2"><span class="fs-8 far fa-image"></span><span class="ms-2 me-3">broken_tv_solve.jpg (873kb)</span><a class="text-300 ms-auto" href="#!" data-bs-toggle="tooltip" data-bs-placement="right" title="Detach"><span class="fas fa-times"></span></a></div>
+                      <div class="border p-2 rounded-3 d-flex bg-white dark__bg-1000 fs-10"><span class="fs-8 fas fa-file-archive"></span><span class="ms-2 me-3">broken_tv_solve.zip (342kb)</span><a class="text-300 ms-auto" href="#!" data-bs-toggle="tooltip" data-bs-placement="right" title="Detach"><span class="fas fa-times"></span></a></div>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between px-x1 py-3">
+                    <div class="d-flex align-items-center"><button class="btn btn-primary btn-sm px-4 me-2" type="submit">Send</button><input class="d-none" id="email-attachment" type="file" /><label class="me-2 btn btn-tertiary btn-sm mb-0 cursor-pointer" for="email-attachment" data-bs-toggle="tooltip" data-bs-placement="top" title="Attach files"><span class="fas fa-paperclip fs-8" data-fa-transform="down-2"></span></label><input class="d-none" id="email-image" type="file" accept="image/*" /><label class="btn btn-tertiary btn-sm mb-0 cursor-pointer" for="email-image" data-bs-toggle="tooltip" data-bs-placement="top" title="Attach images"><span class="fas fa-image fs-8" data-fa-transform="down-2"></span></label></div>
+                    <div class="d-flex align-items-center">
+                      <div class="dropdown font-sans-serif me-2 btn-reveal-trigger"><button class="btn btn-link text-600 btn-sm dropdown-toggle btn-reveal dropdown-caret-none" id="email-options" type="button" data-bs-toggle="dropdown" data-boundary="viewport" aria-haspopup="true" aria-expanded="false"><span class="fas fa-ellipsis-v" data-fa-transform="down-2"></span></button>
+                        <div class="dropdown-menu dropdown-menu-end border py-2" aria-labelledby="email-options"><a class="dropdown-item" href="#!">Print</a><a class="dropdown-item" href="#!">Check spelling</a><a class="dropdown-item" href="#!">Plain text mode</a>
+                          <div class="dropdown-divider"></div><a class="dropdown-item" href="#!">Archive</a>
+                        </div>
+                      </div><button class="btn btn-tertiary btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete" data-dismiss="collapse"><span class="fas fa-trash"></span></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer bg-body-tertiary" id="preview-footer"><button class="btn btn-falcon-default btn-sm fs-10" type="button" data-bs-toggle="collapse" data-bs-target="#previewMailForm" aria-expanded="false" aria-controls="previewMailForm"><span class="fas fa-reply"></span><span class="d-none d-sm-inline-block ms-1">Reply</span></button>
+                  <button class="btn btn-falcon-default btn-sm fs-10 mx-2" type="button" data-bs-toggle="collapse" data-bs-target="#previewMailForm" aria-expanded="false" aria-controls="previewMailForm"><span class="fas fa-location-arrow"></span><span class="d-none d-sm-inline-block ms-1">Forward</span></button>
+                  <button class="btn btn-falcon-default btn-sm fs-10" type="button" data-bs-toggle="collapse" data-bs-target="#previewMailForm" aria-expanded="false" aria-controls="previewMailForm"><span class="fas fa-file-alt"></span><span class="d-none d-sm-inline-block ms-1">Add Note</span></button>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-3 col-xl-4">
+              <div class="row g-3 g-xl-0 sticky-sidebar top-navbar-height">
+                <div class="col-md-6 col-xl-12 mb-xl-3">
+                  <div class="card">
+                    <div class="card-header bg-body-tertiary">
+                      <h6 class="mb-0">Properties</h6>
+                    </div>
+                    <div class="card-body">
+                      <form>
+                        <div class="mb-2 mt-n2"><label class="mb-1">Type</label><select class="form-select form-select-sm">
+                            <option>None</option>
+                            <option>Question</option>
+                            <option>Incident</option>
+                            <option>Problem</option>
+                            <option>Feature Request</option>
+                            <option>Refund</option>
+                          </select></div>
+                        <div class="mb-2"><label class="mb-1 mt-2">Status</label><select class="form-select form-select-sm">
+                            <option>None</option>
+                            <option>Recent</option>
+                            <option>Overdue</option>
+                            <option>Closed</option>
+                            <option>Remaining</option>
+                            <option>Responded</option>
+                          </select></div>
+                        <div class="mb-2"><label class="mb-1 mt-2">Priority</label><select class="form-select form-select-sm">
+                            <option>None</option>
+                            <option>Urgent</option>
+                            <option>High</option>
+                            <option>Medium</option>
+                            <option>Low</option>
+                          </select></div>
+                        <div class="mb-2"><label class="mb-1 mt-2">Agent</label><select class="form-select form-select-sm">
+                            <option>None</option>
+                            <option>Anindya</option>
+                            <option>Nowrin</option>
+                            <option>Khalid</option>
+                          </select></div>
+                        <div><label class="mb-1 mt-2">Tags</label><select class="form-select form-select-sm">
+                            <option>None</option>
+                            <option>Sales</option>
+                            <option>Request</option>
+                            <option>Complaint</option>
+                            <option>Feedback</option>
+                            <option>Support</option>
+                          </select></div>
+                      </form>
+                    </div>
+                    <div class="card-footer border-top border-200 py-x1"><button class="btn btn-primary w-100">Update</button></div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-xl-12 mb-xl-3">
+                  <div class="card preview-todo-list h-100">
+                    <div class="card-header d-flex flex-between-center bg-body-tertiary">
+                      <h6 class="mb-0">To-do List</h6><button class="btn btn-falcon-default btn-sm d-flex align-items-center" type="button"><span class="fas fa-plus" data-fa-transform="shrink-3"></span><span class="ms-1">Add</span></button>
+                    </div>
+                    <div class="card-body ticket-todo-list scrollbar-overlay">
+                      <div class="d-flex hover-actions-trigger btn-reveal-trigger gap-3 border-200 border-bottom mb-3">
+                        <div class="form-check mb-0"><input class="form-check-input form-check-line-through" type="checkbox" id="ticket-checkbox-todo-0" /><label class="form-check-label w-100 pe-3" for="ticket-checkbox-todo-0"><span class="mb-1 text-700 d-block">Sidenav text cutoff rendering issue</span><span class="fs-11 text-600 lh-base font-base fw-normal d-block mb-2">Problem with Falcon theme</span></label></div>
+                        <div class="hover-actions end-0"><button class="btn fs-11 icon-item-sm btn-link px-0 text-600"><span class="fas fa-trash text-danger"></span></button></div>
+                      </div>
+                      <div class="d-flex hover-actions-trigger btn-reveal-trigger gap-3 border-200 border-bottom mb-3">
+                        <div class="form-check mb-0"><input class="form-check-input form-check-line-through" type="checkbox" id="ticket-checkbox-todo-1" /><label class="form-check-label w-100 pe-3" for="ticket-checkbox-todo-1"><span class="mb-1 text-700 d-block">Notify when the WebPack release is ready</span><span class="fs-11 text-600 lh-base font-base fw-normal d-block mb-2">Falcon Bootstarp 5</span></label></div>
+                        <div class="hover-actions end-0"><button class="btn fs-11 icon-item-sm btn-link px-0 text-600"><span class="fas fa-trash text-danger"></span></button></div>
+                      </div>
+                      <div class="d-flex hover-actions-trigger btn-reveal-trigger gap-3 border-200 border-bottom mb-3">
+                        <div class="form-check mb-0"><input class="form-check-input form-check-line-through" type="checkbox" id="ticket-checkbox-todo-2" /><label class="form-check-label w-100 pe-3" for="ticket-checkbox-todo-2"><span class="mb-1 text-700 d-block">File Attachments</span><span class="fs-11 text-600 lh-base font-base fw-normal d-block mb-2">Sending attachments automatically attaches them to the notification email that the client receives as well as making them accessible through.</span></label></div>
+                        <div class="hover-actions end-0"><button class="btn fs-11 icon-item-sm btn-link px-0 text-600"><span class="fas fa-trash text-danger"></span></button></div>
+                      </div>
+                      <div class="d-flex hover-actions-trigger btn-reveal-trigger gap-3 border-200 border-bottom mb-3">
+                        <div class="form-check mb-0"><input class="form-check-input form-check-line-through" type="checkbox" id="ticket-checkbox-todo-3" /><label class="form-check-label w-100 pe-3" for="ticket-checkbox-todo-3"><span class="mb-1 text-700 d-block">Billing a Client</span><span class="fs-11 text-600 lh-base font-base fw-normal d-block mb-2">It's also possible to create a billable item for a client when you reply to a ticket. You can generate invoices or log time spent on a ticket.</span></label></div>
+                        <div class="hover-actions end-0"><button class="btn fs-11 icon-item-sm btn-link px-0 text-600"><span class="fas fa-trash text-danger"></span></button></div>
+                      </div>
+                      <div class="d-flex hover-actions-trigger btn-reveal-trigger gap-3 border-200 border-bottom mb-3">
+                        <div class="form-check mb-0"><input class="form-check-input form-check-line-through" type="checkbox" id="ticket-checkbox-todo-4" /><label class="form-check-label w-100 pe-3" for="ticket-checkbox-todo-4"><span class="mb-1 text-700 d-block">Sidenav text cutoff rendering issue</span><span class="fs-11 text-600 lh-base font-base fw-normal d-block mb-2">Problem with Falcon theme</span></label></div>
+                        <div class="hover-actions end-0"><button class="btn fs-11 icon-item-sm btn-link px-0 text-600"><span class="fas fa-trash text-danger"></span></button></div>
+                      </div>
+                      <div class="d-flex hover-actions-trigger btn-reveal-trigger gap-3 border-200 border-bottom mb-3">
+                        <div class="form-check mb-0"><input class="form-check-input form-check-line-through" type="checkbox" id="ticket-checkbox-todo-5" /><label class="form-check-label w-100 pe-3" for="ticket-checkbox-todo-5"><span class="mb-1 text-700 d-block">Notify when the WebPack release is ready</span><span class="fs-11 text-600 lh-base font-base fw-normal d-block mb-2">Falcon Bootstarp 5</span></label></div>
+                        <div class="hover-actions end-0"><button class="btn fs-11 icon-item-sm btn-link px-0 text-600"><span class="fas fa-trash text-danger"></span></button></div>
+                      </div>
+                      <div class="d-flex hover-actions-trigger btn-reveal-trigger gap-3 border-200 mb-0">
+                        <div class="form-check mb-0"><input class="form-check-input form-check-line-through" type="checkbox" id="ticket-checkbox-todo-6" /><label class="form-check-label w-100 pe-3 mb-0" for="ticket-checkbox-todo-6"><span class="mb-1 text-700 d-block">File Attachments</span><span class="fs-11 text-600 lh-base font-base fw-normal d-block mb-0">Sending attachments automatically attaches them to the notification email that the client receives as well as making them accessible through.</span></label></div>
+                        <div class="hover-actions end-0"><button class="btn fs-11 icon-item-sm btn-link px-0 text-600"><span class="fas fa-trash text-danger"></span></button></div>
+                      </div>
+                    </div>
+                    <div class="card-footer border-top border-200 text-center p-0"><a class="btn btn-link btn-sm fw-medium py-2" href="#!">View all<span class="fas fa-chevron-right ms-1 fs-11"></span></a></div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="card">
+                    <div class="card-header d-flex flex-between-center py-2 bg-body-tertiary">
+                      <h6 class="mb-0">Contact Information</h6>
+                      <div class="dropdown font-sans-serif btn-reveal-trigger"><button class="btn btn-link text-600 btn-sm dropdown-toggle dropdown-caret-none btn-reveal" type="button" id="dropdown-contact-information" data-bs-toggle="dropdown" data-boundary="viewport" aria-haspopup="true" aria-expanded="false"><span class="fas fa-ellipsis-h fs-11"></span></button>
+                        <div class="dropdown-menu dropdown-menu-end border py-2" aria-labelledby="dropdown-contact-information"><a class="dropdown-item" href="#!">View</a><a class="dropdown-item" href="#!">Export</a>
+                          <div class="dropdown-divider"></div><a class="dropdown-item text-danger" href="#!">Remove</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="row g-0 border-bottom pb-x1 mb-x1 align-items-sm-center align-items-xl-start">
+                        <div class="col-12 col-sm-auto col-xl-12 me-sm-3 me-xl-0">
+                          <div class="avatar avatar-3xl">
+                            <img class="rounded-circle" src="../../assets/img/team/1.jpg" alt="" />
                           </div>
+                        </div>
+                        <div class="col-12 col-sm-auto col-xl-12">
+                          <p class="fw-semi-bold text-800 mb-0">Emma Watson</p><a class="btn btn-link btn-sm p-0 fe-medium fs-10" href="customer-details.php">View more details</a>
+                        </div>
+                      </div>
+                      <div class="row g-0 justify-content-lg-between">
+                        <div class="col-auto col-md-6 col-lg-auto">
+                          <div class="row">
+                            <div class="col-md-auto mb-4 mb-md-0 mb-xl-4">
+                              <h6 class="mb-1">Email</h6><a class="fs-10" href="mailto:mattrogers@gmail.com">mattrogers@gmail.com</a>
+                            </div>
+                            <div class="col-md-auto mb-4 mb-md-0 mb-xl-4">
+                              <h6 class="mb-1">Phone Number</h6><a class="fs-10" href="tel:+6(855)747677">+6(855) 747 677</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-auto col-md-6 col-lg-auto ps-md-5 ps-xl-0">
+                          <div class="border-start position-absolute start-50 d-none d-md-block d-xl-none" style="height: 72px"></div>
+                          <h6 class="d-flex align-items-center mb-1"><span class="me-2">Previous Tickets</span><span class="badge badge-subtle-info">Responded</span></h6><a class="text-truncate fs-10 font-sans-serif mb-1 d-block text-700" href="tickets-preview.php">When I unboxed my TV, I found a broken TV</a>
+                          <p class="fs-10 mb-0 text-600 fw-semi-bold">01 March, 2020<span class="mx-1">|</span><span class="fst-italic">8:40 AM</span></p>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="card-body p-0">
-                  <div class="table-responsive scrollbar">
-                    <table class="table table-sm mb-0 fs-10 table-view-tickets">
-                      <thead class="bg-body-tertiary">
-                        <tr>
-                          <th class="py-2 fs-9 pe-2" style="width: 28px;">
-                            <div class="form-check d-flex align-items-center"><input class="form-check-input" id="checkbox-bulk-table-tickets-select" type="checkbox" data-bulk-select='{"body":"table-ticket-body","actions":"table-ticket-actions","replacedElement":"table-ticket-replace-element"}' /></div>
-                          </th>
-                          <th class="text-800 sort align-middle ps-2" data-sort="client">Client</th>
-                          <th class="text-800 sort align-middle" data-sort="subject" style="min-width:15.625rem">Subject</th>
-                          <th class="text-800 sort align-middle" data-sort="status">Status</th>
-                          <th class="text-800 sort align-middle" data-sort="priority">Priority</th>
-                          <th class="text-800 sort align-middle text-end" data-sort="agent">Agent</th>
-                        </tr>
-                      </thead>
-                      <tbody class="list" id="table-ticket-body">
-                        <tr>
-                          <td class="align-middle fs-9 py-3">
-                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="table-view-tickets-0" data-bulk-select-row="data-bulk-select-row" /></div>
-                          </td>
-                          <td class="align-middle client white-space-nowrap pe-3 pe-xxl-4 ps-2">
-                            <div class="d-flex align-items-center gap-2 position-relative">
-                              <div class="avatar avatar-xl">
-                                <div class="avatar-name rounded-circle"><span>EW</span></div>
-                              </div>
-                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Emma Watson</a></h6>
-                            </div>
-                          </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">Synapse Design #1125</a></td>
-                          <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-success false">Recent</small></td>
-                          <td class="align-middle priority pe-4">
-                            <div class="d-flex align-items-center gap-2">
-                              <div style="--falcon-circle-progress-bar:100"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                                  <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                                  <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#e63757" stroke-width="12"></circle>
-                                </svg></div>
-                              <h6 class="mb-0 text-700">Urgent</h6>
-                            </div>
-                          </td>
-                          <td class="align-middle agent"><select class="form-select form-select-sm w-auto ms-auto" aria-label="agents actions">
-                              <option>Select Agent</option>
-                              <option selected="selected">Anindya</option>
-                              <option>Nowrin</option>
-                              <option>Khalid</option>
-                            </select></td>
-                        </tr>
-                        <tr>
-                          <td class="align-middle fs-9 py-3">
-                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="table-view-tickets-1" data-bulk-select-row="data-bulk-select-row" /></div>
-                          </td>
-                          <td class="align-middle client white-space-nowrap pe-3 pe-xxl-4 ps-2">
-                            <div class="d-flex align-items-center gap-2 position-relative">
-                              <div class="avatar avatar-xl">
-                                <div class="avatar-name rounded-circle"><span>L</span></div>
-                              </div>
-                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Luke</a></h6>
-                            </div>
-                          </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">Change of refund my last buy | Order #125631</a></td>
-                          <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-danger false">Overdue</small></td>
-                          <td class="align-middle priority pe-4">
-                            <div class="d-flex align-items-center gap-2">
-                              <div style="--falcon-circle-progress-bar:75"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                                  <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                                  <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#F68F57" stroke-width="12"></circle>
-                                </svg></div>
-                              <h6 class="mb-0 text-700">High</h6>
-                            </div>
-                          </td>
-                          <td class="align-middle agent"><select class="form-select form-select-sm w-auto ms-auto" aria-label="agents actions">
-                              <option>Select Agent</option>
-                              <option selected="selected">Anindya</option>
-                              <option>Nowrin</option>
-                              <option>Khalid</option>
-                            </select></td>
-                        </tr>
-                        <tr>
-                          <td class="align-middle fs-9 py-3">
-                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="table-view-tickets-2" data-bulk-select-row="data-bulk-select-row" /></div>
-                          </td>
-                          <td class="align-middle client white-space-nowrap pe-3 pe-xxl-4 ps-2">
-                            <div class="d-flex align-items-center gap-2 position-relative">
-                              <div class="avatar avatar-xl">
-                                <img class="rounded-circle" src="../../assets/img/team/1-thumb.png" alt="" />
-                              </div>
-                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Finley</a></h6>
-                            </div>
-                          </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">I need your help #2256</a></td>
-                          <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-warning false">Remaining</small></td>
-                          <td class="align-middle priority pe-4">
-                            <div class="d-flex align-items-center gap-2">
-                              <div style="--falcon-circle-progress-bar:50"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                                  <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                                  <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#2A7BE4" stroke-width="12"></circle>
-                                </svg></div>
-                              <h6 class="mb-0 text-700">Medium</h6>
-                            </div>
-                          </td>
-                          <td class="align-middle agent"><select class="form-select form-select-sm w-auto ms-auto" aria-label="agents actions">
-                              <option>Select Agent</option>
-                              <option>Anindya</option>
-                              <option selected="selected">Nowrin</option>
-                              <option>Khalid</option>
-                            </select></td>
-                        </tr>
-                        <tr>
-                          <td class="align-middle fs-9 py-3">
-                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="table-view-tickets-3" data-bulk-select-row="data-bulk-select-row" /></div>
-                          </td>
-                          <td class="align-middle client white-space-nowrap pe-3 pe-xxl-4 ps-2">
-                            <div class="d-flex align-items-center gap-2 position-relative">
-                              <div class="avatar avatar-xl">
-                                <div class="avatar-name rounded-circle"><span>PG</span></div>
-                              </div>
-                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Peter Gill</a></h6>
-                            </div>
-                          </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">I need your help #2256</a></td>
-                          <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-info false">Responded</small></td>
-                          <td class="align-middle priority pe-4">
-                            <div class="d-flex align-items-center gap-2">
-                              <div style="--falcon-circle-progress-bar:25"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                                  <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                                  <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#00D27B" stroke-width="12"></circle>
-                                </svg></div>
-                              <h6 class="mb-0 text-700">Low</h6>
-                            </div>
-                          </td>
-                          <td class="align-middle agent"><select class="form-select form-select-sm w-auto ms-auto" aria-label="agents actions">
-                              <option>Select Agent</option>
-                              <option>Anindya</option>
-                              <option selected="selected">Nowrin</option>
-                              <option>Khalid</option>
-                            </select></td>
-                        </tr>
-                        <tr>
-                          <td class="align-middle fs-9 py-3">
-                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="table-view-tickets-4" data-bulk-select-row="data-bulk-select-row" /></div>
-                          </td>
-                          <td class="align-middle client white-space-nowrap pe-3 pe-xxl-4 ps-2">
-                            <div class="d-flex align-items-center gap-2 position-relative">
-                              <div class="avatar avatar-xl">
-                                <img class="rounded-circle" src="../../assets/img/team/25-thumb.png" alt="" />
-                              </div>
-                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Freya</a></h6>
-                            </div>
-                          </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">Contact Froms #3264</a></td>
-                          <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small></td>
-                          <td class="align-middle priority pe-4">
-                            <div class="d-flex align-items-center gap-2">
-                              <div style="--falcon-circle-progress-bar:50"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                                  <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                                  <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#2A7BE4" stroke-width="12"></circle>
-                                </svg></div>
-                              <h6 class="mb-0 text-700">Medium</h6>
-                            </div>
-                          </td>
-                          <td class="align-middle agent"><select class="form-select form-select-sm w-auto ms-auto" aria-label="agents actions">
-                              <option>Select Agent</option>
-                              <option>Anindya</option>
-                              <option>Nowrin</option>
-                              <option selected="selected">Khalid</option>
-                            </select></td>
-                        </tr>
-                        <tr>
-                          <td class="align-middle fs-9 py-3">
-                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="table-view-tickets-5" data-bulk-select-row="data-bulk-select-row" /></div>
-                          </td>
-                          <td class="align-middle client white-space-nowrap pe-3 pe-xxl-4 ps-2">
-                            <div class="d-flex align-items-center gap-2 position-relative">
-                              <div class="avatar avatar-xl">
-                                <div class="avatar-name rounded-circle"><span>M</span></div>
-                              </div>
-                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Morrison</a></h6>
-                            </div>
-                          </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">I need your help #2256</a></td>
-                          <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-info false">Responded</small></td>
-                          <td class="align-middle priority pe-4">
-                            <div class="d-flex align-items-center gap-2">
-                              <div style="--falcon-circle-progress-bar:50"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                                  <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                                  <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#2A7BE4" stroke-width="12"></circle>
-                                </svg></div>
-                              <h6 class="mb-0 text-700">Medium</h6>
-                            </div>
-                          </td>
-                          <td class="align-middle agent"><select class="form-select form-select-sm w-auto ms-auto" aria-label="agents actions">
-                              <option>Select Agent</option>
-                              <option>Anindya</option>
-                              <option>Nowrin</option>
-                              <option selected="selected">Khalid</option>
-                            </select></td>
-                        </tr>
-                        <tr>
-                          <td class="align-middle fs-9 py-3">
-                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="table-view-tickets-6" data-bulk-select-row="data-bulk-select-row" /></div>
-                          </td>
-                          <td class="align-middle client white-space-nowrap pe-3 pe-xxl-4 ps-2">
-                            <div class="d-flex align-items-center gap-2 position-relative">
-                              <div class="avatar avatar-xl">
-                                <div class="avatar-name rounded-circle"><span>MB</span></div>
-                              </div>
-                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Morrison Banneker</a></h6>
-                            </div>
-                          </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">I need your help #2256</a></td>
-                          <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small></td>
-                          <td class="align-middle priority pe-4">
-                            <div class="d-flex align-items-center gap-2">
-                              <div style="--falcon-circle-progress-bar:50"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                                  <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                                  <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#2A7BE4" stroke-width="12"></circle>
-                                </svg></div>
-                              <h6 class="mb-0 text-700">Medium</h6>
-                            </div>
-                          </td>
-                          <td class="align-middle agent"><select class="form-select form-select-sm w-auto ms-auto" aria-label="agents actions">
-                              <option>Select Agent</option>
-                              <option>Anindya</option>
-                              <option>Nowrin</option>
-                              <option selected="selected">Khalid</option>
-                            </select></td>
-                        </tr>
-                        <tr>
-                          <td class="align-middle fs-9 py-3">
-                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="table-view-tickets-7" data-bulk-select-row="data-bulk-select-row" /></div>
-                          </td>
-                          <td class="align-middle client white-space-nowrap pe-3 pe-xxl-4 ps-2">
-                            <div class="d-flex align-items-center gap-2 position-relative">
-                              <div class="avatar avatar-xl">
-                                <img class="rounded-circle" src="../../assets/img/team/14-thumb.png" alt="" />
-                              </div>
-                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Aar Kay</a></h6>
-                            </div>
-                          </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">Regarding Falcon Theme #3262</a></td>
-                          <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-success false">Recent</small></td>
-                          <td class="align-middle priority pe-4">
-                            <div class="d-flex align-items-center gap-2">
-                              <div style="--falcon-circle-progress-bar:75"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                                  <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                                  <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#F68F57" stroke-width="12"></circle>
-                                </svg></div>
-                              <h6 class="mb-0 text-700">High</h6>
-                            </div>
-                          </td>
-                          <td class="align-middle agent"><select class="form-select form-select-sm w-auto ms-auto" aria-label="agents actions">
-                              <option>Select Agent</option>
-                              <option>Anindya</option>
-                              <option>Nowrin</option>
-                              <option>Khalid</option>
-                            </select></td>
-                        </tr>
-                        <tr>
-                          <td class="align-middle fs-9 py-3">
-                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="table-view-tickets-8" data-bulk-select-row="data-bulk-select-row" /></div>
-                          </td>
-                          <td class="align-middle client white-space-nowrap pe-3 pe-xxl-4 ps-2">
-                            <div class="d-flex align-items-center gap-2 position-relative">
-                              <div class="avatar avatar-xl">
-                                <div class="avatar-name rounded-circle"><span>FB</span></div>
-                              </div>
-                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Fadil Badr</a></h6>
-                            </div>
-                          </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">i would like to buy theme #3261</a></td>
-                          <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small></td>
-                          <td class="align-middle priority pe-4">
-                            <div class="d-flex align-items-center gap-2">
-                              <div style="--falcon-circle-progress-bar:25"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                                  <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                                  <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#00D27B" stroke-width="12"></circle>
-                                </svg></div>
-                              <h6 class="mb-0 text-700">Low</h6>
-                            </div>
-                          </td>
-                          <td class="align-middle agent"><select class="form-select form-select-sm w-auto ms-auto" aria-label="agents actions">
-                              <option>Select Agent</option>
-                              <option>Anindya</option>
-                              <option>Nowrin</option>
-                              <option selected="selected">Khalid</option>
-                            </select></td>
-                        </tr>
-                        <tr>
-                          <td class="align-middle fs-9 py-3">
-                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="table-view-tickets-9" data-bulk-select-row="data-bulk-select-row" /></div>
-                          </td>
-                          <td class="align-middle client white-space-nowrap pe-3 pe-xxl-4 ps-2">
-                            <div class="d-flex align-items-center gap-2 position-relative">
-                              <div class="avatar avatar-xl">
-                                <img class="rounded-circle" src="../../assets/img/team/3-thumb.png" alt="" />
-                              </div>
-                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Regina Kempt</a></h6>
-                            </div>
-                          </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">Theme info (icons) #3260</a></td>
-                          <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small></td>
-                          <td class="align-middle priority pe-4">
-                            <div class="d-flex align-items-center gap-2">
-                              <div style="--falcon-circle-progress-bar:50"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                                  <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                                  <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#2A7BE4" stroke-width="12"></circle>
-                                </svg></div>
-                              <h6 class="mb-0 text-700">Medium</h6>
-                            </div>
-                          </td>
-                          <td class="align-middle agent"><select class="form-select form-select-sm w-auto ms-auto" aria-label="agents actions">
-                              <option>Select Agent</option>
-                              <option selected="selected">Anindya</option>
-                              <option>Nowrin</option>
-                              <option>Khalid</option>
-                            </select></td>
-                        </tr>
-                        <tr>
-                          <td class="align-middle fs-9 py-3">
-                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="table-view-tickets-10" data-bulk-select-row="data-bulk-select-row" /></div>
-                          </td>
-                          <td class="align-middle client white-space-nowrap pe-3 pe-xxl-4 ps-2">
-                            <div class="d-flex align-items-center gap-2 position-relative">
-                              <div class="avatar avatar-xl">
-                                <div class="avatar-name rounded-circle"><span>C</span></div>
-                              </div>
-                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Caleb</a></h6>
-                            </div>
-                          </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">Phishing link #3259</a></td>
-                          <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-success false">Recent</small></td>
-                          <td class="align-middle priority pe-4">
-                            <div class="d-flex align-items-center gap-2">
-                              <div style="--falcon-circle-progress-bar:25"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                                  <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                                  <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#00D27B" stroke-width="12"></circle>
-                                </svg></div>
-                              <h6 class="mb-0 text-700">Low</h6>
-                            </div>
-                          </td>
-                          <td class="align-middle agent"><select class="form-select form-select-sm w-auto ms-auto" aria-label="agents actions">
-                              <option>Select Agent</option>
-                              <option>Anindya</option>
-                              <option>Nowrin</option>
-                              <option>Khalid</option>
-                            </select></td>
-                        </tr>
-                        <tr>
-                          <td class="align-middle fs-9 py-3">
-                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="table-view-tickets-11" data-bulk-select-row="data-bulk-select-row" /></div>
-                          </td>
-                          <td class="align-middle client white-space-nowrap pe-3 pe-xxl-4 ps-2">
-                            <div class="d-flex align-items-center gap-2 position-relative">
-                              <div class="avatar avatar-xl">
-                                <div class="avatar-name rounded-circle"><span>FB</span></div>
-                              </div>
-                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Fadil Badr</a></h6>
-                            </div>
-                          </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">i would like to buy theme #3261</a></td>
-                          <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small></td>
-                          <td class="align-middle priority pe-4">
-                            <div class="d-flex align-items-center gap-2">
-                              <div style="--falcon-circle-progress-bar:50"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                                  <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                                  <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#2A7BE4" stroke-width="12"></circle>
-                                </svg></div>
-                              <h6 class="mb-0 text-700">Medium</h6>
-                            </div>
-                          </td>
-                          <td class="align-middle agent"><select class="form-select form-select-sm w-auto ms-auto" aria-label="agents actions">
-                              <option>Select Agent</option>
-                              <option>Anindya</option>
-                              <option>Nowrin</option>
-                              <option selected="selected">Khalid</option>
-                            </select></td>
-                        </tr>
-                        <tr>
-                          <td class="align-middle fs-9 py-3">
-                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="table-view-tickets-12" data-bulk-select-row="data-bulk-select-row" /></div>
-                          </td>
-                          <td class="align-middle client white-space-nowrap pe-3 pe-xxl-4 ps-2">
-                            <div class="d-flex align-items-center gap-2 position-relative">
-                              <div class="avatar avatar-xl">
-                                <img class="rounded-circle" src="../../assets/img/team/3-thumb.png" alt="" />
-                              </div>
-                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Regina Kempt</a></h6>
-                            </div>
-                          </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">Theme info (icons) #3260</a></td>
-                          <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small></td>
-                          <td class="align-middle priority pe-4">
-                            <div class="d-flex align-items-center gap-2">
-                              <div style="--falcon-circle-progress-bar:25"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                                  <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                                  <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#00D27B" stroke-width="12"></circle>
-                                </svg></div>
-                              <h6 class="mb-0 text-700">Low</h6>
-                            </div>
-                          </td>
-                          <td class="align-middle agent"><select class="form-select form-select-sm w-auto ms-auto" aria-label="agents actions">
-                              <option>Select Agent</option>
-                              <option selected="selected">Anindya</option>
-                              <option>Nowrin</option>
-                              <option>Khalid</option>
-                            </select></td>
-                        </tr>
-                        <tr>
-                          <td class="align-middle fs-9 py-3">
-                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="table-view-tickets-13" data-bulk-select-row="data-bulk-select-row" /></div>
-                          </td>
-                          <td class="align-middle client white-space-nowrap pe-3 pe-xxl-4 ps-2">
-                            <div class="d-flex align-items-center gap-2 position-relative">
-                              <div class="avatar avatar-xl">
-                                <div class="avatar-name rounded-circle"><span>C</span></div>
-                              </div>
-                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Caleb</a></h6>
-                            </div>
-                          </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">Phishing link #3259</a></td>
-                          <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-success false">Recent</small></td>
-                          <td class="align-middle priority pe-4">
-                            <div class="d-flex align-items-center gap-2">
-                              <div style="--falcon-circle-progress-bar:50"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                                  <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                                  <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#2A7BE4" stroke-width="12"></circle>
-                                </svg></div>
-                              <h6 class="mb-0 text-700">Medium</h6>
-                            </div>
-                          </td>
-                          <td class="align-middle agent"><select class="form-select form-select-sm w-auto ms-auto" aria-label="agents actions">
-                              <option>Select Agent</option>
-                              <option>Anindya</option>
-                              <option>Nowrin</option>
-                              <option>Khalid</option>
-                            </select></td>
-                        </tr>
-                        <tr>
-                          <td class="align-middle fs-9 py-3">
-                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="table-view-tickets-14" data-bulk-select-row="data-bulk-select-row" /></div>
-                          </td>
-                          <td class="align-middle client white-space-nowrap pe-3 pe-xxl-4 ps-2">
-                            <div class="d-flex align-items-center gap-2 position-relative">
-                              <div class="avatar avatar-xl">
-                                <div class="avatar-name rounded-circle"><span>EW</span></div>
-                              </div>
-                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Emma Watson</a></h6>
-                            </div>
-                          </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">Synapse Design #1125</a></td>
-                          <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-success false">Recent</small></td>
-                          <td class="align-middle priority pe-4">
-                            <div class="d-flex align-items-center gap-2">
-                              <div style="--falcon-circle-progress-bar:100"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                                  <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                                  <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#e63757" stroke-width="12"></circle>
-                                </svg></div>
-                              <h6 class="mb-0 text-700">Urgent</h6>
-                            </div>
-                          </td>
-                          <td class="align-middle agent"><select class="form-select form-select-sm w-auto ms-auto" aria-label="agents actions">
-                              <option>Select Agent</option>
-                              <option selected="selected">Anindya</option>
-                              <option>Nowrin</option>
-                              <option>Khalid</option>
-                            </select></td>
-                        </tr>
-                        <tr>
-                          <td class="align-middle fs-9 py-3">
-                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="table-view-tickets-15" data-bulk-select-row="data-bulk-select-row" /></div>
-                          </td>
-                          <td class="align-middle client white-space-nowrap pe-3 pe-xxl-4 ps-2">
-                            <div class="d-flex align-items-center gap-2 position-relative">
-                              <div class="avatar avatar-xl">
-                                <div class="avatar-name rounded-circle"><span>L</span></div>
-                              </div>
-                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Luke</a></h6>
-                            </div>
-                          </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">Change of refund my last buy | Order #125631</a></td>
-                          <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-danger false">Overdue</small></td>
-                          <td class="align-middle priority pe-4">
-                            <div class="d-flex align-items-center gap-2">
-                              <div style="--falcon-circle-progress-bar:75"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                                  <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                                  <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#F68F57" stroke-width="12"></circle>
-                                </svg></div>
-                              <h6 class="mb-0 text-700">High</h6>
-                            </div>
-                          </td>
-                          <td class="align-middle agent"><select class="form-select form-select-sm w-auto ms-auto" aria-label="agents actions">
-                              <option>Select Agent</option>
-                              <option selected="selected">Anindya</option>
-                              <option>Nowrin</option>
-                              <option>Khalid</option>
-                            </select></td>
-                        </tr>
-                        <tr>
-                          <td class="align-middle fs-9 py-3">
-                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="table-view-tickets-16" data-bulk-select-row="data-bulk-select-row" /></div>
-                          </td>
-                          <td class="align-middle client white-space-nowrap pe-3 pe-xxl-4 ps-2">
-                            <div class="d-flex align-items-center gap-2 position-relative">
-                              <div class="avatar avatar-xl">
-                                <img class="rounded-circle" src="../../assets/img/team/1-thumb.png" alt="" />
-                              </div>
-                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Finley</a></h6>
-                            </div>
-                          </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">I need your help #2256</a></td>
-                          <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-warning false">Remaining</small></td>
-                          <td class="align-middle priority pe-4">
-                            <div class="d-flex align-items-center gap-2">
-                              <div style="--falcon-circle-progress-bar:50"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                                  <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                                  <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#2A7BE4" stroke-width="12"></circle>
-                                </svg></div>
-                              <h6 class="mb-0 text-700">Medium</h6>
-                            </div>
-                          </td>
-                          <td class="align-middle agent"><select class="form-select form-select-sm w-auto ms-auto" aria-label="agents actions">
-                              <option>Select Agent</option>
-                              <option>Anindya</option>
-                              <option selected="selected">Nowrin</option>
-                              <option>Khalid</option>
-                            </select></td>
-                        </tr>
-                        <tr>
-                          <td class="align-middle fs-9 py-3">
-                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="table-view-tickets-17" data-bulk-select-row="data-bulk-select-row" /></div>
-                          </td>
-                          <td class="align-middle client white-space-nowrap pe-3 pe-xxl-4 ps-2">
-                            <div class="d-flex align-items-center gap-2 position-relative">
-                              <div class="avatar avatar-xl">
-                                <div class="avatar-name rounded-circle"><span>PG</span></div>
-                              </div>
-                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Peter Gill</a></h6>
-                            </div>
-                          </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">I need your help #2256</a></td>
-                          <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-info false">Responded</small></td>
-                          <td class="align-middle priority pe-4">
-                            <div class="d-flex align-items-center gap-2">
-                              <div style="--falcon-circle-progress-bar:25"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                                  <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                                  <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#00D27B" stroke-width="12"></circle>
-                                </svg></div>
-                              <h6 class="mb-0 text-700">Low</h6>
-                            </div>
-                          </td>
-                          <td class="align-middle agent"><select class="form-select form-select-sm w-auto ms-auto" aria-label="agents actions">
-                              <option>Select Agent</option>
-                              <option>Anindya</option>
-                              <option selected="selected">Nowrin</option>
-                              <option>Khalid</option>
-                            </select></td>
-                        </tr>
-                        <tr>
-                          <td class="align-middle fs-9 py-3">
-                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="table-view-tickets-18" data-bulk-select-row="data-bulk-select-row" /></div>
-                          </td>
-                          <td class="align-middle client white-space-nowrap pe-3 pe-xxl-4 ps-2">
-                            <div class="d-flex align-items-center gap-2 position-relative">
-                              <div class="avatar avatar-xl">
-                                <img class="rounded-circle" src="../../assets/img/team/25-thumb.png" alt="" />
-                              </div>
-                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Freya</a></h6>
-                            </div>
-                          </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">Contact Froms #3264</a></td>
-                          <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small></td>
-                          <td class="align-middle priority pe-4">
-                            <div class="d-flex align-items-center gap-2">
-                              <div style="--falcon-circle-progress-bar:100"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                                  <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                                  <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#e63757" stroke-width="12"></circle>
-                                </svg></div>
-                              <h6 class="mb-0 text-700">Urgent</h6>
-                            </div>
-                          </td>
-                          <td class="align-middle agent"><select class="form-select form-select-sm w-auto ms-auto" aria-label="agents actions">
-                              <option>Select Agent</option>
-                              <option>Anindya</option>
-                              <option>Nowrin</option>
-                              <option selected="selected">Khalid</option>
-                            </select></td>
-                        </tr>
-                        <tr>
-                          <td class="align-middle fs-9 py-3">
-                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="table-view-tickets-19" data-bulk-select-row="data-bulk-select-row" /></div>
-                          </td>
-                          <td class="align-middle client white-space-nowrap pe-3 pe-xxl-4 ps-2">
-                            <div class="d-flex align-items-center gap-2 position-relative">
-                              <div class="avatar avatar-xl">
-                                <div class="avatar-name rounded-circle"><span>M</span></div>
-                              </div>
-                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Morrison</a></h6>
-                            </div>
-                          </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">I need your help #2256</a></td>
-                          <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-info false">Responded</small></td>
-                          <td class="align-middle priority pe-4">
-                            <div class="d-flex align-items-center gap-2">
-                              <div style="--falcon-circle-progress-bar:50"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                                  <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                                  <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#2A7BE4" stroke-width="12"></circle>
-                                </svg></div>
-                              <h6 class="mb-0 text-700">Medium</h6>
-                            </div>
-                          </td>
-                          <td class="align-middle agent"><select class="form-select form-select-sm w-auto ms-auto" aria-label="agents actions">
-                              <option>Select Agent</option>
-                              <option>Anindya</option>
-                              <option>Nowrin</option>
-                              <option selected="selected">Khalid</option>
-                            </select></td>
-                        </tr>
-                        <tr>
-                          <td class="align-middle fs-9 py-3">
-                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="table-view-tickets-20" data-bulk-select-row="data-bulk-select-row" /></div>
-                          </td>
-                          <td class="align-middle client white-space-nowrap pe-3 pe-xxl-4 ps-2">
-                            <div class="d-flex align-items-center gap-2 position-relative">
-                              <div class="avatar avatar-xl">
-                                <div class="avatar-name rounded-circle"><span>MB</span></div>
-                              </div>
-                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Morrison Banneker</a></h6>
-                            </div>
-                          </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">I need your help #2256</a></td>
-                          <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small></td>
-                          <td class="align-middle priority pe-4">
-                            <div class="d-flex align-items-center gap-2">
-                              <div style="--falcon-circle-progress-bar:50"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                                  <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                                  <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#2A7BE4" stroke-width="12"></circle>
-                                </svg></div>
-                              <h6 class="mb-0 text-700">Medium</h6>
-                            </div>
-                          </td>
-                          <td class="align-middle agent"><select class="form-select form-select-sm w-auto ms-auto" aria-label="agents actions">
-                              <option>Select Agent</option>
-                              <option>Anindya</option>
-                              <option>Nowrin</option>
-                              <option selected="selected">Khalid</option>
-                            </select></td>
-                        </tr>
-                        <tr>
-                          <td class="align-middle fs-9 py-3">
-                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="table-view-tickets-21" data-bulk-select-row="data-bulk-select-row" /></div>
-                          </td>
-                          <td class="align-middle client white-space-nowrap pe-3 pe-xxl-4 ps-2">
-                            <div class="d-flex align-items-center gap-2 position-relative">
-                              <div class="avatar avatar-xl">
-                                <img class="rounded-circle" src="../../assets/img/team/14-thumb.png" alt="" />
-                              </div>
-                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Aar Kay</a></h6>
-                            </div>
-                          </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">Regarding Falcon Theme #3262</a></td>
-                          <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-success false">Recent</small></td>
-                          <td class="align-middle priority pe-4">
-                            <div class="d-flex align-items-center gap-2">
-                              <div style="--falcon-circle-progress-bar:25"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                                  <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                                  <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#00D27B" stroke-width="12"></circle>
-                                </svg></div>
-                              <h6 class="mb-0 text-700">Low</h6>
-                            </div>
-                          </td>
-                          <td class="align-middle agent"><select class="form-select form-select-sm w-auto ms-auto" aria-label="agents actions">
-                              <option>Select Agent</option>
-                              <option>Anindya</option>
-                              <option>Nowrin</option>
-                              <option>Khalid</option>
-                            </select></td>
-                        </tr>
-                        <tr>
-                          <td class="align-middle fs-9 py-3">
-                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="table-view-tickets-22" data-bulk-select-row="data-bulk-select-row" /></div>
-                          </td>
-                          <td class="align-middle client white-space-nowrap pe-3 pe-xxl-4 ps-2">
-                            <div class="d-flex align-items-center gap-2 position-relative">
-                              <div class="avatar avatar-xl">
-                                <div class="avatar-name rounded-circle"><span>C</span></div>
-                              </div>
-                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Caleb</a></h6>
-                            </div>
-                          </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">Phishing link #3259</a></td>
-                          <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-success false">Recent</small></td>
-                          <td class="align-middle priority pe-4">
-                            <div class="d-flex align-items-center gap-2">
-                              <div style="--falcon-circle-progress-bar:75"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                                  <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                                  <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#F68F57" stroke-width="12"></circle>
-                                </svg></div>
-                              <h6 class="mb-0 text-700">High</h6>
-                            </div>
-                          </td>
-                          <td class="align-middle agent"><select class="form-select form-select-sm w-auto ms-auto" aria-label="agents actions">
-                              <option>Select Agent</option>
-                              <option>Anindya</option>
-                              <option>Nowrin</option>
-                              <option>Khalid</option>
-                            </select></td>
-                        </tr>
-                        <tr>
-                          <td class="align-middle fs-9 py-3">
-                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="table-view-tickets-23" data-bulk-select-row="data-bulk-select-row" /></div>
-                          </td>
-                          <td class="align-middle client white-space-nowrap pe-3 pe-xxl-4 ps-2">
-                            <div class="d-flex align-items-center gap-2 position-relative">
-                              <div class="avatar avatar-xl">
-                                <div class="avatar-name rounded-circle"><span>FB</span></div>
-                              </div>
-                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Fadil Badr</a></h6>
-                            </div>
-                          </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">i would like to buy theme #3261</a></td>
-                          <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small></td>
-                          <td class="align-middle priority pe-4">
-                            <div class="d-flex align-items-center gap-2">
-                              <div style="--falcon-circle-progress-bar:25"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                                  <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                                  <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#00D27B" stroke-width="12"></circle>
-                                </svg></div>
-                              <h6 class="mb-0 text-700">Low</h6>
-                            </div>
-                          </td>
-                          <td class="align-middle agent"><select class="form-select form-select-sm w-auto ms-auto" aria-label="agents actions">
-                              <option>Select Agent</option>
-                              <option>Anindya</option>
-                              <option>Nowrin</option>
-                              <option selected="selected">Khalid</option>
-                            </select></td>
-                        </tr>
-                        <tr>
-                          <td class="align-middle fs-9 py-3">
-                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="table-view-tickets-24" data-bulk-select-row="data-bulk-select-row" /></div>
-                          </td>
-                          <td class="align-middle client white-space-nowrap pe-3 pe-xxl-4 ps-2">
-                            <div class="d-flex align-items-center gap-2 position-relative">
-                              <div class="avatar avatar-xl">
-                                <img class="rounded-circle" src="../../assets/img/team/3-thumb.png" alt="" />
-                              </div>
-                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Regina Kempt</a></h6>
-                            </div>
-                          </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">Theme info (icons) #3260</a></td>
-                          <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small></td>
-                          <td class="align-middle priority pe-4">
-                            <div class="d-flex align-items-center gap-2">
-                              <div style="--falcon-circle-progress-bar:25"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                                  <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                                  <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#00D27B" stroke-width="12"></circle>
-                                </svg></div>
-                              <h6 class="mb-0 text-700">Low</h6>
-                            </div>
-                          </td>
-                          <td class="align-middle agent"><select class="form-select form-select-sm w-auto ms-auto" aria-label="agents actions">
-                              <option>Select Agent</option>
-                              <option selected="selected">Anindya</option>
-                              <option>Nowrin</option>
-                              <option>Khalid</option>
-                            </select></td>
-                        </tr>
-                        <tr>
-                          <td class="align-middle fs-9 py-3">
-                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="table-view-tickets-25" data-bulk-select-row="data-bulk-select-row" /></div>
-                          </td>
-                          <td class="align-middle client white-space-nowrap pe-3 pe-xxl-4 ps-2">
-                            <div class="d-flex align-items-center gap-2 position-relative">
-                              <div class="avatar avatar-xl">
-                                <div class="avatar-name rounded-circle"><span>EW</span></div>
-                              </div>
-                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Emma Watson</a></h6>
-                            </div>
-                          </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">Synapse Design #1125</a></td>
-                          <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-success false">Recent</small></td>
-                          <td class="align-middle priority pe-4">
-                            <div class="d-flex align-items-center gap-2">
-                              <div style="--falcon-circle-progress-bar:100"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                                  <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                                  <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#e63757" stroke-width="12"></circle>
-                                </svg></div>
-                              <h6 class="mb-0 text-700">Urgent</h6>
-                            </div>
-                          </td>
-                          <td class="align-middle agent"><select class="form-select form-select-sm w-auto ms-auto" aria-label="agents actions">
-                              <option>Select Agent</option>
-                              <option selected="selected">Anindya</option>
-                              <option>Nowrin</option>
-                              <option>Khalid</option>
-                            </select></td>
-                        </tr>
-                        <tr>
-                          <td class="align-middle fs-9 py-3">
-                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="table-view-tickets-26" data-bulk-select-row="data-bulk-select-row" /></div>
-                          </td>
-                          <td class="align-middle client white-space-nowrap pe-3 pe-xxl-4 ps-2">
-                            <div class="d-flex align-items-center gap-2 position-relative">
-                              <div class="avatar avatar-xl">
-                                <div class="avatar-name rounded-circle"><span>L</span></div>
-                              </div>
-                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Luke</a></h6>
-                            </div>
-                          </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">Change of refund my last buy | Order #125631</a></td>
-                          <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-danger false">Overdue</small></td>
-                          <td class="align-middle priority pe-4">
-                            <div class="d-flex align-items-center gap-2">
-                              <div style="--falcon-circle-progress-bar:75"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                                  <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                                  <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#F68F57" stroke-width="12"></circle>
-                                </svg></div>
-                              <h6 class="mb-0 text-700">High</h6>
-                            </div>
-                          </td>
-                          <td class="align-middle agent"><select class="form-select form-select-sm w-auto ms-auto" aria-label="agents actions">
-                              <option>Select Agent</option>
-                              <option selected="selected">Anindya</option>
-                              <option>Nowrin</option>
-                              <option>Khalid</option>
-                            </select></td>
-                        </tr>
-                        <tr>
-                          <td class="align-middle fs-9 py-3">
-                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="table-view-tickets-27" data-bulk-select-row="data-bulk-select-row" /></div>
-                          </td>
-                          <td class="align-middle client white-space-nowrap pe-3 pe-xxl-4 ps-2">
-                            <div class="d-flex align-items-center gap-2 position-relative">
-                              <div class="avatar avatar-xl">
-                                <img class="rounded-circle" src="../../assets/img/team/14-thumb.png" alt="" />
-                              </div>
-                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Aar Kay</a></h6>
-                            </div>
-                          </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">Regarding Falcon Theme #3262</a></td>
-                          <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-success false">Recent</small></td>
-                          <td class="align-middle priority pe-4">
-                            <div class="d-flex align-items-center gap-2">
-                              <div style="--falcon-circle-progress-bar:25"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                                  <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                                  <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#00D27B" stroke-width="12"></circle>
-                                </svg></div>
-                              <h6 class="mb-0 text-700">Low</h6>
-                            </div>
-                          </td>
-                          <td class="align-middle agent"><select class="form-select form-select-sm w-auto ms-auto" aria-label="agents actions">
-                              <option>Select Agent</option>
-                              <option>Anindya</option>
-                              <option>Nowrin</option>
-                              <option>Khalid</option>
-                            </select></td>
-                        </tr>
-                        <tr>
-                          <td class="align-middle fs-9 py-3">
-                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="table-view-tickets-28" data-bulk-select-row="data-bulk-select-row" /></div>
-                          </td>
-                          <td class="align-middle client white-space-nowrap pe-3 pe-xxl-4 ps-2">
-                            <div class="d-flex align-items-center gap-2 position-relative">
-                              <div class="avatar avatar-xl">
-                                <div class="avatar-name rounded-circle"><span>MB</span></div>
-                              </div>
-                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Morrison Banneker</a></h6>
-                            </div>
-                          </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">I need your help #2256</a></td>
-                          <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small></td>
-                          <td class="align-middle priority pe-4">
-                            <div class="d-flex align-items-center gap-2">
-                              <div style="--falcon-circle-progress-bar:50"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                                  <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                                  <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#2A7BE4" stroke-width="12"></circle>
-                                </svg></div>
-                              <h6 class="mb-0 text-700">Medium</h6>
-                            </div>
-                          </td>
-                          <td class="align-middle agent"><select class="form-select form-select-sm w-auto ms-auto" aria-label="agents actions">
-                              <option>Select Agent</option>
-                              <option>Anindya</option>
-                              <option>Nowrin</option>
-                              <option selected="selected">Khalid</option>
-                            </select></td>
-                        </tr>
-                        <tr>
-                          <td class="align-middle fs-9 py-3">
-                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="table-view-tickets-29" data-bulk-select-row="data-bulk-select-row" /></div>
-                          </td>
-                          <td class="align-middle client white-space-nowrap pe-3 pe-xxl-4 ps-2">
-                            <div class="d-flex align-items-center gap-2 position-relative">
-                              <div class="avatar avatar-xl">
-                                <div class="avatar-name rounded-circle"><span>M</span></div>
-                              </div>
-                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Morrison</a></h6>
-                            </div>
-                          </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">I need your help #2256</a></td>
-                          <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-info false">Responded</small></td>
-                          <td class="align-middle priority pe-4">
-                            <div class="d-flex align-items-center gap-2">
-                              <div style="--falcon-circle-progress-bar:75"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                                  <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                                  <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#F68F57" stroke-width="12"></circle>
-                                </svg></div>
-                              <h6 class="mb-0 text-700">High</h6>
-                            </div>
-                          </td>
-                          <td class="align-middle agent"><select class="form-select form-select-sm w-auto ms-auto" aria-label="agents actions">
-                              <option>Select Agent</option>
-                              <option>Anindya</option>
-                              <option>Nowrin</option>
-                              <option selected="selected">Khalid</option>
-                            </select></td>
-                        </tr>
-                        <tr>
-                          <td class="align-middle fs-9 py-3">
-                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="table-view-tickets-30" data-bulk-select-row="data-bulk-select-row" /></div>
-                          </td>
-                          <td class="align-middle client white-space-nowrap pe-3 pe-xxl-4 ps-2">
-                            <div class="d-flex align-items-center gap-2 position-relative">
-                              <div class="avatar avatar-xl">
-                                <img class="rounded-circle" src="../../assets/img/team/1-thumb.png" alt="" />
-                              </div>
-                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Finley</a></h6>
-                            </div>
-                          </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">I need your help #2256</a></td>
-                          <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-warning false">Remaining</small></td>
-                          <td class="align-middle priority pe-4">
-                            <div class="d-flex align-items-center gap-2">
-                              <div style="--falcon-circle-progress-bar:50"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                                  <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                                  <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#2A7BE4" stroke-width="12"></circle>
-                                </svg></div>
-                              <h6 class="mb-0 text-700">Medium</h6>
-                            </div>
-                          </td>
-                          <td class="align-middle agent"><select class="form-select form-select-sm w-auto ms-auto" aria-label="agents actions">
-                              <option>Select Agent</option>
-                              <option>Anindya</option>
-                              <option selected="selected">Nowrin</option>
-                              <option>Khalid</option>
-                            </select></td>
-                        </tr>
-                        <tr>
-                          <td class="align-middle fs-9 py-3">
-                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="table-view-tickets-31" data-bulk-select-row="data-bulk-select-row" /></div>
-                          </td>
-                          <td class="align-middle client white-space-nowrap pe-3 pe-xxl-4 ps-2">
-                            <div class="d-flex align-items-center gap-2 position-relative">
-                              <div class="avatar avatar-xl">
-                                <div class="avatar-name rounded-circle"><span>PG</span></div>
-                              </div>
-                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Peter Gill</a></h6>
-                            </div>
-                          </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">I need your help #2256</a></td>
-                          <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-info false">Responded</small></td>
-                          <td class="align-middle priority pe-4">
-                            <div class="d-flex align-items-center gap-2">
-                              <div style="--falcon-circle-progress-bar:25"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                                  <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                                  <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#00D27B" stroke-width="12"></circle>
-                                </svg></div>
-                              <h6 class="mb-0 text-700">Low</h6>
-                            </div>
-                          </td>
-                          <td class="align-middle agent"><select class="form-select form-select-sm w-auto ms-auto" aria-label="agents actions">
-                              <option>Select Agent</option>
-                              <option>Anindya</option>
-                              <option selected="selected">Nowrin</option>
-                              <option>Khalid</option>
-                            </select></td>
-                        </tr>
-                        <tr>
-                          <td class="align-middle fs-9 py-3">
-                            <div class="form-check mb-0"><input class="form-check-input" type="checkbox" id="table-view-tickets-32" data-bulk-select-row="data-bulk-select-row" /></div>
-                          </td>
-                          <td class="align-middle client white-space-nowrap pe-3 pe-xxl-4 ps-2">
-                            <div class="d-flex align-items-center gap-2 position-relative">
-                              <div class="avatar avatar-xl">
-                                <img class="rounded-circle" src="../../assets/img/team/25-thumb.png" alt="" />
-                              </div>
-                              <h6 class="mb-0"><a class="stretched-link text-900" href="customer-details.php">Freya</a></h6>
-                            </div>
-                          </td>
-                          <td class="align-middle subject py-2 pe-4"><a class="fw-semi-bold" href="tickets-preview.html">Contact Froms #3264</a></td>
-                          <td class="align-middle status fs-9 pe-4"><small class="badge rounded badge-subtle-secondary dark__bg-1000">Closed</small></td>
-                          <td class="align-middle priority pe-4">
-                            <div class="d-flex align-items-center gap-2">
-                              <div style="--falcon-circle-progress-bar:50"><svg class="circle-progress-svg" width="26" height="26" viewBox="0 0 120 120">
-                                  <circle class="progress-bar-rail" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke-width="12"></circle>
-                                  <circle class="progress-bar-top" cx="60" cy="60" r="54" fill="none" stroke-linecap="round" stroke="#2A7BE4" stroke-width="12"></circle>
-                                </svg></div>
-                              <h6 class="mb-0 text-700">Medium</h6>
-                            </div>
-                          </td>
-                          <td class="align-middle agent"><select class="form-select form-select-sm w-auto ms-auto" aria-label="agents actions">
-                              <option>Select Agent</option>
-                              <option>Anindya</option>
-                              <option>Nowrin</option>
-                              <option selected="selected">Khalid</option>
-                            </select></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                    <div class="text-center d-none" id="tickets-table-fallback">
-                      <p class="fw-bold fs-8 mt-3">No ticket found</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="card-footer">
-                  <div class="d-flex justify-content-center"><button class="btn btn-sm btn-falcon-default me-1" type="button" title="Previous" data-list-pagination="prev"><span class="fas fa-chevron-left"></span></button>
-                    <ul class="pagination mb-0"></ul><button class="btn btn-sm btn-falcon-default ms-1" type="button" title="Next" data-list-pagination="next"><span class="fas fa-chevron-right"></span></button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xxl-2 col-xl-3">
-              <div class="offcanvas offcanvas-end offcanvas-filter-sidebar border-0 dark__bg-card-dark h-auto rounded-xl-3" tabindex="-1" id="ticketOffcanvas" aria-labelledby="ticketOffcanvasLabel">
-                <div class="offcanvas-header d-flex flex-between-center d-xl-none bg-body-tertiary">
-                  <h6 class="fs-9 mb-0 fw-semi-bold">Filter</h6><button class="btn-close text-reset d-xl-none shadow-none" id="ticketOffcanvasLabel" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="card scrollbar shadow-none shadow-show-xl">
-                  <div class="card-header bg-body-tertiary d-none d-xl-block">
-                    <h6 class="mb-0">Filter</h6>
-                  </div>
-                  <div class="card-body">
-                    <form>
-                      <div class="mb-2 mt-n2"><label class="mb-1">Priority</label><select class="form-select form-select-sm">
-                          <option>None</option>
-                          <option>Urgent</option>
-                          <option>High</option>
-                          <option>Medium</option>
-                          <option>Low</option>
-                        </select></div>
-                      <div class="mb-2"><label class="mb-1 mt-2">Source</label><select class="form-select form-select-sm">
-                          <option>None</option>
-                          <option>Email</option>
-                          <option>Phone</option>
-                          <option>Forum</option>
-                          <option selected="selected">Facebook</option>
-                          <option>Twitter</option>
-                          <option>Chat</option>
-                          <option>Whatsapp</option>
-                          <option>Portal</option>
-                          <option>Bots</option>
-                          <option>External Email</option>
-                          <option>Ecommerce</option>
-                          <option>Feedback Widget</option>
-                        </select></div>
-                      <div class="mb-2"><label class="mb-1 mt-2">Status</label><select class="form-select form-select-sm">
-                          <option>None</option>
-                          <option>Recent</option>
-                          <option>Overdue</option>
-                          <option>Closed</option>
-                          <option>Remaining</option>
-                          <option>Responded</option>
-                        </select></div>
-                      <div class="mb-2"><label class="mb-1 mt-2">Group</label><select class="form-select form-select-sm">
-                          <option>None</option>
-                          <option>My Group</option>
-                          <option>Billing</option>
-                          <option>Customer Support</option>
-                          <option>Enhancement</option>
-                          <option>Unassigned</option>
-                        </select></div>
-                      <div class="mb-2"><label class="mb-1 mt-2">Agent</label><select class="form-select form-select-sm">
-                          <option>None</option>
-                          <option>Anindya</option>
-                          <option>Nowrin</option>
-                          <option>Khalid</option>
-                        </select></div>
-                      <div class="mb-2"><label class="mb-1 mt-2">Type</label><select class="form-select form-select-sm">
-                          <option>None</option>
-                          <option>Question</option>
-                          <option>Incident</option>
-                          <option>Problem</option>
-                          <option>Feature Request</option>
-                          <option>Refund</option>
-                        </select></div>
-                      <div class="mb-2"><label class="mb-1 mt-2">Category</label><select class="form-select form-select-sm">
-                          <option>None</option>
-                          <option>General Issue</option>
-                          <option>Maintenance</option>
-                          <option>Engineering</option>
-                          <option>Accounts</option>
-                          <option>Feedback</option>
-                          <option selected="selected">Support</option>
-                          <option>Test Helpdesk</option>
-                        </select></div>
-                      <div class="mb-2"><label class="mb-1 mt-2">Tags</label><select class="form-select form-select-sm">
-                          <option>None</option>
-                          <option>Sales</option>
-                          <option>Request</option>
-                          <option>Complaint</option>
-                          <option>Feedback</option>
-                          <option>Support</option>
-                        </select></div>
-                      <div><label class="mb-1 mt-2">Subscription</label><select class="form-select form-select-sm">
-                          <option>None</option>
-                          <option>Active</option>
-                          <option>Inactive</option>
-                          <option>Expired</option>
-                          <option>Pending</option>
-                        </select></div>
-                    </form>
-                  </div>
-                  <div class="card-footer border-top border-200 py-x1"><button class="btn btn-primary w-100">Update</button></div>
                 </div>
               </div>
             </div>
@@ -3815,7 +2967,7 @@
     <script src="../../vendors/bootstrap/bootstrap.min.js"></script>
     <script src="../../vendors/anchorjs/anchor.min.js"></script>
     <script src="../../vendors/is/is.min.js"></script>
-    <script src="../../vendors/echarts/echarts.min.js"></script>
+    <script src="../../vendors/tinymce/tinymce.min.js"></script>
     <script src="../../vendors/fontawesome/all.min.js"></script>
     <script src="../../vendors/lodash/lodash.min.js"></script>
     <script src="../../vendors/list.js/list.min.js"></script>
@@ -3823,6 +2975,7 @@
   </body>
 
 
-<!-- Mirrored from prium.github.io/falcon/v3.26.0/app/support-desk/table-view.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 14 Apr 2026 15:05:28 GMT -->
+<!-- Mirrored from prium.github.io/falcon/v3.26.0/app/support-desk/tickets-preview.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 14 Apr 2026 15:05:29 GMT -->
 </html>
+
 

@@ -3199,6 +3199,10 @@ var listInit = function listInit() {
       lists.forEach(function (el) {
         var bulkSelect = el.querySelector('[data-bulk-select]');
         var options = utils.getData(el, 'list');
+        var listClassName = options && options.listClass ? options.listClass : 'list';
+        if (!el.querySelector(".".concat(listClassName))) {
+          return;
+        }
         if (options.pagination) {
           options = _objectSpread(_objectSpread({}, options), {}, {
             pagination: _objectSpread({
